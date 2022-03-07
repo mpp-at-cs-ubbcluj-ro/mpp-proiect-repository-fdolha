@@ -40,7 +40,7 @@ public class Person extends Entity<Integer> {
 
     @Override
     public String toString() {
-        return this.id + ", " + this.firstName + this.lastName;
+        return this.id + ", " + this.firstName + " " + this.lastName;
     }
 
 }
