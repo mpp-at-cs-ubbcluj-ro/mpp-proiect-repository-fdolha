@@ -24,7 +24,7 @@ public class Person : Entity<int>
     
     // Lifecycle
 
-    public Person(string firstName, string lastName)
+    protected Person(string firstName, string lastName)
     {
         _firstName = firstName;
         _lastName = lastName;
