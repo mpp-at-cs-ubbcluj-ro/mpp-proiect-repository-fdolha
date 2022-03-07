@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "triatlon-cs", "triatlon-cs.csproj", "{02F686D7-F816-42A1-9BC6-199DCC263BD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02F686D7-F816-42A1-9BC6-199DCC263BD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02F686D7-F816-42A1-9BC6-199DCC263BD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02F686D7-F816-42A1-9BC6-199DCC263BD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02F686D7-F816-42A1-9BC6-199DCC263BD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
