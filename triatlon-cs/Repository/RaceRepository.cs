@@ -32,7 +32,7 @@ public abstract class RaceRepository : IRepository<int, AthletePoints>
     
     public abstract AthletePoints FindOne(int id);
     public abstract IEnumerable<AthletePoints> FindAll();
-    public abstract AthletePoints Save(int id);
+    public abstract AthletePoints Save(AthletePoints entity);
     public abstract AthletePoints Delete(int id);
     public abstract AthletePoints Update(AthletePoints entity);
     
