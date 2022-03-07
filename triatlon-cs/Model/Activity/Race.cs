@@ -30,12 +30,12 @@ public struct Race
     
     // Private Methods
 
-    public AthletePoints? GetAthletePoints(int athleteId)
+    private AthletePoints? GetAthletePoints(int athleteId)
     {
         return _athletePoints.FirstOrDefault(e => e.AthleteId == athleteId);
     }
 
-    public bool AthletePointsContainsAthlete(int athleteId)
+    private bool AthletePointsContainsAthlete(int athleteId)
     {
         return GetAthletePoints(athleteId) != null;
     }
