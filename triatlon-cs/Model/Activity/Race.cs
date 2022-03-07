@@ -35,7 +35,7 @@ public struct Race
         return _athletePoints.FirstOrDefault(e => e.AthleteId == athleteId);
     }
 
-    private bool AthletePointsContainsAthlete(int athleteId)
+    private bool AthletesPointsContainsAthlete(int athleteId)
     {
         return GetAthletePoints(athleteId) != null;
     }
@@ -44,7 +44,7 @@ public struct Race
 
     public void AddAthlete(int athleteId)
     {
-        if (AthletePointsContainsAthlete(athleteId))
+        if (AthletesPointsContainsAthlete(athleteId))
         {
             return;
         }
@@ -53,7 +53,7 @@ public struct Race
 
     public void AddAthlete(int athleteId, int points)
     {
-        if (AthletePointsContainsAthlete(athleteId))
+        if (AthletesPointsContainsAthlete(athleteId))
         {
             SetPointsForAthlete(athleteId, points);
             return;

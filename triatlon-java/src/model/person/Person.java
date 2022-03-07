@@ -13,7 +13,7 @@ public class Person extends Entity<Integer> {
 
     // Lifecycle
 
-    public Person(String firstName, String lastName) {
+    protected Person(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
     }

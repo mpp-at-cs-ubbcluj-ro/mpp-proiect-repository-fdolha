@@ -29,19 +29,19 @@ public class Race extends Entity<Integer> {
         return athletesPoints.stream().filter(athletePoints -> Objects.equals(athletePoints.getAthleteId(), athleteId)).findFirst();
     }
 
-    private Boolean athletePointsContainsAthlete(Integer athleteId) {
+    private Boolean athletesPointsContainsAthlete(Integer athleteId) {
         return getAthletePoints(athleteId).isPresent();
     }
 
     // Instance Methods
 
     public void addAthlete(Integer athleteId) {
-        if (athletePointsContainsAthlete(athleteId)) { return; }
+        if (athletesPointsContainsAthlete(athleteId)) { return; }
         this.athletesPoints.add(new AthletePoints(athleteId));
     }
 
     public void addAthlete(Integer athleteId, Integer points) {
-        if (athletePointsContainsAthlete(athleteId)) {
+        if (athletesPointsContainsAthlete(athleteId)) {
             setPointsForAthlete(athleteId, points);
             return;
         }
