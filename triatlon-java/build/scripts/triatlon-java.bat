@@ -71,7 +71,7 @@ set CLASSPATH=%APP_HOME%\lib\triatlon-java-1.0.jar;%APP_HOME%\lib\log4j-core-2.1
 
 
 @rem Execute triatlon-java
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %TRIATLON_JAVA_OPTS%  -classpath "%CLASSPATH%"  %*
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %TRIATLON_JAVA_OPTS%  -classpath "%CLASSPATH%" Triatlon %*
 
 :end
 @rem End local scope for the variables with windows NT shell

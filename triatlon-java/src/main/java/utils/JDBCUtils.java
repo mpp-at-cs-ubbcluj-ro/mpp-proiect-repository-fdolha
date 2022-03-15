@@ -31,11 +31,9 @@ public class JDBCUtils {
 
     public Connection getConnection() {
         logger.traceEntry();
-        try {
-            if (instance == null | instance.isClosed()) instance = getNewConnection();
-        } catch (SQLException ex) {
-            logger.error(ex);
-        }
+            if (instance == null) {
+                instance = getNewConnection();
+            }
         logger.traceExit(instance);
         return instance;
     }
@@ -45,14 +43,16 @@ public class JDBCUtils {
     private Connection getNewConnection() {
         logger.traceEntry();
         var url = properties.getProperty("jdbc.url");
-        var user = properties.getProperty("jdbc.user");
-        var password = properties.getProperty("jdbc.pass");
+        var username = properties.getProperty("jdbc.username");
+        var password = properties.getProperty("jdbc.password");
+        var driver = properties.getProperty("jdbc.driver");
         logger.info("Trying to connect to database ... {}", url);
-        logger.info("User: {}", user);
+        logger.info("Username: {}", username);
         logger.info("Password: {}", password);
         Connection connection = null;
+        try { Class.forName(driver); } catch (Exception ignored) {}
         try {
-            if (user != null && password != null) connection = DriverManager.getConnection(url, user, password);
+            if (username != null && password != null) connection = DriverManager.getConnection(url, username, password);
             else connection = DriverManager.getConnection(url);
         } catch (SQLException ex) {
             logger.error(ex);

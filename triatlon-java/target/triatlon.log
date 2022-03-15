@@ -1,0 +1,221 @@
+15 Mar 2022 18:04:49,051 INFO  repository.db.AthleteDBRepository 32 <init> - Initialising AthleteDBRepository with properties: {jdbc.password=youshallnotpass, jdbc.username=root, jdbc.url=jdbc:mysql://localhost:3306/triatlon, jdbc.driver=com.mysql.jdbc.Driver}
+15 Mar 2022 18:04:49,059 TRACE repository.db.AthleteDBRepository 87 save - Enter Saving task Athlete | null, Flavius Dolha
+15 Mar 2022 18:04:49,059 TRACE utils.JDBCUtils 33 getConnection - Enter
+15 Mar 2022 18:05:40,889 INFO  repository.db.AthleteDBRepository 32 <init> - Initialising AthleteDBRepository with properties: {jdbc.password=youshallnotpass, jdbc.username=root, jdbc.url=jdbc:mysql://localhost:3306/triatlon, jdbc.driver=com.mysql.jdbc.Driver}
+15 Mar 2022 18:05:40,897 TRACE repository.db.AthleteDBRepository 87 save - Enter Saving task Athlete | null, Flavius Dolha
+15 Mar 2022 18:05:40,898 TRACE utils.JDBCUtils 33 getConnection - Enter
+15 Mar 2022 18:06:04,095 INFO  repository.db.AthleteDBRepository 32 <init> - Initialising AthleteDBRepository with properties: {jdbc.password=youshallnotpass, jdbc.username=root, jdbc.url=jdbc:mysql://localhost:3306/triatlon, jdbc.driver=com.mysql.jdbc.Driver}
+15 Mar 2022 18:06:04,102 TRACE repository.db.AthleteDBRepository 87 save - Enter Saving task Athlete | null, Flavius Dolha
+15 Mar 2022 18:06:04,103 TRACE utils.JDBCUtils 33 getConnection - Enter
+15 Mar 2022 18:07:50,051 INFO  repository.db.AthleteDBRepository 32 <init> - Initialising AthleteDBRepository with properties: {jdbc.password=youshallnotpass, jdbc.username=root, jdbc.url=jdbc:mysql://localhost:3306/triatlon, jdbc.driver=com.mysql.jdbc.Driver}
+15 Mar 2022 18:08:10,435 TRACE repository.db.AthleteDBRepository 87 save - Enter Saving task Athlete | null, Flavius Dolha
+15 Mar 2022 18:08:14,609 TRACE utils.JDBCUtils 33 getConnection - Enter
+15 Mar 2022 18:11:54,957 INFO  repository.db.AthleteDBRepository 32 <init> - Initialising AthleteDBRepository with properties: {jdbc.password=youshallnotpass, jdbc.username=root, jdbc.url=jdbc:mysql://localhost:3306/triatlon, jdbc.driver=com.mysql.jdbc.Driver}
+15 Mar 2022 18:11:54,965 TRACE repository.db.AthleteDBRepository 87 save - Enter Saving task Athlete | null, Flavius Dolha
+15 Mar 2022 18:11:54,965 TRACE utils.JDBCUtils 33 getConnection - Enter
+15 Mar 2022 18:54:39,993 INFO  repository.db.AthleteDBRepository 32 <init> - Initialising AthleteDBRepository with properties: {jdbc.password=youshallnotpass, jdbc.username=root, jdbc.url=jdbc:mysql://localhost:3306/triatlon, jdbc.driver=com.mysql.jdbc.Driver}
+15 Mar 2022 18:54:40,002 TRACE repository.db.AthleteDBRepository 87 save - Enter Saving task Athlete | null, Flavius Dolha
+15 Mar 2022 18:54:40,003 TRACE utils.JDBCUtils 33 getConnection - Enter
+15 Mar 2022 18:57:09,226 INFO  repository.db.AthleteDBRepository 32 <init> - Initialising AthleteDBRepository with properties: {jdbc.password=youshallnotpass, jdbc.username=root, jdbc.url=jdbc:mysql://localhost:3306/triatlon, jdbc.driver=com.mysql.jdbc.Driver}
+15 Mar 2022 18:57:09,238 TRACE repository.db.AthleteDBRepository 87 save - Enter Saving task Athlete | null, Flavius Dolha
+15 Mar 2022 18:57:09,238 TRACE utils.JDBCUtils 33 getConnection - Enter
+15 Mar 2022 18:57:46,009 INFO  repository.db.AthleteDBRepository 32 <init> - Initialising AthleteDBRepository with properties: {jdbc.password=youshallnotpass, jdbc.username=root, jdbc.url=jdbc:mysql://localhost:3306/triatlon, jdbc.driver=com.mysql.jdbc.Driver}
+15 Mar 2022 18:57:51,913 TRACE repository.db.AthleteDBRepository 87 save - Enter Saving task Athlete | null, Flavius Dolha
+15 Mar 2022 18:57:54,804 TRACE utils.JDBCUtils 33 getConnection - Enter
+15 Mar 2022 18:58:18,162 INFO  repository.db.AthleteDBRepository 32 <init> - Initialising AthleteDBRepository with properties: {jdbc.password=youshallnotpass, jdbc.username=root, jdbc.url=jdbc:mysql://localhost:3306/triatlon, jdbc.driver=com.mysql.jdbc.Driver}
+15 Mar 2022 18:58:22,804 TRACE repository.db.AthleteDBRepository 87 save - Enter Saving task Athlete | null, Flavius Dolha
+15 Mar 2022 18:58:23,726 TRACE utils.JDBCUtils 33 getConnection - Enter
+15 Mar 2022 18:58:37,806 INFO  repository.db.AthleteDBRepository 32 <init> - Initialising AthleteDBRepository with properties: {jdbc.password=youshallnotpass, jdbc.username=root, jdbc.url=jdbc:mysql://localhost:3306/triatlon, jdbc.driver=com.mysql.jdbc.Driver}
+15 Mar 2022 18:58:37,820 TRACE repository.db.AthleteDBRepository 87 save - Enter Saving task Athlete | null, Flavius Dolha
+15 Mar 2022 18:58:37,820 TRACE utils.JDBCUtils 33 getConnection - Enter
+15 Mar 2022 18:59:13,315 INFO  repository.db.AthleteDBRepository 32 <init> - Initialising AthleteDBRepository with properties: {jdbc.password=youshallnotpass, jdbc.username=root, jdbc.url=jdbc:mysql://localhost:3306/triatlon, jdbc.driver=com.mysql.jdbc.Driver}
+15 Mar 2022 18:59:41,096 INFO  repository.db.AthleteDBRepository 32 <init> - Initialising AthleteDBRepository with properties: {jdbc.password=youshallnotpass, jdbc.username=root, jdbc.url=jdbc:mysql://localhost:3306/triatlon, jdbc.driver=com.mysql.jdbc.Driver}
+15 Mar 2022 18:59:49,993 INFO  repository.db.AthleteDBRepository 32 <init> - Initialising AthleteDBRepository with properties: {jdbc.password=youshallnotpass, jdbc.username=root, jdbc.url=jdbc:mysql://localhost:3306/triatlon, jdbc.driver=com.mysql.jdbc.Driver}
+15 Mar 2022 18:59:58,405 TRACE repository.db.AthleteDBRepository 87 save - Enter Saving task Athlete | null, Flavius Dolha
+15 Mar 2022 19:00:00,420 TRACE utils.JDBCUtils 33 getConnection - Enter
+15 Mar 2022 19:00:53,064 INFO  repository.db.AthleteDBRepository 32 <init> - Initialising AthleteDBRepository with properties: {jdbc.password=youshallnotpass, jdbc.username=root, jdbc.url=jdbc:mysql://localhost:3306/triatlon, jdbc.driver=com.mysql.jdbc.Driver}
+15 Mar 2022 19:00:53,078 TRACE repository.db.AthleteDBRepository 87 save - Enter Saving task Athlete | null, Flavius Dolha
+15 Mar 2022 19:00:53,078 TRACE utils.JDBCUtils 33 getConnection - Enter
+15 Mar 2022 19:01:11,667 INFO  repository.db.AthleteDBRepository 32 <init> - Initialising AthleteDBRepository with properties: {jdbc.password=youshallnotpass, jdbc.username=root, jdbc.url=jdbc:mysql://localhost:3306/triatlon, jdbc.driver=com.mysql.jdbc.Driver}
+15 Mar 2022 19:01:11,679 TRACE repository.db.AthleteDBRepository 87 save - Enter Saving task Athlete | null, Flavius Dolha
+15 Mar 2022 19:01:15,536 TRACE utils.JDBCUtils 33 getConnection - Enter
+15 Mar 2022 19:01:49,711 INFO  repository.db.AthleteDBRepository 32 <init> - Initialising AthleteDBRepository with properties: {jdbc.password=youshallnotpass, jdbc.username=root, jdbc.url=jdbc:mysql://localhost:3306/triatlon, jdbc.driver=com.mysql.jdbc.Driver}
+15 Mar 2022 19:01:49,719 TRACE repository.db.AthleteDBRepository 87 save - Enter Saving task Athlete | null, Flavius Dolha
+15 Mar 2022 19:01:49,719 TRACE utils.JDBCUtils 33 getConnection - Enter
+15 Mar 2022 19:01:49,719 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+15 Mar 2022 19:01:49,719 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:mysql://localhost:3306/triatlon
+15 Mar 2022 19:01:49,720 INFO  utils.JDBCUtils 50 getNewConnection - User: null
+15 Mar 2022 19:01:49,720 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+15 Mar 2022 19:01:49,866 ERROR utils.JDBCUtils 58 getNewConnection - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+15 Mar 2022 19:01:49,867 TRACE utils.JDBCUtils 37 getConnection - Exit
+15 Mar 2022 19:02:04,745 INFO  repository.db.AthleteDBRepository 32 <init> - Initialising AthleteDBRepository with properties: {jdbc.password=youshallnotpass, jdbc.username=root, jdbc.url=jdbc:mysql://localhost:3306/triatlon, jdbc.driver=com.mysql.jdbc.Driver}
+15 Mar 2022 19:02:04,756 TRACE repository.db.AthleteDBRepository 87 save - Enter Saving task Athlete | null, Flavius Dolha
+15 Mar 2022 19:02:04,756 TRACE utils.JDBCUtils 33 getConnection - Enter
+15 Mar 2022 19:02:07,063 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+15 Mar 2022 19:02:10,701 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:mysql://localhost:3306/triatlon
+15 Mar 2022 19:02:25,152 INFO  utils.JDBCUtils 50 getNewConnection - User: null
+15 Mar 2022 19:02:26,171 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+15 Mar 2022 19:03:20,801 INFO  repository.db.AthleteDBRepository 32 <init> - Initialising AthleteDBRepository with properties: {jdbc.password=youshallnotpass, jdbc.username=root, jdbc.url=jdbc:mysql://localhost:3306/triatlon, jdbc.driver=com.mysql.jdbc.Driver}
+15 Mar 2022 19:03:20,809 TRACE repository.db.AthleteDBRepository 87 save - Enter Saving task Athlete | null, Flavius Dolha
+15 Mar 2022 19:03:20,809 TRACE utils.JDBCUtils 33 getConnection - Enter
+15 Mar 2022 19:03:20,810 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+15 Mar 2022 19:03:20,811 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:mysql://localhost:3306/triatlon
+15 Mar 2022 19:03:20,812 INFO  utils.JDBCUtils 50 getNewConnection - Username: root
+15 Mar 2022 19:03:20,812 INFO  utils.JDBCUtils 51 getNewConnection - Password: youshallnotpass
+15 Mar 2022 19:03:20,959 ERROR utils.JDBCUtils 58 getNewConnection - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+15 Mar 2022 19:03:20,959 TRACE utils.JDBCUtils 37 getConnection - Exit
+15 Mar 2022 19:03:32,227 INFO  repository.db.AthleteDBRepository 32 <init> - Initialising AthleteDBRepository with properties: {jdbc.password=youshallnotpass, jdbc.username=root, jdbc.url=jdbc:mysql://localhost:3306/triatlon, jdbc.driver=com.mysql.jdbc.Driver}
+15 Mar 2022 19:03:32,238 TRACE repository.db.AthleteDBRepository 87 save - Enter Saving task Athlete | null, Flavius Dolha
+15 Mar 2022 19:03:32,238 TRACE utils.JDBCUtils 33 getConnection - Enter
+15 Mar 2022 19:03:32,239 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+15 Mar 2022 19:03:32,239 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:mysql://localhost:3306/triatlon
+15 Mar 2022 19:03:32,239 INFO  utils.JDBCUtils 50 getNewConnection - Username: root
+15 Mar 2022 19:03:32,239 INFO  utils.JDBCUtils 51 getNewConnection - Password: youshallnotpass
+15 Mar 2022 19:05:31,599 INFO  repository.db.AthleteDBRepository 32 <init> - Initialising AthleteDBRepository with properties: {jdbc.password=youshallnotpass, jdbc.username=root, jdbc.url=jdbc:mysql://localhost:3306/triatlon, jdbc.driver=com.mysql.jdbc.Driver}
+15 Mar 2022 19:05:31,607 TRACE repository.db.AthleteDBRepository 87 save - Enter Saving task Athlete | null, Flavius Dolha
+15 Mar 2022 19:05:31,608 TRACE utils.JDBCUtils 33 getConnection - Enter
+15 Mar 2022 19:05:31,608 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+15 Mar 2022 19:05:31,608 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:mysql://localhost:3306/triatlon
+15 Mar 2022 19:05:31,608 INFO  utils.JDBCUtils 50 getNewConnection - Username: root
+15 Mar 2022 19:05:31,608 INFO  utils.JDBCUtils 51 getNewConnection - Password: youshallnotpass
+15 Mar 2022 19:05:31,758 ERROR utils.JDBCUtils 58 getNewConnection - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+15 Mar 2022 19:05:31,759 TRACE utils.JDBCUtils 37 getConnection - Exit
+15 Mar 2022 19:08:16,490 INFO  repository.db.AthleteDBRepository 32 <init> - Initialising AthleteDBRepository with properties: {jdbc.password=youshallnotpass, jdbc.username=root, jdbc.url=jdbc:mysql://localhost:3306/triatlon, jdbc.driver=com.mysql.jdbc.Driver}
+15 Mar 2022 19:08:16,499 TRACE repository.db.AthleteDBRepository 87 save - Enter Saving task Athlete | null, Flavius Dolha
+15 Mar 2022 19:08:16,499 TRACE utils.JDBCUtils 33 getConnection - Enter
+15 Mar 2022 19:08:16,499 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+15 Mar 2022 19:08:16,500 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:mysql://localhost:3306/triatlon
+15 Mar 2022 19:08:16,500 INFO  utils.JDBCUtils 50 getNewConnection - Username: root
+15 Mar 2022 19:08:16,500 INFO  utils.JDBCUtils 51 getNewConnection - Password: youshallnotpass
+15 Mar 2022 19:08:16,683 ERROR utils.JDBCUtils 58 getNewConnection - java.sql.SQLException: Unknown initial character set index '255' received from server. Initial client character set can be forced via the 'characterEncoding' property.
+15 Mar 2022 19:08:16,684 TRACE utils.JDBCUtils 37 getConnection - Exit
+15 Mar 2022 19:08:31,916 INFO  repository.db.AthleteDBRepository 32 <init> - Initialising AthleteDBRepository with properties: {jdbc.password=youshallnotpass, jdbc.username=root, jdbc.url=jdbc:mysql://localhost:3306/triatlon, jdbc.driver=com.mysql.jdbc.Driver}
+15 Mar 2022 19:08:31,927 TRACE repository.db.AthleteDBRepository 87 save - Enter Saving task Athlete | null, Flavius Dolha
+15 Mar 2022 19:08:31,928 TRACE utils.JDBCUtils 33 getConnection - Enter
+15 Mar 2022 19:08:31,928 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+15 Mar 2022 19:08:31,928 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:mysql://localhost:3306/triatlon
+15 Mar 2022 19:08:31,928 INFO  utils.JDBCUtils 50 getNewConnection - Username: root
+15 Mar 2022 19:08:31,929 INFO  utils.JDBCUtils 51 getNewConnection - Password: youshallnotpass
+15 Mar 2022 19:09:52,878 INFO  repository.db.AthleteDBRepository 32 <init> - Initialising AthleteDBRepository with properties: {jdbc.password=youshallnotpass, jdbc.username=root, jdbc.url=jdbc:mysql://localhost:3306/triatlon, jdbc.driver=com.mysql.jdbc.Driver}
+15 Mar 2022 19:09:52,886 TRACE repository.db.AthleteDBRepository 87 save - Enter Saving task Athlete | null, Flavius Dolha
+15 Mar 2022 19:09:52,887 TRACE utils.JDBCUtils 33 getConnection - Enter
+15 Mar 2022 19:09:52,887 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+15 Mar 2022 19:09:52,887 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:mysql://localhost:3306/triatlon
+15 Mar 2022 19:09:52,887 INFO  utils.JDBCUtils 50 getNewConnection - Username: root
+15 Mar 2022 19:09:52,887 INFO  utils.JDBCUtils 51 getNewConnection - Password: youshallnotpass
+15 Mar 2022 19:09:53,197 ERROR utils.JDBCUtils 58 getNewConnection - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 149 milliseconds ago.  The last packet sent successfully to the server was 139 milliseconds ago.
+15 Mar 2022 19:09:53,198 TRACE utils.JDBCUtils 37 getConnection - Exit
+15 Mar 2022 19:10:05,787 INFO  repository.db.AthleteDBRepository 32 <init> - Initialising AthleteDBRepository with properties: {jdbc.password=youshallnotpass, jdbc.username=root, jdbc.url=jdbc:mysql://localhost:3306/triatlon, jdbc.driver=com.mysql.jdbc.Driver}
+15 Mar 2022 19:10:05,798 TRACE repository.db.AthleteDBRepository 87 save - Enter Saving task Athlete | null, Flavius Dolha
+15 Mar 2022 19:10:05,798 TRACE utils.JDBCUtils 33 getConnection - Enter
+15 Mar 2022 19:10:05,798 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+15 Mar 2022 19:10:05,799 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:mysql://localhost:3306/triatlon
+15 Mar 2022 19:10:05,799 INFO  utils.JDBCUtils 50 getNewConnection - Username: root
+15 Mar 2022 19:10:05,799 INFO  utils.JDBCUtils 51 getNewConnection - Password: youshallnotpass
+15 Mar 2022 19:31:20,112 INFO  repository.db.AthleteDBRepository 32 <init> - Initialising AthleteDBRepository with properties: {jdbc.password=youshallnotpass, jdbc.username=root, jdbc.url=jdbc:mysql://localhost:3306/triatlon, jdbc.driver=com.mysql.jdbc.Driver}
+15 Mar 2022 19:31:20,125 TRACE repository.db.AthleteDBRepository 87 save - Enter Saving task Athlete | null, Flavius Dolha
+15 Mar 2022 19:31:20,126 TRACE utils.JDBCUtils 33 getConnection - Enter
+15 Mar 2022 19:31:20,127 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+15 Mar 2022 19:31:20,127 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:mysql://localhost:3306/triatlon
+15 Mar 2022 19:31:20,127 INFO  utils.JDBCUtils 50 getNewConnection - Username: root
+15 Mar 2022 19:31:20,128 INFO  utils.JDBCUtils 51 getNewConnection - Password: youshallnotpass
+15 Mar 2022 19:31:20,464 ERROR utils.JDBCUtils 58 getNewConnection - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 141 milliseconds ago.  The last packet sent successfully to the server was 130 milliseconds ago.
+15 Mar 2022 19:31:20,464 TRACE utils.JDBCUtils 37 getConnection - Exit
+15 Mar 2022 19:31:57,253 INFO  repository.db.AthleteDBRepository 32 <init> - Initialising AthleteDBRepository with properties: {jdbc.password=youshallnotpass, jdbc.username=root, jdbc.url=jdbc:mysql://localhost:3306/triatlon, jdbc.driver=com.mysql.jdbc.Driver}
+15 Mar 2022 19:31:57,265 TRACE repository.db.AthleteDBRepository 87 save - Enter Saving task Athlete | null, Flavius Dolha
+15 Mar 2022 19:32:04,111 TRACE utils.JDBCUtils 33 getConnection - Enter
+15 Mar 2022 19:32:05,273 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+15 Mar 2022 19:32:05,276 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:mysql://localhost:3306/triatlon
+15 Mar 2022 19:32:05,277 INFO  utils.JDBCUtils 50 getNewConnection - Username: root
+15 Mar 2022 19:32:05,278 INFO  utils.JDBCUtils 51 getNewConnection - Password: youshallnotpass
+15 Mar 2022 19:35:40,305 INFO  repository.db.AthleteDBRepository 32 <init> - Initialising AthleteDBRepository with properties: {jdbc.password=youshallnotpass, jdbc.username=root, jdbc.url=jdbc:mysql://127.0.0.1:3306/triatlon, jdbc.driver=com.mysql.jdbc.Driver}
+15 Mar 2022 19:35:40,314 TRACE repository.db.AthleteDBRepository 87 save - Enter Saving task Athlete | null, Flavius Dolha
+15 Mar 2022 19:35:40,314 TRACE utils.JDBCUtils 33 getConnection - Enter
+15 Mar 2022 19:35:40,314 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+15 Mar 2022 19:35:40,315 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:mysql://127.0.0.1:3306/triatlon
+15 Mar 2022 19:35:40,315 INFO  utils.JDBCUtils 50 getNewConnection - Username: root
+15 Mar 2022 19:35:40,315 INFO  utils.JDBCUtils 51 getNewConnection - Password: youshallnotpass
+15 Mar 2022 19:35:40,585 ERROR utils.JDBCUtils 58 getNewConnection - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 130 milliseconds ago.  The last packet sent successfully to the server was 121 milliseconds ago.
+15 Mar 2022 19:35:40,585 TRACE utils.JDBCUtils 37 getConnection - Exit
+15 Mar 2022 19:35:49,476 INFO  repository.db.AthleteDBRepository 32 <init> - Initialising AthleteDBRepository with properties: {jdbc.password=youshallnotpass, jdbc.username=root, jdbc.url=jdbc:mysql://localhost:3306/triatlon, jdbc.driver=com.mysql.jdbc.Driver}
+15 Mar 2022 19:35:49,488 TRACE repository.db.AthleteDBRepository 87 save - Enter Saving task Athlete | null, Flavius Dolha
+15 Mar 2022 19:35:49,488 TRACE utils.JDBCUtils 33 getConnection - Enter
+15 Mar 2022 19:35:49,488 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+15 Mar 2022 19:35:49,488 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:mysql://localhost:3306/triatlon
+15 Mar 2022 19:35:49,489 INFO  utils.JDBCUtils 50 getNewConnection - Username: root
+15 Mar 2022 19:35:49,489 INFO  utils.JDBCUtils 51 getNewConnection - Password: youshallnotpass
+15 Mar 2022 19:35:49,833 ERROR utils.JDBCUtils 58 getNewConnection - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 139 milliseconds ago.  The last packet sent successfully to the server was 129 milliseconds ago.
+15 Mar 2022 19:35:49,833 TRACE utils.JDBCUtils 37 getConnection - Exit
+15 Mar 2022 19:35:57,895 INFO  repository.db.AthleteDBRepository 32 <init> - Initialising AthleteDBRepository with properties: {jdbc.password=youshallnotpass, jdbc.username=root, jdbc.url=jdbc:mysql://localhost:3306/triatlon, jdbc.driver=com.mysql.jdbc.Driver}
+15 Mar 2022 19:35:57,907 TRACE repository.db.AthleteDBRepository 87 save - Enter Saving task Athlete | null, Flavius Dolha
+15 Mar 2022 19:36:00,987 TRACE utils.JDBCUtils 33 getConnection - Enter
+15 Mar 2022 19:36:02,947 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+15 Mar 2022 19:36:02,948 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:mysql://localhost:3306/triatlon
+15 Mar 2022 19:36:02,951 INFO  utils.JDBCUtils 50 getNewConnection - Username: root
+15 Mar 2022 19:36:02,952 INFO  utils.JDBCUtils 51 getNewConnection - Password: youshallnotpass
+15 Mar 2022 19:37:17,482 INFO  repository.db.AthleteDBRepository 32 <init> - Initialising AthleteDBRepository with properties: {jdbc.password=youshallnotpass, jdbc.username=root, jdbc.url=jdbc:mysql://localhost:3306/triatlon, jdbc.driver=com.mysql.jdbc.Driver}
+15 Mar 2022 19:37:17,494 TRACE repository.db.AthleteDBRepository 87 save - Enter Saving task Athlete | null, Flavius Dolha
+15 Mar 2022 19:37:17,494 TRACE utils.JDBCUtils 33 getConnection - Enter
+15 Mar 2022 19:37:17,495 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+15 Mar 2022 19:37:17,495 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:mysql://localhost:3306/triatlon
+15 Mar 2022 19:37:17,495 INFO  utils.JDBCUtils 50 getNewConnection - Username: root
+15 Mar 2022 19:37:17,495 INFO  utils.JDBCUtils 51 getNewConnection - Password: youshallnotpass
+15 Mar 2022 19:40:58,423 INFO  repository.db.AthleteDBRepository 32 <init> - Initialising AthleteDBRepository with properties: {jdbc.password=youshallnotpass, jdbc.username=root, jdbc.url=jdbc:mysql://localhost:3306/triatlon, jdbc.driver=com.mysql.jdbc.Driver}
+15 Mar 2022 19:40:58,435 TRACE repository.db.AthleteDBRepository 87 save - Enter Saving task Athlete | null, Flavius Dolha
+15 Mar 2022 19:40:58,435 TRACE utils.JDBCUtils 33 getConnection - Enter
+15 Mar 2022 19:40:58,435 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+15 Mar 2022 19:40:58,436 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:mysql://localhost:3306/triatlon
+15 Mar 2022 19:40:58,436 INFO  utils.JDBCUtils 50 getNewConnection - Username: root
+15 Mar 2022 19:40:58,436 INFO  utils.JDBCUtils 51 getNewConnection - Password: youshallnotpass
+15 Mar 2022 19:42:57,070 INFO  repository.db.AthleteDBRepository 32 <init> - Initialising AthleteDBRepository with properties: {jdbc.password=youshallnotpass, jdbc.username=root, jdbc.url=jdbc:mysql://localhost/triatlon, jdbc.driver=com.mysql.jdbc.Driver}
+15 Mar 2022 19:42:57,082 TRACE repository.db.AthleteDBRepository 87 save - Enter Saving task Athlete | null, Flavius Dolha
+15 Mar 2022 19:42:57,082 TRACE utils.JDBCUtils 33 getConnection - Enter
+15 Mar 2022 19:42:57,082 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+15 Mar 2022 19:42:57,082 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:mysql://localhost/triatlon
+15 Mar 2022 19:42:57,083 INFO  utils.JDBCUtils 50 getNewConnection - Username: root
+15 Mar 2022 19:42:57,083 INFO  utils.JDBCUtils 51 getNewConnection - Password: youshallnotpass
+15 Mar 2022 19:44:21,405 INFO  repository.db.AthleteDBRepository 32 <init> - Initialising AthleteDBRepository with properties: {jdbc.password=youshallnotpass, jdbc.username=root, jdbc.url=jdbc:mysql://localhost:3306/triatlon?useUnicode=yes&characterEncoding=UTF-8&useSSL=false, jdbc.driver=com.mysql.jdbc.Driver}
+15 Mar 2022 19:44:21,416 TRACE repository.db.AthleteDBRepository 87 save - Enter Saving task Athlete | null, Flavius Dolha
+15 Mar 2022 19:44:21,416 TRACE utils.JDBCUtils 33 getConnection - Enter
+15 Mar 2022 19:44:21,416 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+15 Mar 2022 19:44:21,416 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:mysql://localhost:3306/triatlon?useUnicode=yes&characterEncoding=UTF-8&useSSL=false
+15 Mar 2022 19:44:21,417 INFO  utils.JDBCUtils 50 getNewConnection - Username: root
+15 Mar 2022 19:44:21,417 INFO  utils.JDBCUtils 51 getNewConnection - Password: youshallnotpass
+15 Mar 2022 19:45:32,866 INFO  repository.db.AthleteDBRepository 32 <init> - Initialising AthleteDBRepository with properties: {jdbc.password=youshallnotpass, jdbc.username=root, jdbc.url=jdbc:mysql://localhost:3306/triatlon?useUnicode=yes&characterEncoding=UTF-8&useSSL=false, jdbc.driver=com.mysql.jdbc.Driver}
+15 Mar 2022 19:45:32,876 TRACE repository.db.AthleteDBRepository 87 save - Enter Saving task Athlete | null, Flavius Dolha
+15 Mar 2022 19:45:32,877 TRACE utils.JDBCUtils 33 getConnection - Enter
+15 Mar 2022 19:45:32,877 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+15 Mar 2022 19:45:32,877 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:mysql://localhost:3306/triatlon?useUnicode=yes&characterEncoding=UTF-8&useSSL=false
+15 Mar 2022 19:45:32,877 INFO  utils.JDBCUtils 50 getNewConnection - Username: root
+15 Mar 2022 19:45:32,877 INFO  utils.JDBCUtils 51 getNewConnection - Password: youshallnotpass
+15 Mar 2022 19:45:33,039 TRACE utils.JDBCUtils 37 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@6f152006)
+15 Mar 2022 19:45:33,053 TRACE repository.db.AthleteDBRepository 93 save - Exit: Saved 1 instances
+15 Mar 2022 19:45:33,053 TRACE repository.db.AthleteDBRepository 97 save - Exit
+15 Mar 2022 19:45:33,053 TRACE repository.db.AthleteDBRepository 63 findAll - Enter Finding task
+15 Mar 2022 19:45:33,054 TRACE utils.JDBCUtils 33 getConnection - Enter
+15 Mar 2022 19:45:33,054 TRACE utils.JDBCUtils 37 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@6f152006)
+15 Mar 2022 19:45:33,062 TRACE repository.db.AthleteDBRepository 76 findAll - Exit: Found 1 instances
+15 Mar 2022 19:45:33,062 TRACE repository.db.AthleteDBRepository 81 findAll - Exit
+15 Mar 2022 19:46:15,789 INFO  repository.db.AthleteDBRepository 32 <init> - Initialising AthleteDBRepository with properties: {jdbc.password=youshallnotpass, jdbc.username=root, jdbc.url=jdbc:mysql://localhost:3306/triatlon?useUnicode=yes&characterEncoding=UTF-8&useSSL=false, jdbc.driver=com.mysql.cj.jdbc.Driver}
+15 Mar 2022 19:46:15,808 TRACE repository.db.AthleteDBRepository 87 save - Enter Saving task Athlete | null, Flavius Dolha
+15 Mar 2022 19:46:15,809 TRACE utils.JDBCUtils 33 getConnection - Enter
+15 Mar 2022 19:46:15,809 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+15 Mar 2022 19:46:15,809 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:mysql://localhost:3306/triatlon?useUnicode=yes&characterEncoding=UTF-8&useSSL=false
+15 Mar 2022 19:46:15,810 INFO  utils.JDBCUtils 50 getNewConnection - Username: root
+15 Mar 2022 19:46:15,811 INFO  utils.JDBCUtils 51 getNewConnection - Password: youshallnotpass
+15 Mar 2022 19:46:15,979 TRACE utils.JDBCUtils 37 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@3300f4fd)
+15 Mar 2022 19:46:15,990 TRACE repository.db.AthleteDBRepository 93 save - Exit: Saved 1 instances
+15 Mar 2022 19:46:15,991 TRACE repository.db.AthleteDBRepository 97 save - Exit
+15 Mar 2022 19:46:15,991 TRACE repository.db.AthleteDBRepository 63 findAll - Enter Finding task
+15 Mar 2022 19:46:15,991 TRACE utils.JDBCUtils 33 getConnection - Enter
+15 Mar 2022 19:46:15,991 TRACE utils.JDBCUtils 37 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@3300f4fd)
+15 Mar 2022 19:46:15,999 TRACE repository.db.AthleteDBRepository 76 findAll - Exit: Found 2 instances
+15 Mar 2022 19:46:15,999 TRACE repository.db.AthleteDBRepository 81 findAll - Exit

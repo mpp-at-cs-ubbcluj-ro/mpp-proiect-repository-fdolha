@@ -10,7 +10,7 @@ public abstract class RaceRepository implements Repository<Integer, AthletePoint
 
     // Private Properties
 
-    private final RaceType raceType;
+    private RaceType raceType;
 
     // Lifecycle
 
@@ -22,10 +22,14 @@ public abstract class RaceRepository implements Repository<Integer, AthletePoint
         this.raceType = race.getType();
     }
 
-    // Getters
+    // Getters & Setters
 
     public RaceType getRaceType() {
         return this.raceType;
+    }
+
+    public void setRaceType(RaceType raceType) {
+        this.raceType = raceType;
     }
 
 }
