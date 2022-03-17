@@ -44,7 +44,7 @@ public class RaceDBRepository extends RaceRepository {
 
     // Private Methods
 
-    public String tableNameForRaceType(RaceType raceType) {
+    private String tableNameForRaceType(RaceType raceType) {
         switch (raceType) {
             case SWIMMING: return "swimming_race";
             case CYCLING: return "cycling_race";

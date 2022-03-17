@@ -7,11 +7,13 @@ public class AthletePoints : Entity<int>
     
     // Properties
 
+    private int _athleteId;
     private int _points;
 
     public int AthleteId
     {
-        get => Id;
+        get => _athleteId;
+        set => _athleteId = value;
     }
     public int Points
     {
@@ -23,13 +25,13 @@ public class AthletePoints : Entity<int>
 
     public AthletePoints(int athleteId)
     {
-        Id = athleteId;
+        _athleteId = athleteId;
         _points = 0;
     }
 
     public AthletePoints(int athleteId, int points)
     {
-        Id = athleteId;
+        _athleteId = athleteId;
         _points = points;
     }
 

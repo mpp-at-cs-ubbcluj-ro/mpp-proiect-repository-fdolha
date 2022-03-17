@@ -9,7 +9,7 @@ public class Entity<TId>
 
     private TId? _id;
 
-    protected TId? Id
+    public TId? Id
     {
         get => _id;
         set => _id = value;

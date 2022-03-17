@@ -2,9 +2,9 @@ namespace triatlon_cs.Model.Activity;
 
 // RaceType
 
-public enum RaceType
+public enum RaceType : int
 {
-    Swimming,
-    Cycling,
-    Running
+    Swimming = 1,
+    Cycling = 2,
+    Running = 3
 }
