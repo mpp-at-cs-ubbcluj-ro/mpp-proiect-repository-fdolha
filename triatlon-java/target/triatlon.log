@@ -219,3 +219,18 @@ The last packet successfully received from the server was 139 milliseconds ago. 
 15 Mar 2022 19:46:15,991 TRACE utils.JDBCUtils 37 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@3300f4fd)
 15 Mar 2022 19:46:15,999 TRACE repository.db.AthleteDBRepository 76 findAll - Exit: Found 2 instances
 15 Mar 2022 19:46:15,999 TRACE repository.db.AthleteDBRepository 81 findAll - Exit
+18 Mar 2022 09:24:33,079 INFO  repository.db.AthleteDBRepository 32 <init> - Initialising AthleteDBRepository with properties: {jdbc.password=youshallnotpass, jdbc.username=root, jdbc.url=jdbc:mysql://localhost:3306/triatlon?useUnicode=yes&characterEncoding=UTF-8&useSSL=false, jdbc.driver=com.mysql.cj.jdbc.Driver}
+18 Mar 2022 09:24:33,088 TRACE repository.db.AthleteDBRepository 87 save - Enter Saving task Athlete | null, Flavius Dolha
+18 Mar 2022 09:24:33,088 TRACE utils.JDBCUtils 33 getConnection - Enter
+18 Mar 2022 09:24:33,089 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+18 Mar 2022 09:24:33,089 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:mysql://localhost:3306/triatlon?useUnicode=yes&characterEncoding=UTF-8&useSSL=false
+18 Mar 2022 09:24:33,090 INFO  utils.JDBCUtils 50 getNewConnection - Username: root
+18 Mar 2022 09:24:33,090 INFO  utils.JDBCUtils 51 getNewConnection - Password: youshallnotpass
+18 Mar 2022 09:24:33,309 TRACE utils.JDBCUtils 37 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@3300f4fd)
+18 Mar 2022 09:24:33,323 TRACE repository.db.AthleteDBRepository 93 save - Exit: Saved 1 instances
+18 Mar 2022 09:24:33,323 TRACE repository.db.AthleteDBRepository 97 save - Exit
+18 Mar 2022 09:24:33,324 TRACE repository.db.AthleteDBRepository 63 findAll - Enter Finding task
+18 Mar 2022 09:24:33,324 TRACE utils.JDBCUtils 33 getConnection - Enter
+18 Mar 2022 09:24:33,324 TRACE utils.JDBCUtils 37 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@3300f4fd)
+18 Mar 2022 09:24:33,332 TRACE repository.db.AthleteDBRepository 76 findAll - Exit: Found 4 instances
+18 Mar 2022 09:24:33,333 TRACE repository.db.AthleteDBRepository 81 findAll - Exit
