@@ -7,23 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eabf8bb8-294b-412d-a667-d5589eda50a6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.triatlon-cs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.triatlon-cs/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/triatlon-cs.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/triatlon-cs.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/triatlon-cs.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/triatlon-cs.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/triatlon-cs.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/triatlon-cs.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/triatlon-cs.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/triatlon-cs.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/triatlon-cs.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/triatlon-cs.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../triatlon-java/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-java/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../triatlon-java/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-java/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../triatlon-java/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-java/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../triatlon-java/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-java/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../triatlon-java/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-java/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../triatlon-java/build/classes/java/main/repository/db/RaceDBRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-java/build/classes/java/main/repository/db/RaceDBRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../triatlon-java/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-java/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../triatlon-java/target/triatlon.log" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-java/target/triatlon.log" afterDir="false" />
-    </list>
+    <list default="true" id="eabf8bb8-294b-412d-a667-d5589eda50a6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,6 +63,7 @@
       <workItem from="1647506955014" duration="996000" />
       <workItem from="1647588175496" duration="628000" />
       <workItem from="1647783402060" duration="194000" />
+      <workItem from="1647946828764" duration="1471000" />
     </task>
     <servers />
   </component>
