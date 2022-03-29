@@ -21,7 +21,17 @@ public class Person : Entity<int>
         get => _lastName;
         set => _lastName = value;
     }
-    
+
+    public string FullName
+    {
+        get => _firstName + " " + _lastName;
+    }
+
+    public string FullNameReversed
+    {
+        get => _lastName + " " + _firstName;
+    }
+
     // Lifecycle
 
     protected Person(string firstName, string lastName)

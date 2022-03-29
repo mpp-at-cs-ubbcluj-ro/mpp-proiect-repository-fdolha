@@ -7,7 +7,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eabf8bb8-294b-412d-a667-d5589eda50a6" name="Changes" comment="" />
+    <list default="true" id="eabf8bb8-294b-412d-a667-d5589eda50a6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.triatlon-cs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.triatlon-cs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Person/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Person/Person.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/DB/RaceDbRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Repository/DB/RaceDbRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/DB/RefereeDbRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Repository/DB/RefereeDbRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/IRefereeRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Repository/IRefereeRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/RaceRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Repository/RaceRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +26,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="26VRpmGyVzbOXheGXzWhoaWdyRp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -64,6 +75,7 @@
       <workItem from="1647588175496" duration="628000" />
       <workItem from="1647783402060" duration="194000" />
       <workItem from="1647946828764" duration="1471000" />
+      <workItem from="1648565532900" duration="3468000" />
     </task>
     <servers />
   </component>

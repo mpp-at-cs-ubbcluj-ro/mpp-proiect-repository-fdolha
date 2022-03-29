@@ -41,6 +41,61 @@ public class RaceDbRepository : RaceRepository
         }
     }
     
+    // Override Methods (RaceRepository)
+    
+    public override AthletePoints FindByAthleteId(int athleteId)
+    {
+        logger.InfoFormat("Entering FindByAthleteId with value {0}", athleteId);
+        IDbConnection connection = DbUtils.GetConnection(properties);
+        using (var command = connection.CreateCommand())
+        {
+            command.CommandText = $"select * from {tableNameForRaceType(RaceType)} where athleteId=@athleteId";
+            var parameterId = command.CreateParameter();
+            parameterId.ParameterName = "@athleteId";
+            parameterId.Value = athleteId;
+            command.Parameters.Add(parameterId);
+            using (var dataReader = command.ExecuteReader())
+            {
+                if (dataReader.Read())
+                {
+                    int _id = dataReader.GetInt32(0);
+                    int points = dataReader.GetInt32(2);
+                    var athletePoints = new AthletePoints(athleteId, points);
+                    athletePoints.Id = _id;
+                    logger.InfoFormat("Exiting FindByAthleteId with value {0}", athletePoints);
+                    return athletePoints;
+                }
+            }
+        }
+        logger.InfoFormat("Exiting FindByAthleteId with value {0}", null);
+        return null;
+    }
+
+    public override IEnumerable<AthletePoints> FindAllWithPoints()
+    {
+        logger.Info("Entering FindAllWithPoints");
+        IDbConnection connection = DbUtils.GetConnection(properties);
+        IList<AthletePoints> athletesPoints = new List<AthletePoints>();
+        using (var command = connection.CreateCommand())
+        {
+            command.CommandText = $"select * from {tableNameForRaceType(RaceType)} where points > 0";
+            using (var dataReader = command.ExecuteReader())
+            {
+                while (dataReader.Read())
+                {
+                    int _id = dataReader.GetInt32(0);
+                    int athleteId = dataReader.GetInt32(1);
+                    int points = dataReader.GetInt32(2);
+                    var athletePoints = new AthletePoints(athleteId, points);
+                    athletePoints.Id = _id;
+                    athletesPoints.Add(athletePoints);
+                }
+            }
+        }
+        logger.Info("Exiting FindAllWithPoints");
+        return athletesPoints;
+    }
+    
     // Override Methods (Repository)
 
     public override AthletePoints FindOne(int id)

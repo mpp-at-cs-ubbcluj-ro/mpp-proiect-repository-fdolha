@@ -14,6 +14,7 @@ public abstract class RaceRepository : IRepository<int, AthletePoints>
     public RaceType RaceType
     {
         get => _raceType;
+        set => _raceType = value;
     }
     
     // Lifecycle
@@ -28,6 +29,11 @@ public abstract class RaceRepository : IRepository<int, AthletePoints>
         _raceType = race.Type;
     }
     
+    // Abstract Methods
+
+    public abstract AthletePoints FindByAthleteId(int athleteId);
+    public abstract IEnumerable<AthletePoints> FindAllWithPoints();
+
     // IRepository Methods
     
     public abstract AthletePoints FindOne(int id);

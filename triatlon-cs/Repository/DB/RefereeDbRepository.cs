@@ -24,6 +24,39 @@ public class RefereeDbRepository : IRefereeRepository
         this.properties = properties;
     }
     
+    // Repository Methods (IRefereeRepository)
+
+    public Referee FindByEmail(string email)
+    {
+        logger.InfoFormat("Entering FindEmail with value {0}", email);
+        IDbConnection connection = DbUtils.GetConnection(properties);
+        using (var command = connection.CreateCommand())
+        {
+            command.CommandText = "select * from referees where email=@email";
+            var parameterId = command.CreateParameter();
+            parameterId.ParameterName = "@email";
+            parameterId.Value = email;
+            command.Parameters.Add(parameterId);
+            using (var dataReader = command.ExecuteReader())
+            {
+                if (dataReader.Read())
+                {
+                    int _id = dataReader.GetInt32(0);
+                    string firstName = dataReader.GetString(1);
+                    string lastName = dataReader.GetString(2);
+                    RaceType raceType = (RaceType) dataReader.GetInt32(3);
+                    string password = dataReader.GetString(5);
+                    var referee = new Referee(firstName, lastName, raceType, email, password);
+                    referee.Id = _id;
+                    logger.InfoFormat("Exiting FindOne with value {0}", referee);
+                    return referee;
+                }
+            }
+        }
+        logger.InfoFormat("Exiting FindOne with value {0}", null);
+        return null;
+    }
+    
     // Repository Methods
     
     public Referee FindOne(int id)

@@ -1,6 +1,5 @@
 ﻿using System.Configuration;
 using log4net.Config;
-using triatlon_cs.Model.Person;
 using triatlon_cs.Repository.DB;
 
 public class TriatlonProgram

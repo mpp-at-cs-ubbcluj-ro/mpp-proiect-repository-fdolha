@@ -6,5 +6,5 @@ namespace triatlon_cs.Repository;
 
 public interface IRefereeRepository : IRepository<int, Referee>
 {
-    
+    Referee FindByEmail(string email);
 }
