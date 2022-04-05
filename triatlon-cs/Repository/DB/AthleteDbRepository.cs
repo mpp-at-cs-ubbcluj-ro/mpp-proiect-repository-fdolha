@@ -1,9 +1,6 @@
+using System.Collections.Generic;
 using System.Data;
 using log4net;
-using triatlon_cs.Model.Person;
-using triatlon_cs.Utils.Database;
-
-namespace triatlon_cs.Repository.DB;
 
 // AthleteDbRepository
 

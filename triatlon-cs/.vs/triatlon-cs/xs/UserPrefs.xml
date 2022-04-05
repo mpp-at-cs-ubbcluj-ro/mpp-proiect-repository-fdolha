@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{A8034ABA-0582-4C70-BE2A-D2AD255B07EA}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ViewController.cs">
+    <Files>
+      <File FileName="ViewController.cs" Line="40" Column="10" />
+      <File FileName="Main.cs" Line="10" Column="1" />
+      <File FileName="LoginViewController.cs" Line="22" Column="5" />
+      <File FileName="ViewController.designer.cs" Line="37" Column="3" />
+      <File FileName="LeaderboardViewController.cs" Line="59" Column="39" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="triatlon-cs" expanded="True">
+            <Node name="triatlon-cs" expanded="True">
+              <Node name="Repository" expanded="True">
+                <Node name="DB" expanded="True" />
+              </Node>
+              <Node name="Service" expanded="True" />
+              <Node name="Utils" expanded="True" />
+              <Node name="LeaderboardViewController.cs" expanded="True" />
+              <Node name="ViewController.cs" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.triatlon-cs PreferredExecutionTarget="Test1" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

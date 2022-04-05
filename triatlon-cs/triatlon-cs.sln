@@ -1,6 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "triatlon-cs", "triatlon-cs.csproj", "{4F61C508-3F3C-4058-BAC7-0ECED5E46AC2}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.21
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "triatlon-cs", "triatlon-cs.csproj", "{A8034ABA-0582-4C70-BE2A-D2AD255B07EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4F61C508-3F3C-4058-BAC7-0ECED5E46AC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4F61C508-3F3C-4058-BAC7-0ECED5E46AC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4F61C508-3F3C-4058-BAC7-0ECED5E46AC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4F61C508-3F3C-4058-BAC7-0ECED5E46AC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8034ABA-0582-4C70-BE2A-D2AD255B07EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8034ABA-0582-4C70-BE2A-D2AD255B07EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8034ABA-0582-4C70-BE2A-D2AD255B07EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8034ABA-0582-4C70-BE2A-D2AD255B07EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C4B0F217-E3D0-436D-BF47-4223F0F7D59C}
 	EndGlobalSection
 EndGlobal

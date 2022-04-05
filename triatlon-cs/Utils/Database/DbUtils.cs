@@ -1,6 +1,5 @@
+using System.Collections.Generic;
 using System.Data;
-
-namespace triatlon_cs.Utils.Database;
 
 // DbUtils
 
@@ -9,7 +8,7 @@ public class DbUtils
     
     // Properties
 
-    private static IDbConnection? _connection;
+    private static IDbConnection _connection;
     
     // Public Class Methods
 

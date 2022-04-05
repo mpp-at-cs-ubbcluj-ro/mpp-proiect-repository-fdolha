@@ -1,6 +1,3 @@
-using triatlon_cs.Model.Person;
-
-namespace triatlon_cs.Repository;
 
 // IRefereeRepository
 

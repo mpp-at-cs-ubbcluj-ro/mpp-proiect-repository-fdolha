@@ -1,7 +1,7 @@
+using System;
+using System.Collections.Generic;
 using System.Data;
 using MySqlConnector;
-
-namespace triatlon_cs.Utils.Database;
 
 // MySqlConnectionFactory
 

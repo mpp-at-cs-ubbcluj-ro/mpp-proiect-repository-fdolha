@@ -1,4 +1,3 @@
-namespace triatlon_cs.Model;
 
 // Entity
 
@@ -7,9 +6,9 @@ public class Entity<TId>
     
     // Properties
 
-    private TId? _id;
+    private TId _id;
 
-    public TId? Id
+    public TId Id
     {
         get => _id;
         set => _id = value;

@@ -1,8 +1,7 @@
-using triatlon_cs.Model;
-
-namespace triatlon_cs.Repository;
 
 // IRepository
+
+using System.Collections.Generic;
 
 public interface IRepository<TId, TE> where TE : Entity<TId>
 {

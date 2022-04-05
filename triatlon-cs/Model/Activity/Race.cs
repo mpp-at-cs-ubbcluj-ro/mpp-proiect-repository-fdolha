@@ -1,6 +1,8 @@
-namespace triatlon_cs.Model.Activity;
 
 // Race
+
+using System.Collections.Generic;
+using System.Linq;
 
 public struct Race
 {
@@ -30,7 +32,7 @@ public struct Race
     
     // Private Methods
 
-    private AthletePoints? GetAthletePoints(int athleteId)
+    private AthletePoints GetAthletePoints(int athleteId)
     {
         return _athletePoints.FirstOrDefault(e => e.AthleteId == athleteId);
     }
@@ -63,7 +65,7 @@ public struct Race
 
     public void SetPointsForAthlete(int athleteId, int points)
     {
-        AthletePoints? athletePoints = GetAthletePoints(athleteId);
+        AthletePoints athletePoints = GetAthletePoints(athleteId);
         if (athletePoints != null)
         {
             athletePoints.Points = points;
@@ -72,7 +74,7 @@ public struct Race
 
     public int? GetPointsForAthlete(int athleteId)
     {
-        AthletePoints? athletePoints = GetAthletePoints(athleteId);
+        AthletePoints athletePoints = GetAthletePoints(athleteId);
         return athletePoints?.Points ?? null;
     }
     

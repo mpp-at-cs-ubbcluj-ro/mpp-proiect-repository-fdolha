@@ -1,8 +1,7 @@
-using triatlon_cs.Model.Activity;
-
-namespace triatlon_cs.Repository;
 
 // RaceRepository
+
+using System.Collections.Generic;
 
 public abstract class RaceRepository : IRepository<int, AthletePoints>
 {

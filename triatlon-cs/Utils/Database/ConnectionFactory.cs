@@ -1,7 +1,7 @@
+using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Reflection;
-
-namespace triatlon_cs.Utils.Database;
 
 // ConnectionFactory
 
@@ -10,7 +10,7 @@ public abstract class ConnectionFactory
     
     // Properties
 
-    private static ConnectionFactory? _instance;
+    private static ConnectionFactory _instance;
 
     public static ConnectionFactory Instance
     {
@@ -23,10 +23,10 @@ public abstract class ConnectionFactory
                 foreach (var type in types)
                 {
                     if (type.IsSubclassOf(typeof(ConnectionFactory)))
-                        _instance = (ConnectionFactory) Activator.CreateInstance(type)!;
+                        _instance = (ConnectionFactory) Activator.CreateInstance(type);
                 }
             }
-            return _instance!;
+            return _instance;
         }
     }
     

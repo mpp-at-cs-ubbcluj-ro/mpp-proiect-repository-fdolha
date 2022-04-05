@@ -1,11 +1,7 @@
+using System.Collections.Generic;
 using System.Configuration;
+using System.IO;
 using log4net.Config;
-using triatlon_cs.Model.Activity;
-using triatlon_cs.Repository;
-using triatlon_cs.Repository.DB;
-using triatlon_cs.Service;
-
-namespace triatlon_cs.Utils;
 
 public class DependencyProvider
 {
@@ -19,7 +15,7 @@ public class DependencyProvider
     
     // Static Properties
 
-    private static DependencyProvider? _shared = null;
+    private static DependencyProvider _shared = null;
 
     public static DependencyProvider Shared
     {

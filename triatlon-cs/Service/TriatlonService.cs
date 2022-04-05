@@ -1,9 +1,7 @@
-using triatlon_cs.Model;
-using triatlon_cs.Model.Activity;
-using triatlon_cs.Model.Person;
-using triatlon_cs.Repository;
 
-namespace triatlon_cs.Service;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
 public class TriatlonService
 {

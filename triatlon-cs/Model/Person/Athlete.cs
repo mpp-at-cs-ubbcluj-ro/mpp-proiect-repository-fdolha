@@ -1,4 +1,3 @@
-namespace triatlon_cs.Model.Person;
 
 // Athlete
 

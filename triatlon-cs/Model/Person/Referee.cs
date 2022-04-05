@@ -1,6 +1,4 @@
-using triatlon_cs.Model.Activity;
 
-namespace triatlon_cs.Model.Person;
 
 // Referee
 

@@ -1,0 +1,17 @@
+// WARNING
+// This file has been generated automatically by Visual Studio to
+// mirror C# types. Changes in this file made by drag-connecting
+// from the UI designer will be synchronized back to C#, but
+// more complex manual changes may not transfer correctly.
+
+
+#import "LeaderboardViewController.h"
+
+@implementation LeaderboardViewController
+
+@synthesize IDColumn = _IDColumn;
+@synthesize LeaderboardTableView = _LeaderboardTableView;
+@synthesize NameColumn = _NameColumn;
+@synthesize PointsColumn = _PointsColumn;
+
+@end

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>476FD46B-0CA8-4604-9646-E35CE8DFA0C8</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.IndexBuildLog</string>
+			<key>fileName</key>
+			<string>476FD46B-0CA8-4604-9646-E35CE8DFA0C8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Index Build</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Index Build</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>triatlon-cs Build Preparation</string>
+			<key>timeStartedRecording</key>
+			<real>670830618.60587001</real>
+			<key>timeStoppedRecording</key>
+			<real>670830618.74714303</real>
+			<key>title</key>
+			<string>triatlon-cs Build Preparation</string>
+			<key>uniqueIdentifier</key>
+			<string>476FD46B-0CA8-4604-9646-E35CE8DFA0C8</string>
+		</dict>
+		<key>A1DB55F2-B7A9-405C-8DAB-CC5A855B433B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.IndexBuildLog</string>
+			<key>fileName</key>
+			<string>A1DB55F2-B7A9-405C-8DAB-CC5A855B433B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Index Build</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Index Build</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>triatlon-cs Build Preparation</string>
+			<key>timeStartedRecording</key>
+			<real>670830393.27319503</real>
+			<key>timeStoppedRecording</key>
+			<real>670830393.30636203</real>
+			<key>title</key>
+			<string>triatlon-cs Build Preparation</string>
+			<key>uniqueIdentifier</key>
+			<string>A1DB55F2-B7A9-405C-8DAB-CC5A855B433B</string>
+		</dict>
+		<key>BF26B014-46A7-494B-9CC8-F48702844544</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.IndexBuildLog</string>
+			<key>fileName</key>
+			<string>BF26B014-46A7-494B-9CC8-F48702844544.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Index Build</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Index Build</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Workspace Build Description</string>
+			<key>timeStartedRecording</key>
+			<real>670830393.03897202</real>
+			<key>timeStoppedRecording</key>
+			<real>670830393.258255</real>
+			<key>title</key>
+			<string>Workspace Build Description</string>
+			<key>uniqueIdentifier</key>
+			<string>BF26B014-46A7-494B-9CC8-F48702844544</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

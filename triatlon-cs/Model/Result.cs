@@ -1,4 +1,3 @@
-namespace triatlon_cs.Model;
 
 public class Result
 {
