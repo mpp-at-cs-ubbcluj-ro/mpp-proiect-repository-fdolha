@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+    id 'org.openjfx.javafxplugin' version '0.0.12'
+    id 'application'
+}
+
+group 'triatlon'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+javafx {
+    modules = [ 'javafx.controls', 'javafx.fxml' ]
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.2'
+    implementation project (':model')
+    implementation project (':networking')
+    implementation project (':repository')
+    implementation project (':service')
+}
+
+test {
+    useJUnitPlatform()
+}
+
+application {
+    mainClass = 'triatlon.client.TriatlonApplication'
+}

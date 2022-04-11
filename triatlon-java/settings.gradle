@@ -1,1 +1,9 @@
-rootProject.name = "triatlon-java"
+rootProject.name = 'triatlon-java'
+include 'model'
+include 'repository'
+include 'service'
+include 'networking'
+include 'server'
+include 'client-fx'
+include 'client-fx'
+

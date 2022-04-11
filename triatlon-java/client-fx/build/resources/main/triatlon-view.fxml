@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="triatlon.client.controllers.TriatlonController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <AnchorPane prefHeight="286.0" prefWidth="388.0">
+         <children>
+            <Label fx:id="refereeNameLabel" layoutX="3.0" layoutY="3.0" text="Arbitru">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="refereeSubtitleLabel" layoutX="3.0" layoutY="26.0" text="Proba" textFill="#464646">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Label>
+            <Label layoutX="4.0" layoutY="75.0" text="Participanti:" />
+            <Line endX="322.0" layoutX="104.0" layoutY="53.0" startX="-100.0" />
+            <TableView fx:id="athletesTable" layoutX="3.0" layoutY="106.0" prefHeight="180.0" prefWidth="426.0">
+              <columns>
+                <TableColumn fx:id="idColumn" editable="false" prefWidth="51.0" text="ID" />
+                <TableColumn fx:id="nameColumn" editable="false" prefWidth="242.0" text="Nume" />
+                  <TableColumn fx:id="pointsColumn" editable="false" prefWidth="89.0" text="Total Puncte" />
+              </columns>
+            </TableView>
+            <Button layoutX="366.0" layoutY="13.0" mnemonicParsing="false" onAction="#onLogoutButtonClicked" text="Log Out" />
+            <Button layoutX="322.0" layoutY="70.0" mnemonicParsing="false" onAction="#onAddResultButtonClicked" text="Adauga Rezultat" />
+            <Button layoutX="238.0" layoutY="70.0" mnemonicParsing="false" onAction="#onLeaderboardButtonClicked" text="Clasament" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
