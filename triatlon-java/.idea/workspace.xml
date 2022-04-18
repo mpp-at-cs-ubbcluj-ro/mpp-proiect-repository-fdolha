@@ -5,134 +5,571 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="105afd9e-508b-4fc9-a597-84d86a804eac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/client-fx/triatlon-java.client-fx.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-fx/src/main/java/triatlon/client/DependencyProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-fx/src/main/java/triatlon/client/TriatlonApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-fx/src/main/java/triatlon/client/controllers/AddResultController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-fx/src/main/java/triatlon/client/controllers/ResultsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-fx/src/main/java/triatlon/client/controllers/TriatlonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-fx/src/main/java/triatlon/client/controllers/TriatlonLoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-fx/src/main/resources/addresult-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-fx/src/main/resources/login-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-fx/src/main/resources/results-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-fx/src/main/resources/triatlon-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-fx/src/main/resources/triatlonclient.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/triatlon/model/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/triatlon/model/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/triatlon/model/activity/AthletePoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/triatlon/model/activity/Race.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/triatlon/model/activity/RaceType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/triatlon/model/person/Athlete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/triatlon/model/person/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/triatlon/model/person/Referee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/networking/src/main/java/triatlon/networking/dto/RefereeDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/networking/src/main/java/triatlon/networking/dto/ResultDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/networking/src/main/java/triatlon/networking/rpc/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/networking/src/main/java/triatlon/networking/rpc/RequestType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/networking/src/main/java/triatlon/networking/rpc/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/networking/src/main/java/triatlon/networking/rpc/ResponseType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/networking/src/main/java/triatlon/networking/rpc/TriatlonClientRPCWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/networking/src/main/java/triatlon/networking/rpc/TriatlonServiceRPCProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/networking/src/main/java/triatlon/networking/utils/AbstractConcurrentServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/networking/src/main/java/triatlon/networking/utils/AbstractServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/networking/src/main/java/triatlon/networking/utils/TriatlonRPCConcurrentServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repository/src/main/java/triatlon/repository/AthleteRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repository/src/main/java/triatlon/repository/JDBCUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repository/src/main/java/triatlon/repository/RaceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repository/src/main/java/triatlon/repository/RefereeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repository/src/main/java/triatlon/repository/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repository/src/main/java/triatlon/repository/db/AthleteDBRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repository/src/main/java/triatlon/repository/db/RaceDBRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repository/src/main/java/triatlon/repository/db/RefereeDBRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repository/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/triatlon/server/RPCServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/triatlon/server/TriatlonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/triatlonserver.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/triatlon/service/TriatlonObserverInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/triatlon/service/TriatlonServiceInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.2/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/.idea/.idea.triatlon-cs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/.idea/.idea.triatlon-cs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/.vs/triatlon-cs/xs/UserPrefs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/.vs/triatlon-cs/xs/UserPrefs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/.vs/triatlon-cs/xs/project-cache/triatlon-cs-Debug.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/AddResultViewController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/AddResultViewController.designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/AppDelegate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Assets.xcassets/AppIcon.appiconset/AppIcon-128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Assets.xcassets/AppIcon.appiconset/AppIcon-128@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Assets.xcassets/AppIcon.appiconset/AppIcon-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Assets.xcassets/AppIcon.appiconset/AppIcon-16@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Assets.xcassets/AppIcon.appiconset/AppIcon-256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Assets.xcassets/AppIcon.appiconset/AppIcon-256@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Assets.xcassets/AppIcon.appiconset/AppIcon-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Assets.xcassets/AppIcon.appiconset/AppIcon-32@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Assets.xcassets/AppIcon.appiconset/AppIcon-512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Assets.xcassets/AppIcon.appiconset/AppIcon-512@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Assets.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Entitlements.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/LeaderboardViewController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/LeaderboardViewController.designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/LoginViewController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/LoginViewController.designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Main.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Main.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Model/Activity/AthletePoints.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Model/Activity/AthletePoints.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Model/Activity/Race.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Model/Activity/Race.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Model/Activity/RaceType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Model/Activity/RaceType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Model/Entity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Model/Entity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Model/Person/Athlete.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Model/Person/Athlete.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Model/Person/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Model/Person/Person.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Model/Person/Referee.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Model/Person/Referee.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Model/Result.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Model/Result.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Repository/DB/AthleteDbRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Repository/DB/AthleteDbRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Repository/DB/RaceDbRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Repository/DB/RaceDbRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Repository/DB/RefereeDbRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Repository/DB/RefereeDbRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Repository/IAthleteRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Repository/IAthleteRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Repository/IRefereeRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Repository/IRefereeRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Repository/IRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Repository/IRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Repository/RaceRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Repository/RaceRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Service/TriatlonService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Utils/Database/ConnectionFactory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Utils/Database/DbUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Utils/Database/MySqlConnectionFactory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Utils/DependencyProvider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/ViewController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/ViewController.designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/app.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/MySqlConnector.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/MySqlConnector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/System.Configuration.ConfigurationManager.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/System.Diagnostics.DiagnosticSource.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/System.Diagnostics.DiagnosticSource.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/System.Runtime.CompilerServices.Unsafe.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/System.Security.AccessControl.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/System.Security.Permissions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/System.Security.Principal.Windows.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MacOS/Triatlon" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MacOS/Triatlon.dSYM/Contents/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MacOS/Triatlon.dSYM/Contents/Resources/DWARF/Triatlon" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/Microsoft.Win32.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/Microsoft.Win32.Registry.AccessControl.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/Microsoft.Win32.Registry.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/Mono.Security.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/Mono.Security.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/MySqlConnector.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.AppContext.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Buffers.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Collections.Concurrent.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Collections.NonGeneric.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Collections.Specialized.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Collections.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.ComponentModel.Annotations.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.ComponentModel.Composition.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.ComponentModel.Composition.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.ComponentModel.DataAnnotations.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.ComponentModel.DataAnnotations.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.ComponentModel.EventBasedAsync.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.ComponentModel.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.ComponentModel.TypeConverter.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.ComponentModel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Configuration.ConfigurationManager.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Console.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Core.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Data.Common.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Data.DataSetExtensions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Data.DataSetExtensions.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Data.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Data.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Diagnostics.Contracts.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Diagnostics.Debug.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Diagnostics.DiagnosticSource.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Diagnostics.FileVersionInfo.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Diagnostics.Process.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Diagnostics.StackTrace.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Diagnostics.TextWriterTraceListener.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Diagnostics.Tools.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Diagnostics.TraceEvent.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Diagnostics.TraceSource.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Diagnostics.Tracing.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Drawing.Common.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Drawing.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Dynamic.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Globalization.Calendars.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Globalization.Extensions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Globalization.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.IO.Compression.FileSystem.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.IO.Compression.FileSystem.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.IO.Compression.ZipFile.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.IO.Compression.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.IO.Compression.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.IO.FileSystem.AccessControl.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.IO.FileSystem.DriveInfo.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.IO.FileSystem.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.IO.FileSystem.Watcher.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.IO.FileSystem.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.IO.IsolatedStorage.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.IO.MemoryMappedFiles.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.IO.Pipes.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.IO.UnmanagedMemoryStream.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.IO.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.IdentityModel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.IdentityModel.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Linq.Expressions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Linq.Parallel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Linq.Queryable.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Linq.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Memory.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Net.AuthenticationManager.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Net.Cache.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Net.Http.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Net.Http.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Net.HttpListener.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Net.Mail.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Net.NameResolution.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Net.NetworkInformation.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Net.Ping.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Net.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Net.Requests.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Net.Security.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Net.ServicePoint.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Net.Sockets.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Net.Utilities.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Net.WebHeaderCollection.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Net.WebSockets.Client.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Net.WebSockets.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Numerics.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Numerics.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.ObjectModel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Reflection.DispatchProxy.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Reflection.Emit.ILGeneration.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Reflection.Emit.Lightweight.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Reflection.Emit.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Reflection.Extensions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Reflection.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Reflection.TypeExtensions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Reflection.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Resources.Reader.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Resources.ReaderWriter.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Resources.ResourceManager.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Resources.Writer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Runtime.CompilerServices.VisualC.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Runtime.Extensions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Runtime.Handles.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Runtime.InteropServices.RuntimeInformation.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Runtime.InteropServices.WindowsRuntime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Runtime.InteropServices.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Runtime.Loader.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Runtime.Numerics.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Runtime.Serialization.Formatters.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Runtime.Serialization.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Runtime.Serialization.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Runtime.Serialization.Xml.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Runtime.Serialization.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Runtime.Serialization.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Security.AccessControl.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Security.Claims.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Security.Cryptography.Algorithms.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Security.Cryptography.Cng.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Security.Cryptography.Csp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Security.Cryptography.DeriveBytes.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Security.Cryptography.Encoding.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Security.Cryptography.Encryption.Aes.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Security.Cryptography.Encryption.ECDiffieHellman.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Security.Cryptography.Encryption.ECDsa.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Security.Cryptography.Encryption.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Security.Cryptography.Hashing.Algorithms.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Security.Cryptography.Hashing.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Security.Cryptography.OpenSsl.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Security.Cryptography.Pkcs.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Security.Cryptography.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Security.Cryptography.RSA.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Security.Cryptography.RandomNumberGenerator.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Security.Cryptography.X509Certificates.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Security.Permissions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Security.Principal.Windows.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Security.Principal.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Security.SecureString.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Security.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Security.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.ServiceModel.Duplex.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.ServiceModel.Http.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.ServiceModel.Internals.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.ServiceModel.Internals.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.ServiceModel.NetTcp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.ServiceModel.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.ServiceModel.Security.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.ServiceModel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.ServiceModel.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.ServiceProcess.ServiceController.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Text.Encoding.CodePages.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Text.Encoding.Extensions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Text.Encoding.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Text.RegularExpressions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Threading.AccessControl.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Threading.Overlapped.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Threading.Tasks.Extensions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Threading.Tasks.Parallel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Threading.Tasks.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Threading.Thread.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Threading.ThreadPool.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Threading.Timer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Threading.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Transactions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Transactions.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.ValueTuple.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Web.Services.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Web.Services.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Xml.Linq.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Xml.Linq.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Xml.ReaderWriter.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Xml.XDocument.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Xml.XPath.XDocument.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Xml.XPath.XmlDocument.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Xml.XPath.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Xml.XmlDocument.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Xml.XmlSerializer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Xml.Xsl.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Xml.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.Xml.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/System.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/Triatlon.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/Triatlon.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/Triatlon.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/Xamarin.Mac.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/Xamarin.Mac.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/libMonoPosixHelper.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/libmono-native.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/log4net.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/mscorlib.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/mscorlib.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/MonoBundle/netstandard.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/PkgInfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Resources/AppIcon.icns" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Resources/Assets.car" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Resources/Main.storyboardc/75D-aa-BNR-view-Pa6-Zv-wTR.nib/keyedobjects-101300.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Resources/Main.storyboardc/75D-aa-BNR-view-Pa6-Zv-wTR.nib/keyedobjects-110000.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Resources/Main.storyboardc/75D-aa-BNR-view-Pa6-Zv-wTR.nib/keyedobjects.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Resources/Main.storyboardc/HomeWindow.nib/keyedobjects-101300.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Resources/Main.storyboardc/HomeWindow.nib/keyedobjects-110000.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Resources/Main.storyboardc/HomeWindow.nib/keyedobjects.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Resources/Main.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Resources/Main.storyboardc/LeaderboardWindow.nib/keyedobjects-101300.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Resources/Main.storyboardc/LeaderboardWindow.nib/keyedobjects-110000.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Resources/Main.storyboardc/LeaderboardWindow.nib/keyedobjects.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Resources/Main.storyboardc/LoginWindow.nib/keyedobjects-101300.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Resources/Main.storyboardc/LoginWindow.nib/keyedobjects-110000.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Resources/Main.storyboardc/LoginWindow.nib/keyedobjects.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Resources/Main.storyboardc/MainMenu.nib/keyedobjects-101300.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Resources/Main.storyboardc/MainMenu.nib/keyedobjects-110000.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Resources/Main.storyboardc/MainMenu.nib/keyedobjects.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Resources/Main.storyboardc/NSViewController-czs-bS-VtM.nib/keyedobjects-101300.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Resources/Main.storyboardc/NSViewController-czs-bS-VtM.nib/keyedobjects-110000.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Resources/Main.storyboardc/NSViewController-czs-bS-VtM.nib/keyedobjects.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Resources/Main.storyboardc/NSViewController-zEb-tS-9ut.nib/keyedobjects-101300.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Resources/Main.storyboardc/NSViewController-zEb-tS-9ut.nib/keyedobjects-110000.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Resources/Main.storyboardc/NSViewController-zEb-tS-9ut.nib/keyedobjects.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Resources/Main.storyboardc/NSWindowController-iYM-cc-d9E.nib/keyedobjects-101300.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Resources/Main.storyboardc/NSWindowController-iYM-cc-d9E.nib/keyedobjects-110000.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Resources/Main.storyboardc/NSWindowController-iYM-cc-d9E.nib/keyedobjects.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Resources/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib/keyedobjects-101300.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Resources/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib/keyedobjects-110000.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Resources/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib/keyedobjects.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Resources/Main.storyboardc/czs-bS-VtM-view-2H2-I2-nye.nib/keyedobjects-101300.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Resources/Main.storyboardc/czs-bS-VtM-view-2H2-I2-nye.nib/keyedobjects-110000.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Resources/Main.storyboardc/czs-bS-VtM-view-2H2-I2-nye.nib/keyedobjects.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Resources/Main.storyboardc/hRJ-bK-31i-view-Gor-Ha-2O6.nib/keyedobjects-101300.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Resources/Main.storyboardc/hRJ-bK-31i-view-Gor-Ha-2O6.nib/keyedobjects-110000.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Resources/Main.storyboardc/hRJ-bK-31i-view-Gor-Ha-2O6.nib/keyedobjects.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Resources/Main.storyboardc/zEb-tS-9ut-view-ccV-Tk-MIr.nib/keyedobjects-101300.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Resources/Main.storyboardc/zEb-tS-9ut-view-ccV-Tk-MIr.nib/keyedobjects-110000.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Resources/Main.storyboardc/zEb-tS-9ut-view-ccV-Tk-MIr.nib/keyedobjects.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.app/Contents/Resources/runtime-options.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/Triatlon.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/bundler.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/dsym.items" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/log4net.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/log4net.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/stderr.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/bin/Debug/stdout.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/AppManifest.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/Triatlon.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/Triatlon.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/Xamarin.Mac,Version=v2.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/actool/_BundleResourceWithLogicalName.items" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/actool/_PartialAppManifest.items" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/actool/asset-manifest.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/actool/bundle/AppIcon.icns" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/actool/bundle/Assets.car" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/actool/cloned-assets/Assets.xcassets/AppIcon.appiconset/AppIcon-128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/actool/cloned-assets/Assets.xcassets/AppIcon.appiconset/AppIcon-128@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/actool/cloned-assets/Assets.xcassets/AppIcon.appiconset/AppIcon-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/actool/cloned-assets/Assets.xcassets/AppIcon.appiconset/AppIcon-16@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/actool/cloned-assets/Assets.xcassets/AppIcon.appiconset/AppIcon-256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/actool/cloned-assets/Assets.xcassets/AppIcon.appiconset/AppIcon-256@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/actool/cloned-assets/Assets.xcassets/AppIcon.appiconset/AppIcon-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/actool/cloned-assets/Assets.xcassets/AppIcon.appiconset/AppIcon-32@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/actool/cloned-assets/Assets.xcassets/AppIcon.appiconset/AppIcon-512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/actool/cloned-assets/Assets.xcassets/AppIcon.appiconset/AppIcon-512@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/actool/cloned-assets/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/actool/cloned-assets/Assets.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/actool/partial-info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/coremlc/_BundleResourceWithLogicalName.items" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/coremlc/_PartialAppManifest.items" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/ibtool-manifests/Main.storyboardc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/ibtool/Main.storyboardc/75D-aa-BNR-view-Pa6-Zv-wTR.nib/keyedobjects-101300.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/ibtool/Main.storyboardc/75D-aa-BNR-view-Pa6-Zv-wTR.nib/keyedobjects-110000.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/ibtool/Main.storyboardc/75D-aa-BNR-view-Pa6-Zv-wTR.nib/keyedobjects.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/ibtool/Main.storyboardc/HomeWindow.nib/keyedobjects-101300.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/ibtool/Main.storyboardc/HomeWindow.nib/keyedobjects-110000.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/ibtool/Main.storyboardc/HomeWindow.nib/keyedobjects.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/ibtool/Main.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/ibtool/Main.storyboardc/LeaderboardWindow.nib/keyedobjects-101300.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/ibtool/Main.storyboardc/LeaderboardWindow.nib/keyedobjects-110000.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/ibtool/Main.storyboardc/LeaderboardWindow.nib/keyedobjects.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/ibtool/Main.storyboardc/LoginWindow.nib/keyedobjects-101300.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/ibtool/Main.storyboardc/LoginWindow.nib/keyedobjects-110000.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/ibtool/Main.storyboardc/LoginWindow.nib/keyedobjects.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/ibtool/Main.storyboardc/MainMenu.nib/keyedobjects-101300.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/ibtool/Main.storyboardc/MainMenu.nib/keyedobjects-110000.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/ibtool/Main.storyboardc/MainMenu.nib/keyedobjects.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/ibtool/Main.storyboardc/NSViewController-zEb-tS-9ut.nib/keyedobjects-101300.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/ibtool/Main.storyboardc/NSViewController-zEb-tS-9ut.nib/keyedobjects-110000.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/ibtool/Main.storyboardc/NSViewController-zEb-tS-9ut.nib/keyedobjects.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/ibtool/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib/keyedobjects-101300.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/ibtool/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib/keyedobjects-110000.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/ibtool/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib/keyedobjects.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/ibtool/Main.storyboardc/hRJ-bK-31i-view-Gor-Ha-2O6.nib/keyedobjects-101300.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/ibtool/Main.storyboardc/hRJ-bK-31i-view-Gor-Ha-2O6.nib/keyedobjects-110000.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/ibtool/Main.storyboardc/hRJ-bK-31i-view-Gor-Ha-2O6.nib/keyedobjects.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/ibtool/Main.storyboardc/zEb-tS-9ut-view-ccV-Tk-MIr.nib/keyedobjects-101300.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/ibtool/Main.storyboardc/zEb-tS-9ut-view-ccV-Tk-MIr.nib/keyedobjects-110000.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/ibtool/Main.storyboardc/zEb-tS-9ut-view-ccV-Tk-MIr.nib/keyedobjects.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/ibtool/_BundleResourceWithLogicalName.items" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/mmp-cache/arguments" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/mmp-cache/entry-points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/mmp-cache/exported-symbols-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/mmp-cache/main/x86_64/Triatlon" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/mmp-cache/main/x86_64/main.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/response-file.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/triatlon-cs.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/triatlon-cs.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/triatlon-cs.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/obj/Debug/triatlon-cs.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/MySqlConnector.2.1.8/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/MySqlConnector.2.1.8/MySqlConnector.2.1.8.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/MySqlConnector.2.1.8/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/MySqlConnector.2.1.8/lib/net45/MySqlConnector.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/MySqlConnector.2.1.8/lib/net45/MySqlConnector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/MySqlConnector.2.1.8/lib/net461/MySqlConnector.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/MySqlConnector.2.1.8/lib/net461/MySqlConnector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/MySqlConnector.2.1.8/lib/net471/MySqlConnector.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/MySqlConnector.2.1.8/lib/net471/MySqlConnector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/MySqlConnector.2.1.8/lib/net5.0/MySqlConnector.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/MySqlConnector.2.1.8/lib/net5.0/MySqlConnector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/MySqlConnector.2.1.8/lib/net6.0/MySqlConnector.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/MySqlConnector.2.1.8/lib/net6.0/MySqlConnector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/MySqlConnector.2.1.8/lib/netcoreapp3.1/MySqlConnector.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/MySqlConnector.2.1.8/lib/netcoreapp3.1/MySqlConnector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/MySqlConnector.2.1.8/lib/netstandard2.0/MySqlConnector.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/MySqlConnector.2.1.8/lib/netstandard2.0/MySqlConnector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/MySqlConnector.2.1.8/lib/netstandard2.1/MySqlConnector.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/MySqlConnector.2.1.8/lib/netstandard2.1/MySqlConnector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/MySqlConnector.2.1.8/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Configuration.ConfigurationManager.4.5.0/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Configuration.ConfigurationManager.4.5.0/LICENSE.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Configuration.ConfigurationManager.4.5.0/System.Configuration.ConfigurationManager.4.5.0.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Configuration.ConfigurationManager.4.5.0/THIRD-PARTY-NOTICES.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Configuration.ConfigurationManager.4.5.0/lib/net461/System.Configuration.ConfigurationManager.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Configuration.ConfigurationManager.4.5.0/lib/netstandard2.0/System.Configuration.ConfigurationManager.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Configuration.ConfigurationManager.4.5.0/ref/net461/System.Configuration.ConfigurationManager.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Configuration.ConfigurationManager.4.5.0/ref/net461/System.Configuration.ConfigurationManager.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Configuration.ConfigurationManager.4.5.0/ref/netstandard2.0/System.Configuration.ConfigurationManager.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Configuration.ConfigurationManager.4.5.0/ref/netstandard2.0/System.Configuration.ConfigurationManager.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Configuration.ConfigurationManager.4.5.0/useSharedDesignerContext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Configuration.ConfigurationManager.4.5.0/version.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Diagnostics.DiagnosticSource.5.0.1/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Diagnostics.DiagnosticSource.5.0.1/Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Diagnostics.DiagnosticSource.5.0.1/LICENSE.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Diagnostics.DiagnosticSource.5.0.1/System.Diagnostics.DiagnosticSource.5.0.1.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Diagnostics.DiagnosticSource.5.0.1/THIRD-PARTY-NOTICES.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Diagnostics.DiagnosticSource.5.0.1/lib/net45/System.Diagnostics.DiagnosticSource.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Diagnostics.DiagnosticSource.5.0.1/lib/net45/System.Diagnostics.DiagnosticSource.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Diagnostics.DiagnosticSource.5.0.1/lib/net46/System.Diagnostics.DiagnosticSource.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Diagnostics.DiagnosticSource.5.0.1/lib/net46/System.Diagnostics.DiagnosticSource.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Diagnostics.DiagnosticSource.5.0.1/lib/net5.0/System.Diagnostics.DiagnosticSource.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Diagnostics.DiagnosticSource.5.0.1/lib/net5.0/System.Diagnostics.DiagnosticSource.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Diagnostics.DiagnosticSource.5.0.1/lib/netstandard1.1/System.Diagnostics.DiagnosticSource.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Diagnostics.DiagnosticSource.5.0.1/lib/netstandard1.1/System.Diagnostics.DiagnosticSource.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Diagnostics.DiagnosticSource.5.0.1/lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Diagnostics.DiagnosticSource.5.0.1/lib/netstandard1.3/System.Diagnostics.DiagnosticSource.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Diagnostics.DiagnosticSource.5.0.1/lib/portable-net45+win8+wpa81/System.Diagnostics.DiagnosticSource.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Diagnostics.DiagnosticSource.5.0.1/lib/portable-net45+win8+wpa81/System.Diagnostics.DiagnosticSource.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Diagnostics.DiagnosticSource.5.0.1/useSharedDesignerContext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Diagnostics.DiagnosticSource.5.0.1/version.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/LICENSE.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/System.Runtime.CompilerServices.Unsafe.5.0.0.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/THIRD-PARTY-NOTICES.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/lib/net45/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/lib/net45/System.Runtime.CompilerServices.Unsafe.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/ref/net461/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/ref/net461/System.Runtime.CompilerServices.Unsafe.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/ref/netstandard2.1/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/ref/netstandard2.1/System.Runtime.CompilerServices.Unsafe.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/useSharedDesignerContext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/version.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.AccessControl.4.5.0/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.AccessControl.4.5.0/LICENSE.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.AccessControl.4.5.0/System.Security.AccessControl.4.5.0.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.AccessControl.4.5.0/THIRD-PARTY-NOTICES.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.AccessControl.4.5.0/lib/net46/System.Security.AccessControl.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.AccessControl.4.5.0/lib/net461/System.Security.AccessControl.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.AccessControl.4.5.0/lib/netstandard1.3/System.Security.AccessControl.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.AccessControl.4.5.0/lib/netstandard2.0/System.Security.AccessControl.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.AccessControl.4.5.0/lib/uap10.0.16299/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.AccessControl.4.5.0/ref/net46/System.Security.AccessControl.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.AccessControl.4.5.0/ref/net461/System.Security.AccessControl.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.AccessControl.4.5.0/ref/net461/System.Security.AccessControl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.AccessControl.4.5.0/ref/netstandard1.3/System.Security.AccessControl.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.AccessControl.4.5.0/ref/netstandard1.3/System.Security.AccessControl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.AccessControl.4.5.0/ref/netstandard1.3/de/System.Security.AccessControl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.AccessControl.4.5.0/ref/netstandard1.3/es/System.Security.AccessControl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.AccessControl.4.5.0/ref/netstandard1.3/fr/System.Security.AccessControl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.AccessControl.4.5.0/ref/netstandard1.3/it/System.Security.AccessControl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.AccessControl.4.5.0/ref/netstandard1.3/ja/System.Security.AccessControl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.AccessControl.4.5.0/ref/netstandard1.3/ko/System.Security.AccessControl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.AccessControl.4.5.0/ref/netstandard1.3/ru/System.Security.AccessControl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.AccessControl.4.5.0/ref/netstandard1.3/zh-hans/System.Security.AccessControl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.AccessControl.4.5.0/ref/netstandard1.3/zh-hant/System.Security.AccessControl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.AccessControl.4.5.0/ref/netstandard2.0/System.Security.AccessControl.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.AccessControl.4.5.0/ref/netstandard2.0/System.Security.AccessControl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.AccessControl.4.5.0/ref/uap10.0.16299/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.AccessControl.4.5.0/runtimes/win/lib/net46/System.Security.AccessControl.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.AccessControl.4.5.0/runtimes/win/lib/net461/System.Security.AccessControl.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.AccessControl.4.5.0/runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.AccessControl.4.5.0/runtimes/win/lib/netstandard1.3/System.Security.AccessControl.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.AccessControl.4.5.0/runtimes/win/lib/uap10.0.16299/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.AccessControl.4.5.0/useSharedDesignerContext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.AccessControl.4.5.0/version.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Permissions.4.5.0/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Permissions.4.5.0/LICENSE.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Permissions.4.5.0/System.Security.Permissions.4.5.0.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Permissions.4.5.0/THIRD-PARTY-NOTICES.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Permissions.4.5.0/lib/net461/System.Security.Permissions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Permissions.4.5.0/lib/netstandard2.0/System.Security.Permissions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Permissions.4.5.0/ref/net461/System.Security.Permissions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Permissions.4.5.0/ref/net461/System.Security.Permissions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Permissions.4.5.0/ref/netstandard2.0/System.Security.Permissions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Permissions.4.5.0/ref/netstandard2.0/System.Security.Permissions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Permissions.4.5.0/useSharedDesignerContext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Permissions.4.5.0/version.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Principal.Windows.4.5.0/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Principal.Windows.4.5.0/LICENSE.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Principal.Windows.4.5.0/System.Security.Principal.Windows.4.5.0.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Principal.Windows.4.5.0/THIRD-PARTY-NOTICES.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Principal.Windows.4.5.0/lib/net46/System.Security.Principal.Windows.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Principal.Windows.4.5.0/lib/net461/System.Security.Principal.Windows.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Principal.Windows.4.5.0/lib/netstandard1.3/System.Security.Principal.Windows.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Principal.Windows.4.5.0/lib/netstandard2.0/System.Security.Principal.Windows.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Principal.Windows.4.5.0/lib/uap10.0.16299/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Principal.Windows.4.5.0/ref/net46/System.Security.Principal.Windows.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Principal.Windows.4.5.0/ref/net461/System.Security.Principal.Windows.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Principal.Windows.4.5.0/ref/net461/System.Security.Principal.Windows.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Principal.Windows.4.5.0/ref/netstandard1.3/System.Security.Principal.Windows.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Principal.Windows.4.5.0/ref/netstandard1.3/System.Security.Principal.Windows.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Principal.Windows.4.5.0/ref/netstandard1.3/de/System.Security.Principal.Windows.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Principal.Windows.4.5.0/ref/netstandard1.3/es/System.Security.Principal.Windows.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Principal.Windows.4.5.0/ref/netstandard1.3/fr/System.Security.Principal.Windows.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Principal.Windows.4.5.0/ref/netstandard1.3/it/System.Security.Principal.Windows.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Principal.Windows.4.5.0/ref/netstandard1.3/ja/System.Security.Principal.Windows.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Principal.Windows.4.5.0/ref/netstandard1.3/ko/System.Security.Principal.Windows.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Principal.Windows.4.5.0/ref/netstandard1.3/ru/System.Security.Principal.Windows.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Principal.Windows.4.5.0/ref/netstandard1.3/zh-hans/System.Security.Principal.Windows.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Principal.Windows.4.5.0/ref/netstandard1.3/zh-hant/System.Security.Principal.Windows.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Principal.Windows.4.5.0/ref/netstandard2.0/System.Security.Principal.Windows.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Principal.Windows.4.5.0/ref/netstandard2.0/System.Security.Principal.Windows.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Principal.Windows.4.5.0/ref/uap10.0.16299/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Principal.Windows.4.5.0/runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Principal.Windows.4.5.0/runtimes/win/lib/net46/System.Security.Principal.Windows.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Principal.Windows.4.5.0/runtimes/win/lib/net461/System.Security.Principal.Windows.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Principal.Windows.4.5.0/runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Principal.Windows.4.5.0/runtimes/win/lib/netstandard1.3/System.Security.Principal.Windows.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Principal.Windows.4.5.0/runtimes/win/lib/uap10.0.16299/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Principal.Windows.4.5.0/useSharedDesignerContext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/System.Security.Principal.Windows.4.5.0/version.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/log4net.2.0.14/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/log4net.2.0.14/lib/net20/log4net.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/log4net.2.0.14/lib/net20/log4net.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/log4net.2.0.14/lib/net35-client/log4net.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/log4net.2.0.14/lib/net35-client/log4net.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/log4net.2.0.14/lib/net35/log4net.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/log4net.2.0.14/lib/net35/log4net.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/log4net.2.0.14/lib/net40-client/log4net.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/log4net.2.0.14/lib/net40-client/log4net.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/log4net.2.0.14/lib/net40/log4net.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/log4net.2.0.14/lib/net40/log4net.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/log4net.2.0.14/lib/net45/log4net.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/log4net.2.0.14/lib/net45/log4net.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/log4net.2.0.14/lib/netstandard1.3/log4net.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/log4net.2.0.14/lib/netstandard1.3/log4net.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/log4net.2.0.14/lib/netstandard2.0/log4net.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/log4net.2.0.14/lib/netstandard2.0/log4net.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/log4net.2.0.14/log4net.2.0.14.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/packages/log4net.2.0.14/package-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/triatlon-cs.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/triatlon-cs.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/triatlon-cs.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bd.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ro/ubbcluj/scs/dfar2166/triatlonjava/TriatlonApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ro/ubbcluj/scs/dfar2166/triatlonjava/controllers/AddResultController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ro/ubbcluj/scs/dfar2166/triatlonjava/controllers/ResultsController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ro/ubbcluj/scs/dfar2166/triatlonjava/controllers/TriatlonController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ro/ubbcluj/scs/dfar2166/triatlonjava/controllers/TriatlonLoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ro/ubbcluj/scs/dfar2166/triatlonjava/model/Entity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ro/ubbcluj/scs/dfar2166/triatlonjava/model/Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ro/ubbcluj/scs/dfar2166/triatlonjava/model/activity/AthletePoints.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ro/ubbcluj/scs/dfar2166/triatlonjava/model/activity/Race.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ro/ubbcluj/scs/dfar2166/triatlonjava/model/activity/RaceType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ro/ubbcluj/scs/dfar2166/triatlonjava/model/person/Athlete.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ro/ubbcluj/scs/dfar2166/triatlonjava/model/person/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ro/ubbcluj/scs/dfar2166/triatlonjava/model/person/Referee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ro/ubbcluj/scs/dfar2166/triatlonjava/repository/AthleteRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ro/ubbcluj/scs/dfar2166/triatlonjava/repository/RaceRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ro/ubbcluj/scs/dfar2166/triatlonjava/repository/RefereeRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ro/ubbcluj/scs/dfar2166/triatlonjava/repository/Repository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ro/ubbcluj/scs/dfar2166/triatlonjava/repository/db/AthleteDBRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ro/ubbcluj/scs/dfar2166/triatlonjava/repository/db/RaceDBRepository$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ro/ubbcluj/scs/dfar2166/triatlonjava/repository/db/RaceDBRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ro/ubbcluj/scs/dfar2166/triatlonjava/repository/db/RefereeDBRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ro/ubbcluj/scs/dfar2166/triatlonjava/service/TriatlonService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ro/ubbcluj/scs/dfar2166/triatlonjava/utils/DependencyProvider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ro/ubbcluj/scs/dfar2166/triatlonjava/utils/JDBCUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/triatlon-java-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/ro/ubbcluj/scs/dfar2166/triatlonjava/addresult-view.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/ro/ubbcluj/scs/dfar2166/triatlonjava/log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/ro/ubbcluj/scs/dfar2166/triatlonjava/login-view.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/ro/ubbcluj/scs/dfar2166/triatlonjava/results-view.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/ro/ubbcluj/scs/dfar2166/triatlonjava/triatlon-view.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/scs/dfar2166/triatlonjava/TriatlonApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/scs/dfar2166/triatlonjava/controllers/AddResultController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/scs/dfar2166/triatlonjava/controllers/ResultsController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/scs/dfar2166/triatlonjava/controllers/TriatlonController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/scs/dfar2166/triatlonjava/controllers/TriatlonLoginController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/scs/dfar2166/triatlonjava/model/Entity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/scs/dfar2166/triatlonjava/model/Result.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/scs/dfar2166/triatlonjava/model/activity/AthletePoints.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/scs/dfar2166/triatlonjava/model/activity/Race.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/scs/dfar2166/triatlonjava/model/activity/RaceType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/scs/dfar2166/triatlonjava/model/person/Athlete.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/scs/dfar2166/triatlonjava/model/person/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/scs/dfar2166/triatlonjava/model/person/Referee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/scs/dfar2166/triatlonjava/repository/AthleteRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/scs/dfar2166/triatlonjava/repository/RaceRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/scs/dfar2166/triatlonjava/repository/RefereeRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/scs/dfar2166/triatlonjava/repository/Repository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/scs/dfar2166/triatlonjava/repository/db/AthleteDBRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/scs/dfar2166/triatlonjava/repository/db/RaceDBRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/scs/dfar2166/triatlonjava/repository/db/RefereeDBRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/scs/dfar2166/triatlonjava/service/TriatlonService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/scs/dfar2166/triatlonjava/utils/DependencyProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/scs/dfar2166/triatlonjava/utils/JDBCUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ro/ubbcluj/scs/dfar2166/triatlonjava/addresult-view.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ro/ubbcluj/scs/dfar2166/triatlonjava/log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ro/ubbcluj/scs/dfar2166/triatlonjava/login-view.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ro/ubbcluj/scs/dfar2166/triatlonjava/results-view.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ro/ubbcluj/scs/dfar2166/triatlonjava/triatlon-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-fx/build/classes/java/main/triatlon/client/controllers/TriatlonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/client-fx/build/classes/java/main/triatlon/client/controllers/TriatlonController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-fx/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/client-fx/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networking/build/classes/java/main/triatlon/networking/rpc/TriatlonServiceRPCProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/networking/build/classes/java/main/triatlon/networking/rpc/TriatlonServiceRPCProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networking/build/libs/networking-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/networking/build/libs/networking-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networking/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/networking/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networking/src/main/java/triatlon/networking/rpc/TriatlonServiceRPCProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/networking/src/main/java/triatlon/networking/rpc/TriatlonServiceRPCProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/triatlon.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/triatlon.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,6 +619,12 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="triatlon-java" type="f1a62948:ProjectNode" />
                 <item name="server" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="triatlon-java" type="f1a62948:ProjectNode" />
+                <item name="server" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
             </expand>
             <select />
@@ -243,7 +686,7 @@
       <recent name="$PROJECT_DIR$/model/src/main/java/triatlon/model" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.triatlon-java:client-fx [run]">
+  <component name="RunManager" selected="Application.TriatlonApplication">
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="triatlon.clientfx.HelloApplication" />
       <module name="triatlon-java.client-fx.main" />
@@ -306,9 +749,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TriatlonApplication" />
         <item itemvalue="Gradle.triatlon-java:client-fx [run]" />
         <item itemvalue="Application.RPCServer" />
-        <item itemvalue="Application.TriatlonApplication" />
         <item itemvalue="Application.HelloApplication" />
       </list>
     </recent_temporary>
@@ -325,6 +768,7 @@
       <workItem from="1649329192124" duration="5406000" />
       <workItem from="1649394440047" duration="2913000" />
       <workItem from="1649398178180" duration="3636000" />
+      <workItem from="1650265276666" duration="7295000" />
     </task>
     <servers />
   </component>
@@ -341,5 +785,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/triatlon_java$TriatlonApplication.ic" NAME="TriatlonApplication Coverage Results" MODIFIED="1650269167472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>triatlon.client.*</FILTER>
+    </SUITE>
   </component>
 </project>

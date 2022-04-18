@@ -1,7 +1,9 @@
+using Model.Person;
 
-// IAthleteRepository
-
-public interface IAthleteRepository : IRepository<int, Athlete>
+namespace Repository
 {
+    public interface IAthleteRepository : IRepository<int, Athlete>
+    {
     
+    }
 }

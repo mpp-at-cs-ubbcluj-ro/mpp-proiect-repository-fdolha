@@ -1,49 +1,54 @@
+using System;
 
-// Person
-
-public class Person : Entity<int>
+namespace Model.Person
 {
+    // Person
+
+    [Serializable]
+    public class Person : Entity<int>
+    {
     
-    // Properties
+        // Properties
 
-    private string _firstName;
-    private string _lastName;
+        private string _firstName;
+        private string _lastName;
 
-    public string FirstName
-    {
-        get => _firstName;
-        set => _firstName = value;
-    }
+        public string FirstName
+        {
+            get => _firstName;
+            set => _firstName = value;
+        }
     
-    public string LastName
-    {
-        get => _lastName;
-        set => _lastName = value;
-    }
+        public string LastName
+        {
+            get => _lastName;
+            set => _lastName = value;
+        }
 
-    public string FullName
-    {
-        get => _firstName + " " + _lastName;
-    }
+        public string FullName
+        {
+            get => _firstName + " " + _lastName;
+        }
 
-    public string FullNameReversed
-    {
-        get => _lastName + " " + _firstName;
-    }
+        public string FullNameReversed
+        {
+            get => _lastName + " " + _firstName;
+        }
 
-    // Lifecycle
+        // Lifecycle
 
-    protected Person(string firstName, string lastName)
-    {
-        _firstName = firstName;
-        _lastName = lastName;
-    }
+        protected Person(string firstName, string lastName)
+        {
+            _firstName = firstName;
+            _lastName = lastName;
+        }
     
-    // Override Methods
+        // Override Methods
 
-    public override string ToString()
-    {
-        return Id + ", " + _firstName + " " + _lastName;
-    }
+        public override string ToString()
+        {
+            return Id + ", " + _firstName + " " + _lastName;
+        }
     
+    }
 }

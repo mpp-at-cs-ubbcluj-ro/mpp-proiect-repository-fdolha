@@ -1,31 +1,33 @@
 using System.Collections.Generic;
 using System.Data;
 using log4net;
+using Model.Person;
+using Repository.Utils;
 
-// AthleteDbRepository
-
-public class AthleteDbRepository : IAthleteRepository
+namespace Repository.DB
+{
+    public class AthleteDbRepository : IAthleteRepository
 {
     
     // Private Properties
 
-    private static readonly ILog logger = LogManager.GetLogger("AthleteDbRepository");
-    private IDictionary<string, string> properties;
+    private static readonly ILog Logger = LogManager.GetLogger("AthleteDbRepository");
+    private readonly IDictionary<string, string> _properties;
     
     // Lifecycle
 
     public AthleteDbRepository(IDictionary<string, string> properties)
     {
-        logger.Info("Creating AthleteDbRepository");
-        this.properties = properties;
+        Logger.Info("Creating AthleteDbRepository");
+        _properties = properties;
     }
 
     // Repository Methods
     
     public Athlete FindOne(int id)
     {
-        logger.InfoFormat("Entering FindOne with value {0}", id);
-        IDbConnection connection = DbUtils.GetConnection(properties);
+        Logger.InfoFormat("Entering FindOne with value {0}", id);
+        IDbConnection connection = DbUtils.GetConnection(_properties);
         using (var command = connection.CreateCommand())
         {
             command.CommandText = "select * from athletes where id=@id";
@@ -42,19 +44,19 @@ public class AthleteDbRepository : IAthleteRepository
                     string lastName = dataReader.GetString(2);
                     var athlete = new Athlete(firstName, lastName);
                     athlete.Id = _id;
-                    logger.InfoFormat("Exiting FindOne with value {0}", athlete);
+                    Logger.InfoFormat("Exiting FindOne with value {0}", athlete);
                     return athlete;
                 }
             }
         }
-        logger.InfoFormat("Exiting FindOne with value {0}", null);
+        Logger.InfoFormat("Exiting FindOne with value {0}", null);
         return null;
     }
 
     public IEnumerable<Athlete> FindAll()
     {
-        logger.Info("Entering FindAll");
-        IDbConnection connection = DbUtils.GetConnection(properties);
+        Logger.Info("Entering FindAll");
+        IDbConnection connection = DbUtils.GetConnection(_properties);
         IList<Athlete> athletes = new List<Athlete>();
         using (var command = connection.CreateCommand())
         {
@@ -72,14 +74,14 @@ public class AthleteDbRepository : IAthleteRepository
                 }
             }
         }
-        logger.Info("Exiting FindAll");
+        Logger.Info("Exiting FindAll");
         return athletes;
     }
 
     public Athlete Save(Athlete entity)
     {
-        logger.InfoFormat("Entering Save with value {0}", entity);
-        IDbConnection connection = DbUtils.GetConnection(properties);
+        Logger.InfoFormat("Entering Save with value {0}", entity);
+        IDbConnection connection = DbUtils.GetConnection(_properties);
         using (var command = connection.CreateCommand())
         {
             command.CommandText = "insert into athletes (firstName, lastName) values (@firstName, @lastName)";
@@ -92,15 +94,15 @@ public class AthleteDbRepository : IAthleteRepository
             lastNameParameter.Value = entity.LastName;
             command.Parameters.Add(lastNameParameter);
             var result = command.ExecuteNonQuery();
-            logger.InfoFormat("Exiting Save with value {0}", result);
+            Logger.InfoFormat("Exiting Save with value {0}", result);
         }
         return entity;
     }
 
     public int Delete(int id)
     {
-        logger.InfoFormat("Entering Delete with value {0}", id);
-        IDbConnection connection = DbUtils.GetConnection(properties);
+        Logger.InfoFormat("Entering Delete with value {0}", id);
+        IDbConnection connection = DbUtils.GetConnection(_properties);
         using (var command = connection.CreateCommand())
         {
             command.CommandText = "delete from athletes where id=@id";
@@ -109,15 +111,15 @@ public class AthleteDbRepository : IAthleteRepository
             idParameter.Value = id;
             command.Parameters.Add(idParameter);
             var result = command.ExecuteNonQuery();
-            logger.InfoFormat("Exiting Delete with value {0}", result);
+            Logger.InfoFormat("Exiting Delete with value {0}", result);
         }
         return id;
     }
 
     public Athlete Update(Athlete entity)
     {
-        logger.InfoFormat("Entering Update with value {0}", entity);
-        IDbConnection connection = DbUtils.GetConnection(properties);
+        Logger.InfoFormat("Entering Update with value {0}", entity);
+        IDbConnection connection = DbUtils.GetConnection(_properties);
         using (var command = connection.CreateCommand())
         {
             command.CommandText = "update athletes set firstName=@firstName, lastName=@lastName where id=@id";
@@ -134,8 +136,9 @@ public class AthleteDbRepository : IAthleteRepository
             lastNameParameter.Value = entity.LastName;
             command.Parameters.Add(lastNameParameter);
             var result = command.ExecuteNonQuery();
-            logger.InfoFormat("Exiting Update with value {0}", result);
+            Logger.InfoFormat("Exiting Update with value {0}", result);
         }
         return entity;
     }
+}
 }

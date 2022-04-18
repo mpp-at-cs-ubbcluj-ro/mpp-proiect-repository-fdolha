@@ -1,9 +1,12 @@
+using System;
 
-// RaceType
-
-public enum RaceType : int
+namespace Model.Activity
 {
-    Swimming = 1,
-    Cycling = 2,
-    Running = 3
+    [Serializable]
+    public enum RaceType : int
+    {
+        Swimming = 1,
+        Cycling = 2,
+        Running = 3
+    }
 }

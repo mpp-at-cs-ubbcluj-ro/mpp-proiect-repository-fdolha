@@ -1,18 +1,22 @@
+﻿using System;
 
-// Entity
-
-public class Entity<TId>
+namespace Model
 {
-    
-    // Properties
+    // Entity
 
-    private TId _id;
-
-    public TId Id
+    [Serializable]
+    public class Entity<TId>
     {
-        get => _id;
-        set => _id = value;
+    
+        // Properties
+
+        private TId _id;
+
+        public TId Id
+        {
+            get => _id;
+            set => _id = value;
+        }
+        
     }
-
-
 }

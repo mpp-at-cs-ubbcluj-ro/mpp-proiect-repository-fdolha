@@ -171,7 +171,7 @@ public class TriatlonServiceRPCProxy implements TriatlonServiceInterface {
 
     @Override
     public List<Result> getParticipantsWithResultInRace(RaceType raceType) {
-        Request request = new Request.Builder().type(RequestType.PARTICIPANTS_WITH_RESULT_IN_RACE).build();
+        Request request = new Request.Builder().type(RequestType.PARTICIPANTS_WITH_RESULT_IN_RACE).data(raceType).build();
         sendRequest(request);
         Response response = readResponse();
         var resultsDTO = (Result[]) response.data();

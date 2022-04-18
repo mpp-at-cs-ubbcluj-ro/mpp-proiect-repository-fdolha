@@ -1,27 +1,31 @@
 using System.Collections.Generic;
 using System.Data;
 using log4net;
+using Model.Activity;
+using Repository.Utils;
 
-public class RaceDbRepository : RaceRepository
+namespace Repository.DB
+{
+    public class RaceDbRepository : RaceRepository
 {
 
     // Private Properties
 
-    private static readonly ILog logger = LogManager.GetLogger("RaceDbRepository");
-    private IDictionary<string, string> properties;
+    private static readonly ILog Logger = LogManager.GetLogger("RaceDbRepository");
+    private readonly IDictionary<string, string> _properties;
     
     // Lifecycle
 
     public RaceDbRepository(IDictionary<string, string> properties, RaceType raceType) : base(raceType)
     {
-        logger.Info("Creating RaceDbRepository");
-        this.properties = properties;
+        Logger.Info("Creating RaceDbRepository");
+        _properties = properties;
     }
     
     public RaceDbRepository(IDictionary<string, string> properties, Race race) : base(race)
     {
-        logger.Info("Creating RaceDbRepository");
-        this.properties = properties;
+        Logger.Info("Creating RaceDbRepository");
+        _properties = properties;
     }
     
     // Private Methods
@@ -41,8 +45,8 @@ public class RaceDbRepository : RaceRepository
     
     public override AthletePoints FindByAthleteId(int athleteId)
     {
-        logger.InfoFormat("Entering FindByAthleteId with value {0}", athleteId);
-        IDbConnection connection = DbUtils.GetConnection(properties);
+        Logger.InfoFormat("Entering FindByAthleteId with value {0}", athleteId);
+        IDbConnection connection = DbUtils.GetConnection(_properties);
         using (var command = connection.CreateCommand())
         {
             command.CommandText = $"select * from {tableNameForRaceType(RaceType)} where athleteId=@athleteId";
@@ -58,19 +62,19 @@ public class RaceDbRepository : RaceRepository
                     int points = dataReader.GetInt32(2);
                     var athletePoints = new AthletePoints(athleteId, points);
                     athletePoints.Id = _id;
-                    logger.InfoFormat("Exiting FindByAthleteId with value {0}", athletePoints);
+                    Logger.InfoFormat("Exiting FindByAthleteId with value {0}", athletePoints);
                     return athletePoints;
                 }
             }
         }
-        logger.InfoFormat("Exiting FindByAthleteId with value {0}", null);
+        Logger.InfoFormat("Exiting FindByAthleteId with value {0}", null);
         return null;
     }
 
     public override IEnumerable<AthletePoints> FindAllWithPoints()
     {
-        logger.Info("Entering FindAllWithPoints");
-        IDbConnection connection = DbUtils.GetConnection(properties);
+        Logger.Info("Entering FindAllWithPoints");
+        IDbConnection connection = DbUtils.GetConnection(_properties);
         IList<AthletePoints> athletesPoints = new List<AthletePoints>();
         using (var command = connection.CreateCommand())
         {
@@ -88,7 +92,7 @@ public class RaceDbRepository : RaceRepository
                 }
             }
         }
-        logger.Info("Exiting FindAllWithPoints");
+        Logger.Info("Exiting FindAllWithPoints");
         return athletesPoints;
     }
     
@@ -96,8 +100,8 @@ public class RaceDbRepository : RaceRepository
 
     public override AthletePoints FindOne(int id)
     {
-        logger.InfoFormat("Entering FindOne with value {0}", id);
-        IDbConnection connection = DbUtils.GetConnection(properties);
+        Logger.InfoFormat("Entering FindOne with value {0}", id);
+        IDbConnection connection = DbUtils.GetConnection(_properties);
         using (var command = connection.CreateCommand())
         {
             command.CommandText = $"select * from {tableNameForRaceType(RaceType)} where id=@id";
@@ -114,19 +118,19 @@ public class RaceDbRepository : RaceRepository
                     int points = dataReader.GetInt32(2);
                     var athletePoints = new AthletePoints(athleteId, points);
                     athletePoints.Id = _id;
-                    logger.InfoFormat("Exiting FindOne with value {0}", athletePoints);
+                    Logger.InfoFormat("Exiting FindOne with value {0}", athletePoints);
                     return athletePoints;
                 }
             }
         }
-        logger.InfoFormat("Exiting FindOne with value {0}", null);
+        Logger.InfoFormat("Exiting FindOne with value {0}", null);
         return null;
     }
 
     public override IEnumerable<AthletePoints> FindAll()
     {
-        logger.Info("Entering FindAll");
-        IDbConnection connection = DbUtils.GetConnection(properties);
+        Logger.Info("Entering FindAll");
+        IDbConnection connection = DbUtils.GetConnection(_properties);
         IList<AthletePoints> athletesPoints = new List<AthletePoints>();
         using (var command = connection.CreateCommand())
         {
@@ -144,14 +148,14 @@ public class RaceDbRepository : RaceRepository
                 }
             }
         }
-        logger.Info("Exiting FindAll");
+        Logger.Info("Exiting FindAll");
         return athletesPoints;
     }
 
     public override AthletePoints Save(AthletePoints entity)
     {
-        logger.InfoFormat("Entering Save with value {0}", entity);
-        IDbConnection connection = DbUtils.GetConnection(properties);
+        Logger.InfoFormat("Entering Save with value {0}", entity);
+        IDbConnection connection = DbUtils.GetConnection(_properties);
         using (var command = connection.CreateCommand())
         {
             command.CommandText = $"insert into {tableNameForRaceType(RaceType)} (athleteId, points) values (@athleteId, @points)";
@@ -164,15 +168,15 @@ public class RaceDbRepository : RaceRepository
             pointsParameter.Value = entity.Points;
             command.Parameters.Add(pointsParameter);
             var result = command.ExecuteNonQuery();
-            logger.InfoFormat("Exiting Save with value {0}", result);
+            Logger.InfoFormat("Exiting Save with value {0}", result);
         }
         return entity;
     }
 
     public override int Delete(int id)
     {
-        logger.InfoFormat("Entering Delete with value {0}", id);
-        IDbConnection connection = DbUtils.GetConnection(properties);
+        Logger.InfoFormat("Entering Delete with value {0}", id);
+        IDbConnection connection = DbUtils.GetConnection(_properties);
         using (var command = connection.CreateCommand())
         {
             command.CommandText = $"delete from {tableNameForRaceType(RaceType)} where id=@id";
@@ -181,15 +185,15 @@ public class RaceDbRepository : RaceRepository
             idParameter.Value = id;
             command.Parameters.Add(idParameter);
             var result = command.ExecuteNonQuery();
-            logger.InfoFormat("Exiting Delete with value {0}", result);
+            Logger.InfoFormat("Exiting Delete with value {0}", result);
         }
         return id;
     }
 
     public override AthletePoints Update(AthletePoints entity)
     {
-        logger.InfoFormat("Entering Update with value {0}", entity);
-        IDbConnection connection = DbUtils.GetConnection(properties);
+        Logger.InfoFormat("Entering Update with value {0}", entity);
+        IDbConnection connection = DbUtils.GetConnection(_properties);
         using (var command = connection.CreateCommand())
         {
             command.CommandText = $"update {tableNameForRaceType(RaceType)} set athleteId=@athleteId, points=@points where id=@id";
@@ -206,9 +210,10 @@ public class RaceDbRepository : RaceRepository
             pointsParameter.Value = entity.Points;
             command.Parameters.Add(pointsParameter);
             var result = command.ExecuteNonQuery();
-            logger.InfoFormat("Exiting Update with value {0}", result);
+            Logger.InfoFormat("Exiting Update with value {0}", result);
         }
         return entity;
     }
     
+}
 }

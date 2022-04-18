@@ -1,7 +1,9 @@
+using Model.Person;
 
-// IRefereeRepository
-
-public interface IRefereeRepository : IRepository<int, Referee>
+namespace Repository
 {
-    Referee FindByEmail(string email);
+    public interface IRefereeRepository : IRepository<int, Referee>
+    {
+        Referee FindByEmail(string email);
+    }
 }

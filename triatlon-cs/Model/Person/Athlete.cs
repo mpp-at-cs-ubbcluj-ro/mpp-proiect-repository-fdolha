@@ -1,18 +1,23 @@
+using System;
 
-// Athlete
-
-public class Athlete : Person
+namespace Model.Person
 {
-    
-    // Lifecycle
+    // Athlete
 
-    public Athlete(string firstName, string lastName) : base(firstName, lastName) {}
-    
-    // Override Methods
-
-    public override string ToString()
+    [Serializable]
+    public class Athlete : Person
     {
-        return "Athlete | " + base.ToString();
-    }
     
+        // Lifecycle
+
+        public Athlete(string firstName, string lastName) : base(firstName, lastName) {}
+    
+        // Override Methods
+
+        public override string ToString()
+        {
+            return "Athlete | " + base.ToString();
+        }
+    
+    }
 }

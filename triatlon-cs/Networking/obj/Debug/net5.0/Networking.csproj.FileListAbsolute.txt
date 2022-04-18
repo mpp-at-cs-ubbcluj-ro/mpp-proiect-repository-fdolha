@@ -1,0 +1,17 @@
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Networking/bin/Debug/net5.0/Networking.deps.json
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Networking/bin/Debug/net5.0/Networking.dll
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Networking/bin/Debug/net5.0/ref/Networking.dll
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Networking/bin/Debug/net5.0/Networking.pdb
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Networking/bin/Debug/net5.0/Model.dll
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Networking/bin/Debug/net5.0/Service.dll
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Networking/bin/Debug/net5.0/Model.pdb
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Networking/bin/Debug/net5.0/Service.pdb
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Networking/obj/Debug/net5.0/Networking.csproj.AssemblyReference.cache
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Networking/obj/Debug/net5.0/Networking.GeneratedMSBuildEditorConfig.editorconfig
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Networking/obj/Debug/net5.0/Networking.AssemblyInfoInputs.cache
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Networking/obj/Debug/net5.0/Networking.AssemblyInfo.cs
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Networking/obj/Debug/net5.0/Networking.csproj.CoreCompileInputs.cache
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Networking/obj/Debug/net5.0/Networking.csproj.CopyComplete
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Networking/obj/Debug/net5.0/Networking.dll
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Networking/obj/Debug/net5.0/ref/Networking.dll
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Networking/obj/Debug/net5.0/Networking.pdb

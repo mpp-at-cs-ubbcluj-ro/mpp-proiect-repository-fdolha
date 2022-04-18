@@ -1,46 +1,51 @@
+using System;
 
-public class Result
+namespace Model
 {
+    [Serializable]
+    public class Result
+    {
     
-    // Properties
+        // Properties
 
-    private int _id;
-    private string _name;
-    private int _points;
-    private string _reversedName;
+        private int _id;
+        private string _name;
+        private int _points;
+        private string _reversedName;
 
-    public int Id
-    {
-        get => _id;
-        set => _id = value;
-    }
+        public int Id
+        {
+            get => _id;
+            set => _id = value;
+        }
     
-    public string Name
-    {
-        get => _name;
-        set => _name = value;
-    }
+        public string Name
+        {
+            get => _name;
+            set => _name = value;
+        }
     
-    public int Points
-    {
-        get => _points;
-        set => _points = value;
-    }
+        public int Points
+        {
+            get => _points;
+            set => _points = value;
+        }
     
-    public string ReversedName
-    {
-        get => _reversedName;
-        set => _reversedName = value;
-    }
+        public string ReversedName
+        {
+            get => _reversedName;
+            set => _reversedName = value;
+        }
     
-    // Lifecycle
+        // Lifecycle
 
-    public Result(int id, string name, string reversedName, int points)
-    {
-        this._id = id;
-        this._points = points;
-        this._reversedName = reversedName;
-        this._name = name;
-    }
+        public Result(int id, string name, string reversedName, int points)
+        {
+            _id = id;
+            _points = points;
+            _reversedName = reversedName;
+            _name = name;
+        }
 
+    }
 }

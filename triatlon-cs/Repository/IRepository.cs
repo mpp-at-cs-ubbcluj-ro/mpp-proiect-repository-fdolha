@@ -1,15 +1,16 @@
+﻿using System.Collections.Generic;
+using Model;
 
-// IRepository
-
-using System.Collections.Generic;
-
-public interface IRepository<TId, TE> where TE : Entity<TId>
+namespace Repository
 {
+    public interface IRepository<TId, TE> where TE : Entity<TId>
+    {
 
-    TE FindOne(TId id);
-    IEnumerable<TE> FindAll();
-    TE Save(TE entity);
-    TId Delete(TId id);
-    TE Update(TE entity);
+        TE FindOne(TId id);
+        IEnumerable<TE> FindAll();
+        TE Save(TE entity);
+        TId Delete(TId id);
+        TE Update(TE entity);
 
+    }
 }

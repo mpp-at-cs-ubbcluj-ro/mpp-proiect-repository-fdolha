@@ -1,0 +1,15 @@
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Service/bin/Debug/net5.0/Service.deps.json
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Service/bin/Debug/net5.0/Service.dll
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Service/bin/Debug/net5.0/ref/Service.dll
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Service/bin/Debug/net5.0/Service.pdb
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Service/bin/Debug/net5.0/Model.dll
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Service/bin/Debug/net5.0/Model.pdb
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Service/obj/Debug/net5.0/Service.csproj.AssemblyReference.cache
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Service/obj/Debug/net5.0/Service.GeneratedMSBuildEditorConfig.editorconfig
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Service/obj/Debug/net5.0/Service.AssemblyInfoInputs.cache
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Service/obj/Debug/net5.0/Service.AssemblyInfo.cs
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Service/obj/Debug/net5.0/Service.csproj.CoreCompileInputs.cache
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Service/obj/Debug/net5.0/Service.csproj.CopyComplete
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Service/obj/Debug/net5.0/Service.dll
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Service/obj/Debug/net5.0/ref/Service.dll
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Service/obj/Debug/net5.0/Service.pdb
