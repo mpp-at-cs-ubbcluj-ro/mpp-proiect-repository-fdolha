@@ -1,0 +1,31 @@
+﻿<Window x:Class="ClientWPF.TriatlonWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClientWPF"
+        mc:Ignorable="d"
+        Title="TriatlonWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="RefereeName" Content="Nume Arbitru" HorizontalAlignment="Left" Margin="30,30,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+        <Label x:Name="RefereeRaceType" Content="Proba" HorizontalAlignment="Left" Margin="30,59,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="LogOutButton" Content="LogOut" HorizontalAlignment="Left" Margin="715,49,0,0" VerticalAlignment="Top" Click="LogOutButton_Clicked"/>
+        <Rectangle HorizontalAlignment="Left" Height="1" Margin="30,90,0,0" Fill="Gray" VerticalAlignment="Top" Width="300"/>
+        <Label Content="Participanti:" HorizontalAlignment="Left" Margin="30,112,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="AddResultButton" Content="Adauga Rezultat" HorizontalAlignment="Left" Margin="668,115,0,0" VerticalAlignment="Top" Click="AddResultButton_Clicked"/>
+        <Button x:Name="LeaderboardButton" Content="Leaderboard" HorizontalAlignment="Left" Margin="588,115,0,0" VerticalAlignment="Top" Click="LeaderboardButton_Clicked"/>
+        <DataGrid x:Name="ResultsDataGrid" AutoGenerateColumns="False" Margin="30,154,41,26">
+            <DataGrid.Resources>
+                <Style TargetType="{x:Type DataGridColumnHeader}">
+                    <Setter Property="Background" Value="LightGray"/>
+                    <Setter Property="FontWeight" Value="Bold"/>
+                </Style>
+            </DataGrid.Resources>
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="100"/>
+                <DataGridTextColumn Header="Nume" Binding="{Binding Name}" Width="*"/>
+                <DataGridTextColumn Header="Total Puncte" Binding="{Binding Points}" Width="200"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

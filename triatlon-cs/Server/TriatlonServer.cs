@@ -17,7 +17,7 @@ namespace Server
         {
             XmlConfigurator.Configure(new FileInfo("app.config"));
             IDictionary<string, string> properties = new SortedList<string, string>();
-            ConnectionStringSettings settings = ConfigurationManager.ConnectionStrings["triatlonDB"];
+            ConnectionStringSettings settings = ConfigurationManager.ConnectionStrings["triatlon"];
             properties.Add("ConnectionString", settings.ConnectionString);
             var service = new TriatlonService(properties);
             var server = new SerialTriatlonServer("127.0.0.1", 55556, service);

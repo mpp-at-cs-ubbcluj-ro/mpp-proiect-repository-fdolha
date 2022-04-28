@@ -1,15 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{A4EB675E-DA43-4595-9304-1BE6FF4E9FF5}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model", "Model\Model.csproj", "{A4EB675E-DA43-4595-9304-1BE6FF4E9FF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Networking", "Networking\Networking.csproj", "{DBAE3415-674A-4C2C-8CEA-DDC0323632AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Networking", "Networking\Networking.csproj", "{DBAE3415-674A-4C2C-8CEA-DDC0323632AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{13249D63-92D3-4388-8CAA-22A46B830C28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{13249D63-92D3-4388-8CAA-22A46B830C28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{09FD7AD2-AC05-4B74-9BDF-B8F6656B1B14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server", "Server\Server.csproj", "{09FD7AD2-AC05-4B74-9BDF-B8F6656B1B14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{2068DAEC-F267-49E2-AF35-C6BE676DC4E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "Service\Service.csproj", "{2068DAEC-F267-49E2-AF35-C6BE676DC4E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientWPF", "ClientWPF\ClientWPF.csproj", "{774F1539-29FC-446A-A760-AF26FCD3BEE3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,5 +41,15 @@ Global
 		{2068DAEC-F267-49E2-AF35-C6BE676DC4E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2068DAEC-F267-49E2-AF35-C6BE676DC4E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2068DAEC-F267-49E2-AF35-C6BE676DC4E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{774F1539-29FC-446A-A760-AF26FCD3BEE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{774F1539-29FC-446A-A760-AF26FCD3BEE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{774F1539-29FC-446A-A760-AF26FCD3BEE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{774F1539-29FC-446A-A760-AF26FCD3BEE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98A116C9-16B1-427C-A4A8-EEC070527CC9}
 	EndGlobalSection
 EndGlobal

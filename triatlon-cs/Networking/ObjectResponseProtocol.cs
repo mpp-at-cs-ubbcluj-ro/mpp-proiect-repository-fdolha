@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using Model;
 using Model.Person;
+using Networking.DTO;
 
 namespace Networking
 {
@@ -14,6 +15,17 @@ namespace Networking
 
     [Serializable]
     public class ErrorResponse : IResponse {}
+
+    [Serializable]
+    public class LogInResponse : IResponse
+    {
+        public LogInResponse(RefereeDto refereeDto)
+        {
+            RefereeDto = refereeDto;
+        }
+
+        public virtual RefereeDto RefereeDto { get; }
+    }
 
     [Serializable]
     public class AthletesResponse : IResponse

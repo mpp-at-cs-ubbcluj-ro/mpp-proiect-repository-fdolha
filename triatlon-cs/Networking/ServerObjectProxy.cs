@@ -8,6 +8,7 @@ using Model;
 using Model.Activity;
 using Model.Person;
 using Service;
+using Networking.DTO;
 
 namespace Networking
 {
@@ -60,32 +61,61 @@ namespace Networking
 
         public Referee LogInReferee(string email, string password, ITriatlonObserver observer)
         {
-            throw new System.NotImplementedException();
+            InitializeConnection();
+            var refereeDto = new RefereeDto(email, password);
+            var request = new LogInRequest(refereeDto);
+            SendRequest(request);
+            var response = ReadResponse();
+            Referee referee = null;
+            if (response is LogInResponse)
+            {
+                var refDto = ((LogInResponse)response).RefereeDto;
+                referee = new Referee(refDto.FirstName, refDto.LastName, refDto.RaceType, refDto.Email, refDto.Password);
+                _client = observer;
+            }
+            else CloseConnection();
+            return referee;
         }
 
         public void LogOutReferee(string email)
         {
-            throw new System.NotImplementedException();
+            InitializeConnection();
+            var request = new LogOutRequest(email);
+            SendRequest(request);
+            CloseConnection();
         }
 
         public List<Athlete> GetAthletes()
         {
-            throw new System.NotImplementedException();
+            var request = new AthletesRequest();
+            SendRequest(request);
+            var response = (AthletesResponse) ReadResponse();
+            return response.Athletes;
         }
 
         public List<Result> GetAthletesWithTotalPoints()
         {
-            throw new System.NotImplementedException();
+            if (_connection == null) InitializeConnection();
+            var request = new AthletesWithTotalPointsRequest();
+            SendRequest(request);
+            var response = (AthletesWithTotalPointsResponse) ReadResponse();
+            return response.Results;
         }
 
         public void AddResult(Referee referee, int athleteId, int points)
         {
-            throw new System.NotImplementedException();
+            var resultDto = new ResultDto(referee, athleteId, points);
+            var request = new AddResultRequest(resultDto);
+            SendRequest(request);
+            ReadResponse();
         }
 
         public List<Result> GetParticipantsWithResultInRace(RaceType raceType)
         {
-            throw new System.NotImplementedException();
+            var request = new AthletesWithResultInRaceRequest(raceType);
+            SendRequest(request);
+            var response = (AthletesWithResultInRaceResponse) ReadResponse();
+            return response.Results;
         }
 
         private void InitializeConnection()

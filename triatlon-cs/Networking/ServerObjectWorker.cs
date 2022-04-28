@@ -50,7 +50,7 @@ namespace Networking
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine(e.StackTrace);
+                    Console.WriteLine(e);
                 }
                 Thread.Sleep(1000);
             }
@@ -72,12 +72,14 @@ namespace Networking
                     var refereeDto = logInRequest.RefereeDto;
                     try
                     {
+                        Referee referee;
                         lock (_server)
                         {
-                            _server.LogInReferee(refereeDto.Email, refereeDto.Password, this);
+                            referee = _server.LogInReferee(refereeDto.Email, refereeDto.Password, this);
                         }
 
-                        return new OkResponse();
+                        var refDto = new RefereeDto(referee.FirstName, referee.LastName, referee.RaceType, referee.Email, referee.Password);
+                        return new LogInResponse(refDto);
                     }
                     catch (Exception e)
                     {
@@ -159,7 +161,7 @@ namespace Networking
                             results = _server.GetParticipantsWithResultInRace(athletesWithResultInRaceRequest.RaceType);
                         }
 
-                        return new AthletesWithTotalPointsResponse(results);
+                        return new AthletesWithResultInRaceResponse(results);
                     }
                     catch (Exception e)
                     {
