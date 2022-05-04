@@ -1,0 +1,70 @@
+syntax = "proto3";
+package triatlon.proto;
+
+enum RaceType {
+  SWIMMING = 0;
+  CYCLING = 1;
+  RUNNING = 2;
+}
+
+message Athlete {
+  int32 id = 1;
+  string firstName = 2;
+  string lastName = 3;
+}
+
+message Referee {
+  int32 id = 1;
+  string firstName = 2;
+  string lastName = 3;
+  RaceType raceType = 4;
+  string email = 5;
+  string password = 6;
+}
+
+message Result {
+  int32 id = 1;
+  string name = 2;
+  int32 points = 3;
+  string reversedName = 4;
+}
+
+message Request {
+  enum Type {
+    UNKNOWN = 0;
+    LOGIN = 1;
+    LOGOUT = 2;
+    CURRENT_REFEREE = 3;
+    ATHLETES = 4;
+    ATHLETES_WITH_TOTAL_POINTS = 5;
+    ADD_RESULT = 6;
+    PARTICIPANTS_WITH_RESULT_IN_RACE = 7;
+  }
+
+  Type type = 1;
+
+  string email = 2;
+  string password = 3;
+  Referee referee = 4;
+  int32 athleteId = 5;
+  int32 points = 6;
+  RaceType raceType = 7;
+}
+
+message Response {
+  enum Type {
+    UNKNOWN = 0;
+    OK = 1;
+    ERROR = 2;
+    RESULT_ADDED = 3;
+    ATHLETES = 4;
+    ATHLETES_WITH_POINTS = 5;
+    PARTICIPANTS_WITH_RESULT_IN_RACE = 6;
+  }
+
+  Type type = 1;
+
+  Referee referee = 2;
+  repeated Athlete athletes = 3;
+  repeated Result results = 4;
+}

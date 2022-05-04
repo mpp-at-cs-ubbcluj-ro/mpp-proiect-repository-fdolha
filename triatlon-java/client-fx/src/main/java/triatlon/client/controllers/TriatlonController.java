@@ -17,21 +17,22 @@ import javafx.stage.Stage;
 import triatlon.client.DependencyProvider;
 import triatlon.client.TriatlonApplication;
 import triatlon.model.Result;
-import triatlon.model.person.Referee;
+import triatlon.proto.Triatlon;
 import triatlon.service.TriatlonObserverInterface;
-import triatlon.service.TriatlonServiceInterface;
+import triatlon.service.TriatlonObserverProto;
+import triatlon.service.TriatlonServiceProto;
 
 import java.io.IOException;
 import java.net.URL;
 import java.util.List;
 import java.util.ResourceBundle;
 
-public class TriatlonController implements Initializable, TriatlonObserverInterface {
+public class TriatlonController implements Initializable, TriatlonObserverProto {
 
     // Private Properties
 
-    private final TriatlonServiceInterface server = DependencyProvider.getInstance().getServer();
-    ObservableList<Result> athletesResults = FXCollections.observableArrayList();
+    private final TriatlonServiceProto server = DependencyProvider.getInstance().getServer();
+    ObservableList<Triatlon.Result> athletesResults = FXCollections.observableArrayList();
     private Stage addResultStage = null;
 
     // Outlets
@@ -43,16 +44,16 @@ public class TriatlonController implements Initializable, TriatlonObserverInterf
     public Label refereeSubtitleLabel;
 
     @FXML
-    public TableColumn<Result, Integer> idColumn;
+    public TableColumn<Triatlon.Result, Integer> idColumn;
 
     @FXML
-    public TableColumn<Result, String> nameColumn;
+    public TableColumn<Triatlon.Result, String> nameColumn;
 
     @FXML
-    public TableColumn<Result, Integer> pointsColumn;
+    public TableColumn<Triatlon.Result, Integer> pointsColumn;
 
     @FXML
-    public TableView<Result> athletesTable;
+    public TableView<Triatlon.Result> athletesTable;
 
     // Lifecycle
 
@@ -66,9 +67,9 @@ public class TriatlonController implements Initializable, TriatlonObserverInterf
     }
 
     public void refereeDidSet() {
-        Referee referee = DependencyProvider.getInstance().getReferee();
+        Triatlon.Referee referee = DependencyProvider.getInstance().getReferee();
         refereeNameLabel.setText(referee.getFirstName() + " " + referee.getLastName());
-        refereeSubtitleLabel.setText("Arbitru " + referee.getRaceType().toString());
+        refereeSubtitleLabel.setText("Arbitru " + referee.getRaceType());
     }
 
     // Private Methods
@@ -121,7 +122,7 @@ public class TriatlonController implements Initializable, TriatlonObserverInterf
     }
 
     @Override
-    public void resultAdded(List<Result> results) {
+    public void resultAdded(List<Triatlon.Result> results) {
         athletesResults.setAll(results);
         Platform.runLater(() -> {
             if (addResultStage != null) addResultStage.close();

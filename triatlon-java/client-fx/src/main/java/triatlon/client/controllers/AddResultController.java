@@ -12,6 +12,7 @@ import javafx.stage.Stage;
 import triatlon.client.DependencyProvider;
 import triatlon.service.TriatlonObserverInterface;
 import triatlon.service.TriatlonServiceInterface;
+import triatlon.service.TriatlonServiceProto;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -22,7 +23,7 @@ public class AddResultController implements Initializable {
 
     // Private Properties
 
-    private final TriatlonServiceInterface server = DependencyProvider.getInstance().getServer();
+    private final TriatlonServiceProto server = DependencyProvider.getInstance().getServer();
     ObservableList<String> athletesName = FXCollections.observableArrayList();
 
     // Outlets
@@ -42,7 +43,7 @@ public class AddResultController implements Initializable {
                 pointsTextfield.setText(newValue.replaceAll("[^\\d]", ""));
             }
         });
-        server.getAthletes().forEach(athlete -> athletesName.add(athlete.getId().toString() + " - " + athlete.getFullName()));
+        server.getAthletes().forEach(athlete -> athletesName.add(athlete.getId() + " - " + athlete.getFirstName() + " " + athlete.getLastName()));
         athleteComboBox.setItems(athletesName);
     }
 

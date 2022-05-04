@@ -1,10 +1,9 @@
 package triatlon.client;
 
-import triatlon.model.person.Referee;
-import triatlon.networking.rpc.TriatlonServiceRPCProxy;
-import triatlon.service.TriatlonServiceInterface;
+import triatlon.networking.proto.TriatlonServiceProtoRPCProxy;
+import triatlon.proto.Triatlon;
+import triatlon.service.TriatlonServiceProto;
 
-import java.sql.Ref;
 import java.util.Properties;
 
 public class DependencyProvider {
@@ -13,8 +12,8 @@ public class DependencyProvider {
     private static final int defaultPort = 55555;
     private static final String defaultServer = "localhost";
 
-    private TriatlonServiceInterface server;
-    private Referee referee;
+    private TriatlonServiceProto server;
+    private Triatlon.Referee referee;
 
     private DependencyProvider() {
         Properties clientProperties = new Properties();
@@ -31,10 +30,10 @@ public class DependencyProvider {
         } catch (Exception ex) {
             ex.printStackTrace();
         }
-        server = new TriatlonServiceRPCProxy(serverIP, serverPort);
+        server = new TriatlonServiceProtoRPCProxy(serverIP, serverPort);
     }
 
-    public TriatlonServiceInterface getServer() {
+    public TriatlonServiceProto getServer() {
         return server;
     }
 
@@ -43,11 +42,11 @@ public class DependencyProvider {
         return instance;
     }
 
-    public void setReferee(Referee referee) {
+    public void setReferee(Triatlon.Referee referee) {
         this.referee = referee;
     }
 
-    public Referee getReferee() {
+    public Triatlon.Referee getReferee() {
         return this.referee;
     }
 

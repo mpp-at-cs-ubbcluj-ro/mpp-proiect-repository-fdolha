@@ -5,5 +5,5 @@ include 'service'
 include 'networking'
 include 'server'
 include 'client-fx'
-include 'client-fx'
+include 'proto'
 

@@ -14,7 +14,9 @@ import javafx.stage.Stage;
 import triatlon.client.DependencyProvider;
 import triatlon.client.TriatlonApplication;
 import triatlon.model.person.Referee;
+import triatlon.proto.Triatlon;
 import triatlon.service.TriatlonServiceInterface;
+import triatlon.service.TriatlonServiceProto;
 
 import java.io.IOException;
 import java.net.URL;
@@ -26,7 +28,7 @@ public class TriatlonLoginController implements Initializable {
 
     // Private Properties
 
-    private TriatlonServiceInterface server = DependencyProvider.getInstance().getServer();
+    private TriatlonServiceProto server = DependencyProvider.getInstance().getServer();
     private FXMLLoader fxmlLoader = new FXMLLoader(TriatlonApplication.class.getResource("/triatlon-view.fxml"));
     private Parent root;
 
@@ -66,7 +68,7 @@ public class TriatlonLoginController implements Initializable {
     @FXML
     void onLoginButtonClicked(ActionEvent event) {
         TriatlonController triatlonController = fxmlLoader.getController();
-        Referee referee = server.logInReferee(emailTextfield.getText(), passwordTextfield.getText(), triatlonController);
+        Triatlon.Referee referee = server.logInReferee(emailTextfield.getText(), passwordTextfield.getText(), triatlonController);
         if (referee != null) {
             DependencyProvider.getInstance().setReferee(referee);
             triatlonController.refereeDidSet();
