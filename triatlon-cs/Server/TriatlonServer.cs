@@ -28,7 +28,7 @@ namespace Server
     public class SerialTriatlonServer : ConcurrentServer
     {
         private readonly ITriatlonService _server;
-        private TriatlonClientWorker _worker;
+        private TriatlonClientProtoWorker _worker;
 
         public SerialTriatlonServer(string host, int port, ITriatlonService server) : base(host, port)
         {
@@ -37,8 +37,8 @@ namespace Server
 
         protected override Thread CreateWorker(TcpClient client)
         {
-            _worker = new TriatlonClientWorker(_server, client);
-            return new Thread(_worker.Run);
+            _worker = new TriatlonClientProtoWorker(_server, client);
+            return new Thread(_worker.run);
         }
     }
 }

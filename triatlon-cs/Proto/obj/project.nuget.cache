@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "inhyBkW8BZpXOQPBmLL5zW6S7QGCdLPC/PVRyU76JtLppFhOn8A8mWJ2t6KgT+QusnCh1c5IYddb4iXcDtBtzA==",
+  "success": true,
+  "projectFilePath": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Proto/Proto.csproj",
+  "expectedPackageFiles": [
+    "/Users/flaviusdolha/.nuget/packages/google.protobuf/3.20.1/google.protobuf.3.20.1.nupkg.sha512",
+    "/Users/flaviusdolha/.nuget/packages/google.protobuf.tools/3.20.1/google.protobuf.tools.3.20.1.nupkg.sha512"
+  ],
+  "logs": []
+}

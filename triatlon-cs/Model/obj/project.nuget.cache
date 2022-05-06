@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "xJRmsBaGD0ndS4L7fKOu70TzP0Y/RsGcWZK8PdPNokmDZsVqx5i3mxbzKZFak4U9l5axAydpbJ7MTs8DnKmk1A==",
+  "dgSpecHash": "1s6HMLo/mqxVzLCOuVbgL65XH7886h8yb71oaQ69JEBTuCmC9guHG9qsPAt722GRd6WFUArQL+R1N1gKHLw1CQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Model\\Model.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Model/Model.csproj",
+  "expectedPackageFiles": [
+    "/Users/flaviusdolha/.nuget/packages/google.protobuf/3.20.1/google.protobuf.3.20.1.nupkg.sha512",
+    "/Users/flaviusdolha/.nuget/packages/google.protobuf.tools/3.20.1/google.protobuf.tools.3.20.1.nupkg.sha512"
+  ],
   "logs": []
 }

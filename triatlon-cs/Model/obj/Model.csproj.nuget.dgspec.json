@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Model\\Model.csproj": {}
+    "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Model/Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Model\\Model.csproj": {
+    "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Model/Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Model\\Model.csproj",
+        "projectUniqueName": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Model/Model.csproj",
         "projectName": "Model",
-        "projectPath": "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Model\\Model.csproj",
-        "packagesPath": "C:\\Users\\flaviusdolha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Model\\obj\\",
+        "projectPath": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Model/Model.csproj",
+        "packagesPath": "/Users/flaviusdolha/.nuget/packages/",
+        "outputPath": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Model/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\flaviusdolha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/flaviusdolha/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +37,16 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.20.1, )"
+            },
+            "Google.Protobuf.Tools": {
+              "target": "Package",
+              "version": "[3.20.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -54,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.406/RuntimeIdentifierGraph.json"
         }
       }
     }

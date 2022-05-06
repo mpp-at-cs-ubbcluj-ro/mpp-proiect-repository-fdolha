@@ -1,0 +1,65 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Proto/1.0.0": {
+        "dependencies": {
+          "Google.Protobuf": "3.20.1",
+          "Google.Protobuf.Tools": "3.20.1",
+          "Model": "1.0.0"
+        },
+        "runtime": {
+          "Proto.dll": {}
+        }
+      },
+      "Google.Protobuf/3.20.1": {
+        "runtime": {
+          "lib/net5.0/Google.Protobuf.dll": {
+            "assemblyVersion": "3.20.1.0",
+            "fileVersion": "3.20.1.0"
+          }
+        }
+      },
+      "Google.Protobuf.Tools/3.20.1": {},
+      "Model/1.0.0": {
+        "dependencies": {
+          "Google.Protobuf": "3.20.1",
+          "Google.Protobuf.Tools": "3.20.1"
+        },
+        "runtime": {
+          "Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Proto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.Protobuf/3.20.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+DhU0ijnnAdaYR+4yFMwOZ4jNv29cFb4OxT/qeU0t9OOxZCBjEcl22kgrYwqVDZ6/BUegG7EE7ghyuaAvsXXUQ==",
+      "path": "google.protobuf/3.20.1",
+      "hashPath": "google.protobuf.3.20.1.nupkg.sha512"
+    },
+    "Google.Protobuf.Tools/3.20.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tJ8jTkOt5v7AeuOX76q9I6LZzcxBQ5XQmXVSCviQdPXbVDBO0Jc1CrG2gbk5F3izpSL+Z97nmvzuNWfRQQQosw==",
+      "path": "google.protobuf.tools/3.20.1",
+      "hashPath": "google.protobuf.tools.3.20.1.nupkg.sha512"
+    },
+    "Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

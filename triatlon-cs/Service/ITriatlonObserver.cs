@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using Model;
+using Triatlon.Proto;
 
 namespace Service
 {

@@ -2,12 +2,15 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Model;
-using Model.Activity;
-using Model.Person;
 using Repository;
 using Repository.DB;
 using Service;
+using Triatlon.Proto;
+using Athlete = Model.Person.Athlete;
+using AthletePoints = Model.Activity.AthletePoints;
+using RaceType = Model.Activity.RaceType;
+using Referee = Model.Person.Referee;
+using Result = Model.Result;
 
 namespace Server
 {
@@ -26,7 +29,7 @@ namespace Server
             _observers = new Dictionary<string, ITriatlonObserver>();
         }
         
-        public Referee LogInReferee(string email, string password, ITriatlonObserver observer)
+        public Triatlon.Proto.Referee LogInReferee(string email, string password, ITriatlonObserver observer)
         {
             var referee = _refereeRepository.FindByEmail(email);
             if (referee == null) return null;
@@ -35,8 +38,16 @@ namespace Server
             {
                 _observers[referee.Email] = observer;
             }
-
-            return referee;
+            var refereeProto = new Triatlon.Proto.Referee
+            {
+                Id = referee.Id,
+                FirstName = referee.FirstName,
+                LastName = referee.LastName,
+                RaceType = ProtoUtils.ConvertRaceType(referee.RaceType),
+                Email = referee.Email,
+                Password = referee.Password
+            };
+            return refereeProto;
         }
 
         public void LogOutReferee(string email)
@@ -44,14 +55,20 @@ namespace Server
             _observers.Remove(email);
         }
 
-        public List<Athlete> GetAthletes()
+        public List<Triatlon.Proto.Athlete> GetAthletes()
         {
-            return _athleteRepository.FindAll().ToList();
+            var athletes = new List<Triatlon.Proto.Athlete>();
+            foreach (var athlete in _athleteRepository.FindAll())
+            {
+                athletes.Add(ProtoUtils.ConvertAthlete(athlete));
+            }
+
+            return athletes;
         }
 
-        public List<Result> GetAthletesWithTotalPoints()
+        public List<Triatlon.Proto.Result> GetAthletesWithTotalPoints()
         {
-            var athletesWithResults = new List<Result>();
+            var athletesWithResults = new List<Triatlon.Proto.Result>();
             foreach (var athlete in _athleteRepository.FindAll())
             {
                 var points = 0;
@@ -61,17 +78,16 @@ namespace Server
                     var athletePoints = _raceRepository.FindByAthleteId(athlete.Id);
                     if (athletePoints != null) points += athletePoints.Points;
                 }
-
                 var athleteResult = new Result(athlete.Id, athlete.FullName, athlete.FullNameReversed, points);
-                athletesWithResults.Add(athleteResult);
+                athletesWithResults.Add(ProtoUtils.ConvertResult(athleteResult));
             }
 
             return athletesWithResults.OrderBy(r => r.ReversedName).ToList();
         }
 
-        public void AddResult(Referee referee, int athleteId, int points)
+        public void AddResult(Triatlon.Proto.Referee referee, int athleteId, int points)
         {
-            _raceRepository.RaceType = referee.RaceType;
+            _raceRepository.RaceType = ProtoUtils.ConvertBackRaceType(referee.RaceType);
             var athletePoints = _raceRepository.FindByAthleteId(athleteId);
             if (athletePoints == null)
             {
@@ -90,11 +106,17 @@ namespace Server
             }
         }
 
-        public List<Result> GetParticipantsWithResultInRace(RaceType raceType)
+        public List<Triatlon.Proto.Result> GetParticipantsWithResultInRace(Triatlon.Proto.RaceType raceType)
         {
-            _raceRepository.RaceType = raceType;
+            _raceRepository.RaceType = ProtoUtils.ConvertBackRaceType(raceType);
             var results = (from athletePoints in _raceRepository.FindAllWithPoints() let athlete = _athleteRepository.FindOne(athletePoints.AthleteId) select new Result(athlete.Id, athlete.FullName, athlete.FullNameReversed, athletePoints.Points)).ToList();
-            return results.OrderByDescending(r => r.Points).ToList();
+            var resultsProto = new List<Triatlon.Proto.Result>();
+            foreach (var result in results.OrderByDescending(r => r.Points))
+            {
+                resultsProto.Add(ProtoUtils.ConvertResult(result));
+            }
+
+            return resultsProto;
         }
     }
 }

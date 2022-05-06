@@ -1,33 +1,107 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "Google.Protobuf/3.20.1": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Google.Protobuf.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Google.Protobuf.dll": {}
+        }
+      },
+      "Google.Protobuf.Tools/3.20.1": {
+        "type": "package",
+        "build": {
+          "build/Google.Protobuf.Tools.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildCrossTargeting/Google.Protobuf.Tools.targets": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Google.Protobuf/3.20.1": {
+      "sha512": "+DhU0ijnnAdaYR+4yFMwOZ4jNv29cFb4OxT/qeU0t9OOxZCBjEcl22kgrYwqVDZ6/BUegG7EE7ghyuaAvsXXUQ==",
+      "type": "package",
+      "path": "google.protobuf/3.20.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "google.protobuf.3.20.1.nupkg.sha512",
+        "google.protobuf.nuspec",
+        "lib/net45/Google.Protobuf.dll",
+        "lib/net45/Google.Protobuf.pdb",
+        "lib/net45/Google.Protobuf.xml",
+        "lib/net5.0/Google.Protobuf.dll",
+        "lib/net5.0/Google.Protobuf.pdb",
+        "lib/net5.0/Google.Protobuf.xml",
+        "lib/netstandard1.1/Google.Protobuf.dll",
+        "lib/netstandard1.1/Google.Protobuf.pdb",
+        "lib/netstandard1.1/Google.Protobuf.xml",
+        "lib/netstandard2.0/Google.Protobuf.dll",
+        "lib/netstandard2.0/Google.Protobuf.pdb",
+        "lib/netstandard2.0/Google.Protobuf.xml"
+      ]
+    },
+    "Google.Protobuf.Tools/3.20.1": {
+      "sha512": "tJ8jTkOt5v7AeuOX76q9I6LZzcxBQ5XQmXVSCviQdPXbVDBO0Jc1CrG2gbk5F3izpSL+Z97nmvzuNWfRQQQosw==",
+      "type": "package",
+      "path": "google.protobuf.tools/3.20.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Google.Protobuf.Tools.targets",
+        "buildCrossTargeting/Google.Protobuf.Tools.targets",
+        "google.protobuf.tools.3.20.1.nupkg.sha512",
+        "google.protobuf.tools.nuspec",
+        "tools/google/protobuf/any.proto",
+        "tools/google/protobuf/api.proto",
+        "tools/google/protobuf/descriptor.proto",
+        "tools/google/protobuf/duration.proto",
+        "tools/google/protobuf/empty.proto",
+        "tools/google/protobuf/field_mask.proto",
+        "tools/google/protobuf/source_context.proto",
+        "tools/google/protobuf/struct.proto",
+        "tools/google/protobuf/timestamp.proto",
+        "tools/google/protobuf/type.proto",
+        "tools/google/protobuf/wrappers.proto",
+        "tools/linux_x64/protoc",
+        "tools/linux_x86/protoc",
+        "tools/macosx_x64/protoc",
+        "tools/windows_x64/protoc.exe",
+        "tools/windows_x86/protoc.exe"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "Google.Protobuf >= 3.20.1",
+      "Google.Protobuf.Tools >= 3.20.1"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\flaviusdolha\\.nuget\\packages\\": {}
+    "/Users/flaviusdolha/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Model\\Model.csproj",
+      "projectUniqueName": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Model/Model.csproj",
       "projectName": "Model",
-      "projectPath": "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Model\\Model.csproj",
-      "packagesPath": "C:\\Users\\flaviusdolha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Model\\obj\\",
+      "projectPath": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Model/Model.csproj",
+      "packagesPath": "/Users/flaviusdolha/.nuget/packages/",
+      "outputPath": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Model/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\flaviusdolha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/flaviusdolha/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -45,6 +119,16 @@
     "frameworks": {
       "net5.0": {
         "targetAlias": "net5.0",
+        "dependencies": {
+          "Google.Protobuf": {
+            "target": "Package",
+            "version": "[3.20.1, )"
+          },
+          "Google.Protobuf.Tools": {
+            "target": "Package",
+            "version": "[3.20.1, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -60,7 +144,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.406/RuntimeIdentifierGraph.json"
       }
     }
   }

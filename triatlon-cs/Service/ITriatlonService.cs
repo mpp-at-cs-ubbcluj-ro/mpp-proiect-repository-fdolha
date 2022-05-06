@@ -1,7 +1,5 @@
 ﻿using System.Collections.Generic;
-using Model;
-using Model.Activity;
-using Model.Person;
+using Triatlon.Proto;
 
 namespace Service
 {
@@ -11,7 +9,7 @@ namespace Service
         void LogOutReferee(string email);
         List<Athlete> GetAthletes();
         List<Result> GetAthletesWithTotalPoints();
-        void AddResult(Referee referee, int athleteId, int points);
-        List<Result> GetParticipantsWithResultInRace(RaceType raceType);
+        void AddResult(Triatlon.Proto.Referee referee, int athleteId, int points);
+        List<Result> GetParticipantsWithResultInRace(Triatlon.Proto.RaceType raceType);
     }
 }

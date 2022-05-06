@@ -919,6 +919,634 @@ public final class Triatlon {
 
   }
 
+  public interface AthletePointsOrBuilder extends
+      // @@protoc_insertion_point(interface_extends:triatlon.proto.AthletePoints)
+      com.google.protobuf.MessageOrBuilder {
+
+    /**
+     * <code>int32 id = 1;</code>
+     * @return The id.
+     */
+    int getId();
+
+    /**
+     * <code>int32 athleteId = 2;</code>
+     * @return The athleteId.
+     */
+    int getAthleteId();
+
+    /**
+     * <code>int32 points = 3;</code>
+     * @return The points.
+     */
+    int getPoints();
+  }
+  /**
+   * Protobuf type {@code triatlon.proto.AthletePoints}
+   */
+  public static final class AthletePoints extends
+      com.google.protobuf.GeneratedMessageV3 implements
+      // @@protoc_insertion_point(message_implements:triatlon.proto.AthletePoints)
+      AthletePointsOrBuilder {
+  private static final long serialVersionUID = 0L;
+    // Use AthletePoints.newBuilder() to construct.
+    private AthletePoints(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
+      super(builder);
+    }
+    private AthletePoints() {
+    }
+
+    @java.lang.Override
+    @SuppressWarnings({"unused"})
+    protected java.lang.Object newInstance(
+        UnusedPrivateParameter unused) {
+      return new AthletePoints();
+    }
+
+    @java.lang.Override
+    public final com.google.protobuf.UnknownFieldSet
+    getUnknownFields() {
+      return this.unknownFields;
+    }
+    private AthletePoints(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      this();
+      if (extensionRegistry == null) {
+        throw new java.lang.NullPointerException();
+      }
+      com.google.protobuf.UnknownFieldSet.Builder unknownFields =
+          com.google.protobuf.UnknownFieldSet.newBuilder();
+      try {
+        boolean done = false;
+        while (!done) {
+          int tag = input.readTag();
+          switch (tag) {
+            case 0:
+              done = true;
+              break;
+            case 8: {
+
+              id_ = input.readInt32();
+              break;
+            }
+            case 16: {
+
+              athleteId_ = input.readInt32();
+              break;
+            }
+            case 24: {
+
+              points_ = input.readInt32();
+              break;
+            }
+            default: {
+              if (!parseUnknownField(
+                  input, unknownFields, extensionRegistry, tag)) {
+                done = true;
+              }
+              break;
+            }
+          }
+        }
+      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+        throw e.setUnfinishedMessage(this);
+      } catch (java.io.IOException e) {
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
+      } finally {
+        this.unknownFields = unknownFields.build();
+        makeExtensionsImmutable();
+      }
+    }
+    public static final com.google.protobuf.Descriptors.Descriptor
+        getDescriptor() {
+      return triatlon.proto.Triatlon.internal_static_triatlon_proto_AthletePoints_descriptor;
+    }
+
+    @java.lang.Override
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+        internalGetFieldAccessorTable() {
+      return triatlon.proto.Triatlon.internal_static_triatlon_proto_AthletePoints_fieldAccessorTable
+          .ensureFieldAccessorsInitialized(
+              triatlon.proto.Triatlon.AthletePoints.class, triatlon.proto.Triatlon.AthletePoints.Builder.class);
+    }
+
+    public static final int ID_FIELD_NUMBER = 1;
+    private int id_;
+    /**
+     * <code>int32 id = 1;</code>
+     * @return The id.
+     */
+    @java.lang.Override
+    public int getId() {
+      return id_;
+    }
+
+    public static final int ATHLETEID_FIELD_NUMBER = 2;
+    private int athleteId_;
+    /**
+     * <code>int32 athleteId = 2;</code>
+     * @return The athleteId.
+     */
+    @java.lang.Override
+    public int getAthleteId() {
+      return athleteId_;
+    }
+
+    public static final int POINTS_FIELD_NUMBER = 3;
+    private int points_;
+    /**
+     * <code>int32 points = 3;</code>
+     * @return The points.
+     */
+    @java.lang.Override
+    public int getPoints() {
+      return points_;
+    }
+
+    private byte memoizedIsInitialized = -1;
+    @java.lang.Override
+    public final boolean isInitialized() {
+      byte isInitialized = memoizedIsInitialized;
+      if (isInitialized == 1) return true;
+      if (isInitialized == 0) return false;
+
+      memoizedIsInitialized = 1;
+      return true;
+    }
+
+    @java.lang.Override
+    public void writeTo(com.google.protobuf.CodedOutputStream output)
+                        throws java.io.IOException {
+      if (id_ != 0) {
+        output.writeInt32(1, id_);
+      }
+      if (athleteId_ != 0) {
+        output.writeInt32(2, athleteId_);
+      }
+      if (points_ != 0) {
+        output.writeInt32(3, points_);
+      }
+      unknownFields.writeTo(output);
+    }
+
+    @java.lang.Override
+    public int getSerializedSize() {
+      int size = memoizedSize;
+      if (size != -1) return size;
+
+      size = 0;
+      if (id_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt32Size(1, id_);
+      }
+      if (athleteId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt32Size(2, athleteId_);
+      }
+      if (points_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt32Size(3, points_);
+      }
+      size += unknownFields.getSerializedSize();
+      memoizedSize = size;
+      return size;
+    }
+
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof triatlon.proto.Triatlon.AthletePoints)) {
+        return super.equals(obj);
+      }
+      triatlon.proto.Triatlon.AthletePoints other = (triatlon.proto.Triatlon.AthletePoints) obj;
+
+      if (getId()
+          != other.getId()) return false;
+      if (getAthleteId()
+          != other.getAthleteId()) return false;
+      if (getPoints()
+          != other.getPoints()) return false;
+      if (!unknownFields.equals(other.unknownFields)) return false;
+      return true;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptor().hashCode();
+      hash = (37 * hash) + ID_FIELD_NUMBER;
+      hash = (53 * hash) + getId();
+      hash = (37 * hash) + ATHLETEID_FIELD_NUMBER;
+      hash = (53 * hash) + getAthleteId();
+      hash = (37 * hash) + POINTS_FIELD_NUMBER;
+      hash = (53 * hash) + getPoints();
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
+    public static triatlon.proto.Triatlon.AthletePoints parseFrom(
+        java.nio.ByteBuffer data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static triatlon.proto.Triatlon.AthletePoints parseFrom(
+        java.nio.ByteBuffer data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static triatlon.proto.Triatlon.AthletePoints parseFrom(
+        com.google.protobuf.ByteString data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static triatlon.proto.Triatlon.AthletePoints parseFrom(
+        com.google.protobuf.ByteString data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static triatlon.proto.Triatlon.AthletePoints parseFrom(byte[] data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static triatlon.proto.Triatlon.AthletePoints parseFrom(
+        byte[] data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static triatlon.proto.Triatlon.AthletePoints parseFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessageV3
+          .parseWithIOException(PARSER, input);
+    }
+    public static triatlon.proto.Triatlon.AthletePoints parseFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessageV3
+          .parseWithIOException(PARSER, input, extensionRegistry);
+    }
+    public static triatlon.proto.Triatlon.AthletePoints parseDelimitedFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessageV3
+          .parseDelimitedWithIOException(PARSER, input);
+    }
+    public static triatlon.proto.Triatlon.AthletePoints parseDelimitedFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessageV3
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
+    }
+    public static triatlon.proto.Triatlon.AthletePoints parseFrom(
+        com.google.protobuf.CodedInputStream input)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessageV3
+          .parseWithIOException(PARSER, input);
+    }
+    public static triatlon.proto.Triatlon.AthletePoints parseFrom(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessageV3
+          .parseWithIOException(PARSER, input, extensionRegistry);
+    }
+
+    @java.lang.Override
+    public Builder newBuilderForType() { return newBuilder(); }
+    public static Builder newBuilder() {
+      return DEFAULT_INSTANCE.toBuilder();
+    }
+    public static Builder newBuilder(triatlon.proto.Triatlon.AthletePoints prototype) {
+      return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
+    }
+    @java.lang.Override
+    public Builder toBuilder() {
+      return this == DEFAULT_INSTANCE
+          ? new Builder() : new Builder().mergeFrom(this);
+    }
+
+    @java.lang.Override
+    protected Builder newBuilderForType(
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
+      Builder builder = new Builder(parent);
+      return builder;
+    }
+    /**
+     * Protobuf type {@code triatlon.proto.AthletePoints}
+     */
+    public static final class Builder extends
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
+        // @@protoc_insertion_point(builder_implements:triatlon.proto.AthletePoints)
+        triatlon.proto.Triatlon.AthletePointsOrBuilder {
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return triatlon.proto.Triatlon.internal_static_triatlon_proto_AthletePoints_descriptor;
+      }
+
+      @java.lang.Override
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return triatlon.proto.Triatlon.internal_static_triatlon_proto_AthletePoints_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                triatlon.proto.Triatlon.AthletePoints.class, triatlon.proto.Triatlon.AthletePoints.Builder.class);
+      }
+
+      // Construct using triatlon.proto.Triatlon.AthletePoints.newBuilder()
+      private Builder() {
+        maybeForceBuilderInitialization();
+      }
+
+      private Builder(
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
+        super(parent);
+        maybeForceBuilderInitialization();
+      }
+      private void maybeForceBuilderInitialization() {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
+        }
+      }
+      @java.lang.Override
+      public Builder clear() {
+        super.clear();
+        id_ = 0;
+
+        athleteId_ = 0;
+
+        points_ = 0;
+
+        return this;
+      }
+
+      @java.lang.Override
+      public com.google.protobuf.Descriptors.Descriptor
+          getDescriptorForType() {
+        return triatlon.proto.Triatlon.internal_static_triatlon_proto_AthletePoints_descriptor;
+      }
+
+      @java.lang.Override
+      public triatlon.proto.Triatlon.AthletePoints getDefaultInstanceForType() {
+        return triatlon.proto.Triatlon.AthletePoints.getDefaultInstance();
+      }
+
+      @java.lang.Override
+      public triatlon.proto.Triatlon.AthletePoints build() {
+        triatlon.proto.Triatlon.AthletePoints result = buildPartial();
+        if (!result.isInitialized()) {
+          throw newUninitializedMessageException(result);
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public triatlon.proto.Triatlon.AthletePoints buildPartial() {
+        triatlon.proto.Triatlon.AthletePoints result = new triatlon.proto.Triatlon.AthletePoints(this);
+        result.id_ = id_;
+        result.athleteId_ = athleteId_;
+        result.points_ = points_;
+        onBuilt();
+        return result;
+      }
+
+      @java.lang.Override
+      public Builder clone() {
+        return super.clone();
+      }
+      @java.lang.Override
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          java.lang.Object value) {
+        return super.setField(field, value);
+      }
+      @java.lang.Override
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return super.clearField(field);
+      }
+      @java.lang.Override
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return super.clearOneof(oneof);
+      }
+      @java.lang.Override
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, java.lang.Object value) {
+        return super.setRepeatedField(field, index, value);
+      }
+      @java.lang.Override
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          java.lang.Object value) {
+        return super.addRepeatedField(field, value);
+      }
+      @java.lang.Override
+      public Builder mergeFrom(com.google.protobuf.Message other) {
+        if (other instanceof triatlon.proto.Triatlon.AthletePoints) {
+          return mergeFrom((triatlon.proto.Triatlon.AthletePoints)other);
+        } else {
+          super.mergeFrom(other);
+          return this;
+        }
+      }
+
+      public Builder mergeFrom(triatlon.proto.Triatlon.AthletePoints other) {
+        if (other == triatlon.proto.Triatlon.AthletePoints.getDefaultInstance()) return this;
+        if (other.getId() != 0) {
+          setId(other.getId());
+        }
+        if (other.getAthleteId() != 0) {
+          setAthleteId(other.getAthleteId());
+        }
+        if (other.getPoints() != 0) {
+          setPoints(other.getPoints());
+        }
+        this.mergeUnknownFields(other.unknownFields);
+        onChanged();
+        return this;
+      }
+
+      @java.lang.Override
+      public final boolean isInitialized() {
+        return true;
+      }
+
+      @java.lang.Override
+      public Builder mergeFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        triatlon.proto.Triatlon.AthletePoints parsedMessage = null;
+        try {
+          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          parsedMessage = (triatlon.proto.Triatlon.AthletePoints) e.getUnfinishedMessage();
+          throw e.unwrapIOException();
+        } finally {
+          if (parsedMessage != null) {
+            mergeFrom(parsedMessage);
+          }
+        }
+        return this;
+      }
+
+      private int id_ ;
+      /**
+       * <code>int32 id = 1;</code>
+       * @return The id.
+       */
+      @java.lang.Override
+      public int getId() {
+        return id_;
+      }
+      /**
+       * <code>int32 id = 1;</code>
+       * @param value The id to set.
+       * @return This builder for chaining.
+       */
+      public Builder setId(int value) {
+        
+        id_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>int32 id = 1;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearId() {
+        
+        id_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int athleteId_ ;
+      /**
+       * <code>int32 athleteId = 2;</code>
+       * @return The athleteId.
+       */
+      @java.lang.Override
+      public int getAthleteId() {
+        return athleteId_;
+      }
+      /**
+       * <code>int32 athleteId = 2;</code>
+       * @param value The athleteId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setAthleteId(int value) {
+        
+        athleteId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>int32 athleteId = 2;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearAthleteId() {
+        
+        athleteId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int points_ ;
+      /**
+       * <code>int32 points = 3;</code>
+       * @return The points.
+       */
+      @java.lang.Override
+      public int getPoints() {
+        return points_;
+      }
+      /**
+       * <code>int32 points = 3;</code>
+       * @param value The points to set.
+       * @return This builder for chaining.
+       */
+      public Builder setPoints(int value) {
+        
+        points_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>int32 points = 3;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearPoints() {
+        
+        points_ = 0;
+        onChanged();
+        return this;
+      }
+      @java.lang.Override
+      public final Builder setUnknownFields(
+          final com.google.protobuf.UnknownFieldSet unknownFields) {
+        return super.setUnknownFields(unknownFields);
+      }
+
+      @java.lang.Override
+      public final Builder mergeUnknownFields(
+          final com.google.protobuf.UnknownFieldSet unknownFields) {
+        return super.mergeUnknownFields(unknownFields);
+      }
+
+
+      // @@protoc_insertion_point(builder_scope:triatlon.proto.AthletePoints)
+    }
+
+    // @@protoc_insertion_point(class_scope:triatlon.proto.AthletePoints)
+    private static final triatlon.proto.Triatlon.AthletePoints DEFAULT_INSTANCE;
+    static {
+      DEFAULT_INSTANCE = new triatlon.proto.Triatlon.AthletePoints();
+    }
+
+    public static triatlon.proto.Triatlon.AthletePoints getDefaultInstance() {
+      return DEFAULT_INSTANCE;
+    }
+
+    private static final com.google.protobuf.Parser<AthletePoints>
+        PARSER = new com.google.protobuf.AbstractParser<AthletePoints>() {
+      @java.lang.Override
+      public AthletePoints parsePartialFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return new AthletePoints(input, extensionRegistry);
+      }
+    };
+
+    public static com.google.protobuf.Parser<AthletePoints> parser() {
+      return PARSER;
+    }
+
+    @java.lang.Override
+    public com.google.protobuf.Parser<AthletePoints> getParserForType() {
+      return PARSER;
+    }
+
+    @java.lang.Override
+    public triatlon.proto.Triatlon.AthletePoints getDefaultInstanceForType() {
+      return DEFAULT_INSTANCE;
+    }
+
+  }
+
   public interface RefereeOrBuilder extends
       // @@protoc_insertion_point(interface_extends:triatlon.proto.Referee)
       com.google.protobuf.MessageOrBuilder {
@@ -5608,6 +6236,10 @@ public final class Triatlon {
        * <code>PARTICIPANTS_WITH_RESULT_IN_RACE = 6;</code>
        */
       PARTICIPANTS_WITH_RESULT_IN_RACE(6),
+      /**
+       * <code>LOGIN = 7;</code>
+       */
+      LOGIN(7),
       UNRECOGNIZED(-1),
       ;
 
@@ -5639,6 +6271,10 @@ public final class Triatlon {
        * <code>PARTICIPANTS_WITH_RESULT_IN_RACE = 6;</code>
        */
       public static final int PARTICIPANTS_WITH_RESULT_IN_RACE_VALUE = 6;
+      /**
+       * <code>LOGIN = 7;</code>
+       */
+      public static final int LOGIN_VALUE = 7;
 
 
       public final int getNumber() {
@@ -5672,6 +6308,7 @@ public final class Triatlon {
           case 4: return ATHLETES;
           case 5: return ATHLETES_WITH_POINTS;
           case 6: return PARTICIPANTS_WITH_RESULT_IN_RACE;
+          case 7: return LOGIN;
           default: return null;
         }
       }
@@ -7007,6 +7644,11 @@ public final class Triatlon {
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_triatlon_proto_Athlete_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_triatlon_proto_AthletePoints_descriptor;
+  private static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_triatlon_proto_AthletePoints_fieldAccessorTable;
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_triatlon_proto_Referee_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
@@ -7042,34 +7684,36 @@ public final class Triatlon {
     java.lang.String[] descriptorData = {
       "\n\016Triatlon.proto\022\016triatlon.proto\":\n\007Athl" +
       "ete\022\n\n\002id\030\001 \001(\005\022\021\n\tfirstName\030\002 \001(\t\022\020\n\010la" +
-      "stName\030\003 \001(\t\"\207\001\n\007Referee\022\n\n\002id\030\001 \001(\005\022\021\n\t" +
-      "firstName\030\002 \001(\t\022\020\n\010lastName\030\003 \001(\t\022*\n\010rac" +
-      "eType\030\004 \001(\0162\030.triatlon.proto.RaceType\022\r\n" +
-      "\005email\030\005 \001(\t\022\020\n\010password\030\006 \001(\t\"H\n\006Result" +
-      "\022\n\n\002id\030\001 \001(\005\022\014\n\004name\030\002 \001(\t\022\016\n\006points\030\003 \001" +
-      "(\005\022\024\n\014reversedName\030\004 \001(\t\"X\n\tResultDTO\022(\n" +
-      "\007referee\030\001 \001(\0132\027.triatlon.proto.Referee\022" +
-      "\021\n\tathleteId\030\002 \001(\005\022\016\n\006points\030\003 \001(\005\"\243\003\n\007R" +
-      "equest\022*\n\004type\030\001 \001(\0162\034.triatlon.proto.Re" +
-      "quest.Type\022\r\n\005email\030\002 \001(\t\022\020\n\010password\030\003 " +
-      "\001(\t\022(\n\007referee\030\004 \001(\0132\027.triatlon.proto.Re" +
-      "feree\022\021\n\tathleteId\030\005 \001(\005\022\016\n\006points\030\006 \001(\005" +
-      "\022*\n\010raceType\030\007 \001(\0162\030.triatlon.proto.Race" +
-      "Type\022,\n\tresultDTO\030\010 \001(\0132\031.triatlon.proto" +
-      ".ResultDTO\"\243\001\n\004Type\022\013\n\007UNKNOWN\020\000\022\t\n\005LOGI" +
-      "N\020\001\022\n\n\006LOGOUT\020\002\022\023\n\017CURRENT_REFEREE\020\003\022\014\n\010" +
-      "ATHLETES\020\004\022\036\n\032ATHLETES_WITH_TOTAL_POINTS" +
-      "\020\005\022\016\n\nADD_RESULT\020\006\022$\n PARTICIPANTS_WITH_" +
-      "RESULT_IN_RACE\020\007\"\276\002\n\010Response\022+\n\004type\030\001 " +
-      "\001(\0162\035.triatlon.proto.Response.Type\022(\n\007re" +
-      "feree\030\002 \001(\0132\027.triatlon.proto.Referee\022)\n\010" +
-      "athletes\030\003 \003(\0132\027.triatlon.proto.Athlete\022" +
-      "\'\n\007results\030\004 \003(\0132\026.triatlon.proto.Result" +
-      "\"\206\001\n\004Type\022\013\n\007UNKNOWN\020\000\022\006\n\002OK\020\001\022\t\n\005ERROR\020" +
-      "\002\022\020\n\014RESULT_ADDED\020\003\022\014\n\010ATHLETES\020\004\022\030\n\024ATH" +
-      "LETES_WITH_POINTS\020\005\022$\n PARTICIPANTS_WITH" +
-      "_RESULT_IN_RACE\020\006*2\n\010RaceType\022\014\n\010SWIMMIN" +
-      "G\020\000\022\013\n\007CYCLING\020\001\022\013\n\007RUNNING\020\002b\006proto3"
+      "stName\030\003 \001(\t\">\n\rAthletePoints\022\n\n\002id\030\001 \001(" +
+      "\005\022\021\n\tathleteId\030\002 \001(\005\022\016\n\006points\030\003 \001(\005\"\207\001\n" +
+      "\007Referee\022\n\n\002id\030\001 \001(\005\022\021\n\tfirstName\030\002 \001(\t\022" +
+      "\020\n\010lastName\030\003 \001(\t\022*\n\010raceType\030\004 \001(\0162\030.tr" +
+      "iatlon.proto.RaceType\022\r\n\005email\030\005 \001(\t\022\020\n\010" +
+      "password\030\006 \001(\t\"H\n\006Result\022\n\n\002id\030\001 \001(\005\022\014\n\004" +
+      "name\030\002 \001(\t\022\016\n\006points\030\003 \001(\005\022\024\n\014reversedNa" +
+      "me\030\004 \001(\t\"X\n\tResultDTO\022(\n\007referee\030\001 \001(\0132\027" +
+      ".triatlon.proto.Referee\022\021\n\tathleteId\030\002 \001" +
+      "(\005\022\016\n\006points\030\003 \001(\005\"\243\003\n\007Request\022*\n\004type\030\001" +
+      " \001(\0162\034.triatlon.proto.Request.Type\022\r\n\005em" +
+      "ail\030\002 \001(\t\022\020\n\010password\030\003 \001(\t\022(\n\007referee\030\004" +
+      " \001(\0132\027.triatlon.proto.Referee\022\021\n\tathlete" +
+      "Id\030\005 \001(\005\022\016\n\006points\030\006 \001(\005\022*\n\010raceType\030\007 \001" +
+      "(\0162\030.triatlon.proto.RaceType\022,\n\tresultDT" +
+      "O\030\010 \001(\0132\031.triatlon.proto.ResultDTO\"\243\001\n\004T" +
+      "ype\022\013\n\007UNKNOWN\020\000\022\t\n\005LOGIN\020\001\022\n\n\006LOGOUT\020\002\022" +
+      "\023\n\017CURRENT_REFEREE\020\003\022\014\n\010ATHLETES\020\004\022\036\n\032AT" +
+      "HLETES_WITH_TOTAL_POINTS\020\005\022\016\n\nADD_RESULT" +
+      "\020\006\022$\n PARTICIPANTS_WITH_RESULT_IN_RACE\020\007" +
+      "\"\311\002\n\010Response\022+\n\004type\030\001 \001(\0162\035.triatlon.p" +
+      "roto.Response.Type\022(\n\007referee\030\002 \001(\0132\027.tr" +
+      "iatlon.proto.Referee\022)\n\010athletes\030\003 \003(\0132\027" +
+      ".triatlon.proto.Athlete\022\'\n\007results\030\004 \003(\013" +
+      "2\026.triatlon.proto.Result\"\221\001\n\004Type\022\013\n\007UNK" +
+      "NOWN\020\000\022\006\n\002OK\020\001\022\t\n\005ERROR\020\002\022\020\n\014RESULT_ADDE" +
+      "D\020\003\022\014\n\010ATHLETES\020\004\022\030\n\024ATHLETES_WITH_POINT" +
+      "S\020\005\022$\n PARTICIPANTS_WITH_RESULT_IN_RACE\020" +
+      "\006\022\t\n\005LOGIN\020\007*2\n\010RaceType\022\014\n\010SWIMMING\020\000\022\013" +
+      "\n\007CYCLING\020\001\022\013\n\007RUNNING\020\002b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -7081,32 +7725,38 @@ public final class Triatlon {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_triatlon_proto_Athlete_descriptor,
         new java.lang.String[] { "Id", "FirstName", "LastName", });
-    internal_static_triatlon_proto_Referee_descriptor =
+    internal_static_triatlon_proto_AthletePoints_descriptor =
       getDescriptor().getMessageTypes().get(1);
+    internal_static_triatlon_proto_AthletePoints_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_triatlon_proto_AthletePoints_descriptor,
+        new java.lang.String[] { "Id", "AthleteId", "Points", });
+    internal_static_triatlon_proto_Referee_descriptor =
+      getDescriptor().getMessageTypes().get(2);
     internal_static_triatlon_proto_Referee_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_triatlon_proto_Referee_descriptor,
         new java.lang.String[] { "Id", "FirstName", "LastName", "RaceType", "Email", "Password", });
     internal_static_triatlon_proto_Result_descriptor =
-      getDescriptor().getMessageTypes().get(2);
+      getDescriptor().getMessageTypes().get(3);
     internal_static_triatlon_proto_Result_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_triatlon_proto_Result_descriptor,
         new java.lang.String[] { "Id", "Name", "Points", "ReversedName", });
     internal_static_triatlon_proto_ResultDTO_descriptor =
-      getDescriptor().getMessageTypes().get(3);
+      getDescriptor().getMessageTypes().get(4);
     internal_static_triatlon_proto_ResultDTO_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_triatlon_proto_ResultDTO_descriptor,
         new java.lang.String[] { "Referee", "AthleteId", "Points", });
     internal_static_triatlon_proto_Request_descriptor =
-      getDescriptor().getMessageTypes().get(4);
+      getDescriptor().getMessageTypes().get(5);
     internal_static_triatlon_proto_Request_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_triatlon_proto_Request_descriptor,
         new java.lang.String[] { "Type", "Email", "Password", "Referee", "AthleteId", "Points", "RaceType", "ResultDTO", });
     internal_static_triatlon_proto_Response_descriptor =
-      getDescriptor().getMessageTypes().get(5);
+      getDescriptor().getMessageTypes().get(6);
     internal_static_triatlon_proto_Response_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_triatlon_proto_Response_descriptor,

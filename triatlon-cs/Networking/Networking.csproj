@@ -9,4 +9,9 @@
       <ProjectReference Include="..\Service\Service.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Google.Protobuf" Version="3.20.1" />
+      <PackageReference Include="Google.Protobuf.Tools" Version="3.20.1" />
+    </ItemGroup>
+
 </Project>

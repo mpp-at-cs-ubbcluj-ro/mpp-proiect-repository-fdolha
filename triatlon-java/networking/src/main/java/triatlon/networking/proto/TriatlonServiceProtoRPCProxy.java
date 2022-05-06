@@ -94,7 +94,7 @@ public class TriatlonServiceProtoRPCProxy implements TriatlonServiceProto {
         sendRequest(request);
         Triatlon.Response response = readResponse();
         Triatlon.Referee referee = null;
-        if (response.getType() == Triatlon.Response.Type.OK) {
+        if (response.getType() == Triatlon.Response.Type.LOGIN) {
             referee = response.getReferee();
             this.client = observer;
         } else { closeConnection(); }

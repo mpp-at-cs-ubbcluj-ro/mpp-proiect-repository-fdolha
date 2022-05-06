@@ -11,6 +11,7 @@ using Service;
 
 namespace Networking
 {
+    /*
     public class TriatlonClientWorker : ITriatlonObserver
     {
         private readonly ITriatlonService _server;
@@ -181,4 +182,5 @@ namespace Networking
             }
         }
     }
+    */
 }

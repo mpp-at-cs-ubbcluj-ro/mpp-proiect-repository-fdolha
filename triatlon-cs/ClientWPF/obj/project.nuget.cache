@@ -1,17 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "YiiB2Pelez99NrOSrQoyACK/MHroeZpCQ7DPKMMhGupmAlELonKDjq41HcgIf6dGAFnMyDOD0YcZd1sS5aGeDA==",
+  "dgSpecHash": "kh+D5xKhnjEMchTJgvKWmXb0RovH5FUA3HSyR22HswG+gWwQ9KC6DysuztC+Qc47I5Fp81ErJf8FaS4zZqX96g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\ClientWPF\\ClientWPF.csproj",
+  "projectFilePath": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/ClientWPF/ClientWPF.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\flaviusdolha\\.nuget\\packages\\log4net\\2.0.14\\log4net.2.0.14.nupkg.sha512",
-    "C:\\Users\\flaviusdolha\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
-    "C:\\Users\\flaviusdolha\\.nuget\\packages\\mysqlconnector\\2.1.8\\mysqlconnector.2.1.8.nupkg.sha512",
-    "C:\\Users\\flaviusdolha\\.nuget\\packages\\system.configuration.configurationmanager\\4.5.0\\system.configuration.configurationmanager.4.5.0.nupkg.sha512",
-    "C:\\Users\\flaviusdolha\\.nuget\\packages\\system.security.accesscontrol\\4.5.0\\system.security.accesscontrol.4.5.0.nupkg.sha512",
-    "C:\\Users\\flaviusdolha\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.5.0\\system.security.cryptography.protecteddata.4.5.0.nupkg.sha512",
-    "C:\\Users\\flaviusdolha\\.nuget\\packages\\system.security.permissions\\4.5.0\\system.security.permissions.4.5.0.nupkg.sha512",
-    "C:\\Users\\flaviusdolha\\.nuget\\packages\\system.security.principal.windows\\4.5.0\\system.security.principal.windows.4.5.0.nupkg.sha512"
+    "/Users/flaviusdolha/.nuget/packages/google.protobuf/3.20.1/google.protobuf.3.20.1.nupkg.sha512",
+    "/Users/flaviusdolha/.nuget/packages/google.protobuf.tools/3.20.1/google.protobuf.tools.3.20.1.nupkg.sha512",
+    "/Users/flaviusdolha/.nuget/packages/log4net/2.0.14/log4net.2.0.14.nupkg.sha512",
+    "/Users/flaviusdolha/.nuget/packages/microsoft.netcore.platforms/2.0.0/microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "/Users/flaviusdolha/.nuget/packages/mysqlconnector/2.1.8/mysqlconnector.2.1.8.nupkg.sha512",
+    "/Users/flaviusdolha/.nuget/packages/system.configuration.configurationmanager/4.5.0/system.configuration.configurationmanager.4.5.0.nupkg.sha512",
+    "/Users/flaviusdolha/.nuget/packages/system.security.accesscontrol/4.5.0/system.security.accesscontrol.4.5.0.nupkg.sha512",
+    "/Users/flaviusdolha/.nuget/packages/system.security.cryptography.protecteddata/4.5.0/system.security.cryptography.protecteddata.4.5.0.nupkg.sha512",
+    "/Users/flaviusdolha/.nuget/packages/system.security.permissions/4.5.0/system.security.permissions.4.5.0.nupkg.sha512",
+    "/Users/flaviusdolha/.nuget/packages/system.security.principal.windows/4.5.0/system.security.principal.windows.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

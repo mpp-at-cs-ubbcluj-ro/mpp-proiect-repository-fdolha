@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v5.0": {
       "Server/1.0.0": {
         "dependencies": {
+          "Google.Protobuf": "3.20.1",
+          "Google.Protobuf.Tools": "3.20.1",
           "Model": "1.0.0",
           "Networking": "1.0.0",
           "Repository": "1.0.0",
@@ -18,6 +20,15 @@
           "Server.dll": {}
         }
       },
+      "Google.Protobuf/3.20.1": {
+        "runtime": {
+          "lib/net5.0/Google.Protobuf.dll": {
+            "assemblyVersion": "3.20.1.0",
+            "fileVersion": "3.20.1.0"
+          }
+        }
+      },
+      "Google.Protobuf.Tools/3.20.1": {},
       "log4net/2.0.14": {
         "dependencies": {
           "System.Configuration.ConfigurationManager": "4.5.0"
@@ -89,12 +100,18 @@
         }
       },
       "Model/1.0.0": {
+        "dependencies": {
+          "Google.Protobuf": "3.20.1",
+          "Google.Protobuf.Tools": "3.20.1"
+        },
         "runtime": {
           "Model.dll": {}
         }
       },
       "Networking/1.0.0": {
         "dependencies": {
+          "Google.Protobuf": "3.20.1",
+          "Google.Protobuf.Tools": "3.20.1",
           "Model": "1.0.0",
           "Service": "1.0.0"
         },
@@ -102,10 +119,23 @@
           "Networking.dll": {}
         }
       },
+      "Proto/1.0.0": {
+        "dependencies": {
+          "Google.Protobuf": "3.20.1",
+          "Google.Protobuf.Tools": "3.20.1",
+          "Model": "1.0.0"
+        },
+        "runtime": {
+          "Proto.dll": {}
+        }
+      },
       "Repository/1.0.0": {
         "dependencies": {
+          "Google.Protobuf": "3.20.1",
+          "Google.Protobuf.Tools": "3.20.1",
           "Model": "1.0.0",
           "MySqlConnector": "2.1.8",
+          "Proto": "1.0.0",
           "log4net": "2.0.14"
         },
         "runtime": {
@@ -114,7 +144,10 @@
       },
       "Service/1.0.0": {
         "dependencies": {
-          "Model": "1.0.0"
+          "Google.Protobuf": "3.20.1",
+          "Google.Protobuf.Tools": "3.20.1",
+          "Model": "1.0.0",
+          "Proto": "1.0.0"
         },
         "runtime": {
           "Service.dll": {}
@@ -127,6 +160,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Google.Protobuf/3.20.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+DhU0ijnnAdaYR+4yFMwOZ4jNv29cFb4OxT/qeU0t9OOxZCBjEcl22kgrYwqVDZ6/BUegG7EE7ghyuaAvsXXUQ==",
+      "path": "google.protobuf/3.20.1",
+      "hashPath": "google.protobuf.3.20.1.nupkg.sha512"
+    },
+    "Google.Protobuf.Tools/3.20.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tJ8jTkOt5v7AeuOX76q9I6LZzcxBQ5XQmXVSCviQdPXbVDBO0Jc1CrG2gbk5F3izpSL+Z97nmvzuNWfRQQQosw==",
+      "path": "google.protobuf.tools/3.20.1",
+      "hashPath": "google.protobuf.tools.3.20.1.nupkg.sha512"
     },
     "log4net/2.0.14": {
       "type": "package",
@@ -190,6 +237,11 @@
       "sha512": ""
     },
     "Networking/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Proto/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

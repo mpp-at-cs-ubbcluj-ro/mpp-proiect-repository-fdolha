@@ -5,31 +5,155 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="105afd9e-508b-4fc9-a597-84d86a804eac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/networking/src/main/java/triatlon/networking/proto/TriatlonServiceProtoRPCProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proto/src/main/proto/Triatlon.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/triatlon/service/TriatlonObserverProto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/triatlon/service/TriatlonServiceProto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/ClientWPF/ClientWPF.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/ClientWPF/ClientWPF.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/ClientWPF/obj/ClientWPF.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/ClientWPF/obj/ClientWPF.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/ClientWPF/obj/ClientWPF.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/ClientWPF/obj/ClientWPF.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/ClientWPF/obj/ClientWPF.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/ClientWPF/obj/ClientWPF.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/ClientWPF/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/ClientWPF/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/ClientWPF/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/ClientWPF/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Model/Model.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Model/Model.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Model/bin/Debug/net5.0/Model.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Model/bin/Debug/net5.0/Model.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Model/bin/Debug/net5.0/Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Model/bin/Debug/net5.0/Model.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Model/bin/Debug/net5.0/Model.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Model/bin/Debug/net5.0/Model.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Model/obj/Debug/net5.0/Model.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Model/obj/Debug/net5.0/Model.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Model/obj/Debug/net5.0/Model.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Model/obj/Debug/net5.0/Model.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Model/obj/Debug/net5.0/Model.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Model/obj/Debug/net5.0/Model.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Model/obj/Debug/net5.0/Model.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Model/obj/Debug/net5.0/Model.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Model/obj/Debug/net5.0/Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Model/obj/Debug/net5.0/Model.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Model/obj/Debug/net5.0/Model.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Model/obj/Debug/net5.0/Model.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Model/obj/Model.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Model/obj/Model.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Model/obj/Model.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Model/obj/Model.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Model/obj/Model.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Model/obj/Model.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Model/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Model/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Model/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Model/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Model/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Model/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Model/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Model/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Networking/Networking.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Networking/Networking.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Networking/ServerObjectProxy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Networking/ServerObjectProxy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Networking/ServerObjectWorker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Networking/ServerObjectWorker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Networking/bin/Debug/net5.0/Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Networking/bin/Debug/net5.0/Model.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Networking/bin/Debug/net5.0/Model.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Networking/bin/Debug/net5.0/Model.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Networking/bin/Debug/net5.0/Networking.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Networking/bin/Debug/net5.0/Networking.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Networking/bin/Debug/net5.0/Networking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Networking/bin/Debug/net5.0/Networking.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Networking/bin/Debug/net5.0/Networking.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Networking/bin/Debug/net5.0/Networking.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Networking/bin/Debug/net5.0/Service.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Networking/bin/Debug/net5.0/Service.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Networking/bin/Debug/net5.0/Service.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Networking/bin/Debug/net5.0/Service.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Networking/bin/Debug/net5.0/ref/Networking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Networking/bin/Debug/net5.0/ref/Networking.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Networking/obj/Debug/net5.0/Networking.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Networking/obj/Debug/net5.0/Networking.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Networking/obj/Debug/net5.0/Networking.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Networking/obj/Debug/net5.0/Networking.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Networking/obj/Debug/net5.0/Networking.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Networking/obj/Debug/net5.0/Networking.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Networking/obj/Debug/net5.0/Networking.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Networking/obj/Debug/net5.0/Networking.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Networking/obj/Debug/net5.0/Networking.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Networking/obj/Debug/net5.0/Networking.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Networking/obj/Debug/net5.0/Networking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Networking/obj/Debug/net5.0/Networking.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Networking/obj/Debug/net5.0/Networking.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Networking/obj/Debug/net5.0/Networking.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Networking/obj/Debug/net5.0/ref/Networking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Networking/obj/Debug/net5.0/ref/Networking.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Networking/obj/Networking.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Networking/obj/Networking.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Networking/obj/Networking.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Networking/obj/Networking.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Networking/obj/Networking.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Networking/obj/Networking.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Networking/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Networking/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Networking/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Networking/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Networking/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Networking/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Networking/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Networking/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Repository/Repository.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Repository/Repository.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Repository/bin/Debug/net5.0/Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Repository/bin/Debug/net5.0/Model.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Repository/bin/Debug/net5.0/Model.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Repository/bin/Debug/net5.0/Model.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Repository/bin/Debug/net5.0/Repository.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Repository/bin/Debug/net5.0/Repository.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Repository/bin/Debug/net5.0/Repository.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Repository/bin/Debug/net5.0/Repository.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Repository/bin/Debug/net5.0/Repository.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Repository/bin/Debug/net5.0/Repository.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Repository/obj/Debug/net5.0/Repository.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Repository/obj/Debug/net5.0/Repository.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Repository/obj/Debug/net5.0/Repository.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Repository/obj/Debug/net5.0/Repository.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Repository/obj/Debug/net5.0/Repository.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Repository/obj/Debug/net5.0/Repository.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Repository/obj/Debug/net5.0/Repository.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Repository/obj/Debug/net5.0/Repository.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Repository/obj/Debug/net5.0/Repository.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Repository/obj/Debug/net5.0/Repository.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Repository/obj/Debug/net5.0/Repository.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Repository/obj/Debug/net5.0/Repository.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Repository/obj/Debug/net5.0/Repository.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Repository/obj/Debug/net5.0/Repository.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Repository/obj/Repository.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Repository/obj/Repository.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Repository/obj/Repository.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Repository/obj/Repository.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Repository/obj/Repository.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Repository/obj/Repository.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Repository/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Repository/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Repository/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Repository/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Repository/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Repository/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Repository/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Repository/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Server/Server.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Server/Server.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Server/TriatlonServer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Server/TriatlonServer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Server/TriatlonService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Server/TriatlonService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Server/bin/Debug/net5.0/Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Server/bin/Debug/net5.0/Model.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Server/bin/Debug/net5.0/Model.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Server/bin/Debug/net5.0/Model.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Server/bin/Debug/net5.0/Networking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Server/bin/Debug/net5.0/Networking.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Server/bin/Debug/net5.0/Networking.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Server/bin/Debug/net5.0/Networking.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Server/bin/Debug/net5.0/Repository.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Server/bin/Debug/net5.0/Repository.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Server/bin/Debug/net5.0/Repository.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Server/bin/Debug/net5.0/Repository.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Server/bin/Debug/net5.0/Server.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Server/bin/Debug/net5.0/Server.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Server/bin/Debug/net5.0/Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Server/bin/Debug/net5.0/Server.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Server/bin/Debug/net5.0/Server.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Server/bin/Debug/net5.0/Server.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Server/bin/Debug/net5.0/Server.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Server/bin/Debug/net5.0/Server.runtimeconfig.dev.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Server/bin/Debug/net5.0/Service.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Server/bin/Debug/net5.0/Service.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Server/bin/Debug/net5.0/Service.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Server/bin/Debug/net5.0/Service.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Server/bin/Debug/net5.0/ref/Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Server/bin/Debug/net5.0/ref/Server.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Server/obj/Debug/net5.0/Server.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Server/obj/Debug/net5.0/Server.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Server/obj/Debug/net5.0/Server.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Server/obj/Debug/net5.0/Server.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Server/obj/Debug/net5.0/Server.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Server/obj/Debug/net5.0/Server.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Server/obj/Debug/net5.0/Server.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Server/obj/Debug/net5.0/Server.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Server/obj/Debug/net5.0/Server.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Server/obj/Debug/net5.0/Server.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Server/obj/Debug/net5.0/Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Server/obj/Debug/net5.0/Server.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Server/obj/Debug/net5.0/Server.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Server/obj/Debug/net5.0/Server.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Server/obj/Debug/net5.0/Server.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Server/obj/Debug/net5.0/Server.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Server/obj/Debug/net5.0/ref/Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Server/obj/Debug/net5.0/ref/Server.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Server/obj/Server.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Server/obj/Server.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Server/obj/Server.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Server/obj/Server.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Server/obj/Server.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Server/obj/Server.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Server/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Server/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Server/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Server/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Server/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Server/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Server/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Server/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Service/ITriatlonObserver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Service/ITriatlonObserver.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Service/ITriatlonService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Service/ITriatlonService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Service/Service.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Service/Service.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Service/bin/Debug/net5.0/Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Service/bin/Debug/net5.0/Model.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Service/bin/Debug/net5.0/Model.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Service/bin/Debug/net5.0/Model.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Service/bin/Debug/net5.0/Service.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Service/bin/Debug/net5.0/Service.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Service/bin/Debug/net5.0/Service.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Service/bin/Debug/net5.0/Service.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Service/bin/Debug/net5.0/Service.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Service/bin/Debug/net5.0/Service.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Service/bin/Debug/net5.0/ref/Service.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Service/bin/Debug/net5.0/ref/Service.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Service/obj/Debug/net5.0/Service.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Service/obj/Debug/net5.0/Service.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Service/obj/Debug/net5.0/Service.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Service/obj/Debug/net5.0/Service.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Service/obj/Debug/net5.0/Service.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Service/obj/Debug/net5.0/Service.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Service/obj/Debug/net5.0/Service.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Service/obj/Debug/net5.0/Service.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Service/obj/Debug/net5.0/Service.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Service/obj/Debug/net5.0/Service.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Service/obj/Debug/net5.0/Service.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Service/obj/Debug/net5.0/Service.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Service/obj/Debug/net5.0/Service.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Service/obj/Debug/net5.0/Service.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Service/obj/Debug/net5.0/ref/Service.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Service/obj/Debug/net5.0/ref/Service.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Service/obj/Service.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Service/obj/Service.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Service/obj/Service.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Service/obj/Service.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Service/obj/Service.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Service/obj/Service.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Service/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Service/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Service/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Service/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Service/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Service/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/Service/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/Service/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triatlon-cs/triatlon-cs.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../triatlon-cs/triatlon-cs.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/client-fx/triatlon-java.client-fx.test.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-fx/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/client-fx/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-fx/src/main/java/triatlon/client/DependencyProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-fx/src/main/java/triatlon/client/DependencyProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-fx/src/main/java/triatlon/client/controllers/AddResultController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-fx/src/main/java/triatlon/client/controllers/AddResultController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-fx/src/main/java/triatlon/client/controllers/ResultsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-fx/src/main/java/triatlon/client/controllers/ResultsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-fx/src/main/java/triatlon/client/controllers/TriatlonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-fx/src/main/java/triatlon/client/controllers/TriatlonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-fx/src/main/java/triatlon/client/controllers/TriatlonLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-fx/src/main/java/triatlon/client/controllers/TriatlonLoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/networking/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/networking/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-fx/build/classes/java/main/triatlon/client/DependencyProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/client-fx/build/classes/java/main/triatlon/client/DependencyProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-fx/build/classes/java/main/triatlon/client/controllers/AddResultController.class" beforeDir="false" afterPath="$PROJECT_DIR$/client-fx/build/classes/java/main/triatlon/client/controllers/AddResultController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-fx/build/classes/java/main/triatlon/client/controllers/ResultsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/client-fx/build/classes/java/main/triatlon/client/controllers/ResultsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-fx/build/classes/java/main/triatlon/client/controllers/TriatlonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/client-fx/build/classes/java/main/triatlon/client/controllers/TriatlonController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-fx/build/classes/java/main/triatlon/client/controllers/TriatlonLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/client-fx/build/classes/java/main/triatlon/client/controllers/TriatlonLoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-fx/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/client-fx/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networking/build/libs/networking-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/networking/build/libs/networking-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networking/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/networking/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networking/src/main/java/triatlon/networking/proto/TriatlonServiceProtoRPCProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/networking/src/main/java/triatlon/networking/proto/TriatlonServiceProtoRPCProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proto/src/main/java/triatlon/proto/Triatlon.java" beforeDir="false" afterPath="$PROJECT_DIR$/proto/src/main/java/triatlon/proto/Triatlon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proto/src/main/proto/Triatlon.proto" beforeDir="false" afterPath="$PROJECT_DIR$/proto/src/main/proto/Triatlon.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/build/libs/service-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/service/build/libs/service-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/service/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,13 +190,20 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="triatlon-java" type="f1a62948:ProjectNode" />
+                <item name="client-fx" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="triatlon-java" type="f1a62948:ProjectNode" />
+                <item name="client-fx" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="triatlon-java" type="f1a62948:ProjectNode" />
+                <item name="client-fx" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="other" type="c8890929:TasksNode$1" />
+                <item name="application" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -142,6 +273,9 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -155,7 +289,7 @@
       <recent name="$PROJECT_DIR$/src/main/proto" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.triatlon-java:proto [generateProto]">
+  <component name="RunManager" selected="Gradle.triatlon-java:client-fx [run]">
     <configuration name="RPCServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="triatlon.server.RPCServer" />
       <module name="triatlon-java.server.main" />
@@ -247,10 +381,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.triatlon-java:client-fx [run]" />
         <item itemvalue="Gradle.triatlon-java:proto [generateProto]" />
         <item itemvalue="Gradle.triatlon-java [generateProto]" />
         <item itemvalue="Application.TriatlonApplication" />
-        <item itemvalue="Gradle.triatlon-java:client-fx [run]" />
         <item itemvalue="Application.RPCServer" />
       </list>
     </recent_temporary>
@@ -269,6 +403,8 @@
       <workItem from="1649398178180" duration="3636000" />
       <workItem from="1650265276666" duration="7295000" />
       <workItem from="1651566916208" duration="11230000" />
+      <workItem from="1651684228918" duration="13000" />
+      <workItem from="1651813365007" duration="1832000" />
     </task>
     <servers />
   </component>

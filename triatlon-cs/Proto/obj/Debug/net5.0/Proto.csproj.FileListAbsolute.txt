@@ -1,0 +1,15 @@
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Proto/bin/Debug/net5.0/Proto.deps.json
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Proto/bin/Debug/net5.0/Proto.dll
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Proto/bin/Debug/net5.0/ref/Proto.dll
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Proto/bin/Debug/net5.0/Proto.pdb
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Proto/bin/Debug/net5.0/Model.dll
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Proto/bin/Debug/net5.0/Model.pdb
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Proto/obj/Debug/net5.0/Proto.csproj.AssemblyReference.cache
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Proto/obj/Debug/net5.0/Proto.GeneratedMSBuildEditorConfig.editorconfig
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Proto/obj/Debug/net5.0/Proto.AssemblyInfoInputs.cache
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Proto/obj/Debug/net5.0/Proto.AssemblyInfo.cs
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Proto/obj/Debug/net5.0/Proto.csproj.CoreCompileInputs.cache
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Proto/obj/Debug/net5.0/Proto.csproj.CopyComplete
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Proto/obj/Debug/net5.0/Proto.dll
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Proto/obj/Debug/net5.0/ref/Proto.dll
+/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Proto/obj/Debug/net5.0/Proto.pdb

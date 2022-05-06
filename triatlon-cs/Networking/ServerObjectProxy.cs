@@ -12,6 +12,7 @@ using Networking.DTO;
 
 namespace Networking
 {
+    /*
     public class TriatlonServerProxy : ITriatlonService
     {
         private readonly string _host;
@@ -205,4 +206,5 @@ namespace Networking
             }
         }
     }
+    */
 }

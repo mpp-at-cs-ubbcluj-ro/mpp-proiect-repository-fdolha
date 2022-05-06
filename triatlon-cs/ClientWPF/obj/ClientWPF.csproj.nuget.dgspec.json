@@ -1,47 +1,45 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\ClientWPF\\ClientWPF.csproj": {}
+    "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/ClientWPF/ClientWPF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\ClientWPF\\ClientWPF.csproj": {
+    "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/ClientWPF/ClientWPF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\ClientWPF\\ClientWPF.csproj",
+        "projectUniqueName": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/ClientWPF/ClientWPF.csproj",
         "projectName": "ClientWPF",
-        "projectPath": "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\ClientWPF\\ClientWPF.csproj",
-        "packagesPath": "C:\\Users\\flaviusdolha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\ClientWPF\\obj\\",
+        "projectPath": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/ClientWPF/ClientWPF.csproj",
+        "packagesPath": "/Users/flaviusdolha/.nuget/packages/",
+        "outputPath": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/ClientWPF/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\flaviusdolha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/flaviusdolha/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0-windows7.0"
+          "net5.0-windows"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Model\\Model.csproj"
+              "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Model/Model.csproj": {
+                "projectPath": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Model/Model.csproj"
               },
-              "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Networking\\Networking.csproj": {
-                "projectPath": "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Networking\\Networking.csproj"
+              "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Networking/Networking.csproj": {
+                "projectPath": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Networking/Networking.csproj"
               },
-              "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Repository\\Repository.csproj"
+              "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Repository/Repository.csproj": {
+                "projectPath": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Repository/Repository.csproj"
               },
-              "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Server\\Server.csproj": {
-                "projectPath": "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Server\\Server.csproj"
+              "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Server/Server.csproj": {
+                "projectPath": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Server/Server.csproj"
               },
-              "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Service\\Service.csproj": {
-                "projectPath": "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Service\\Service.csproj"
+              "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Service/Service.csproj": {
+                "projectPath": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Service/Service.csproj"
               }
             }
           }
@@ -55,6 +53,16 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.20.1, )"
+            },
+            "Google.Protobuf.Tools": {
+              "target": "Package",
+              "version": "[3.20.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -73,28 +81,26 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.406/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Model\\Model.csproj": {
+    "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Model/Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Model\\Model.csproj",
+        "projectUniqueName": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Model/Model.csproj",
         "projectName": "Model",
-        "projectPath": "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Model\\Model.csproj",
-        "packagesPath": "C:\\Users\\flaviusdolha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Model\\obj\\",
+        "projectPath": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Model/Model.csproj",
+        "packagesPath": "/Users/flaviusdolha/.nuget/packages/",
+        "outputPath": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Model/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\flaviusdolha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/flaviusdolha/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -112,6 +118,16 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.20.1, )"
+            },
+            "Google.Protobuf.Tools": {
+              "target": "Package",
+              "version": "[3.20.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -127,97 +143,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.406/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Networking\\Networking.csproj": {
+    "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Networking/Networking.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Networking\\Networking.csproj",
+        "projectUniqueName": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Networking/Networking.csproj",
         "projectName": "Networking",
-        "projectPath": "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Networking\\Networking.csproj",
-        "packagesPath": "C:\\Users\\flaviusdolha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Networking\\obj\\",
+        "projectPath": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Networking/Networking.csproj",
+        "packagesPath": "/Users/flaviusdolha/.nuget/packages/",
+        "outputPath": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Networking/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\flaviusdolha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/flaviusdolha/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Model\\Model.csproj"
+              "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Model/Model.csproj": {
+                "projectPath": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Model/Model.csproj"
               },
-              "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Service\\Service.csproj": {
-                "projectPath": "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Service\\Service.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Repository\\Repository.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Repository\\Repository.csproj",
-        "projectName": "Repository",
-        "projectPath": "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Repository\\Repository.csproj",
-        "packagesPath": "C:\\Users\\flaviusdolha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Repository\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\flaviusdolha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {
-              "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Model\\Model.csproj"
+              "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Service/Service.csproj": {
+                "projectPath": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Service/Service.csproj"
               }
             }
           }
@@ -232,6 +188,149 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.20.1, )"
+            },
+            "Google.Protobuf.Tools": {
+              "target": "Package",
+              "version": "[3.20.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.406/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Proto/Proto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Proto/Proto.csproj",
+        "projectName": "Proto",
+        "projectPath": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Proto/Proto.csproj",
+        "packagesPath": "/Users/flaviusdolha/.nuget/packages/",
+        "outputPath": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Proto/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/flaviusdolha/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Model/Model.csproj": {
+                "projectPath": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Model/Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.20.1, )"
+            },
+            "Google.Protobuf.Tools": {
+              "target": "Package",
+              "version": "[3.20.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.406/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Repository/Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Repository/Repository.csproj",
+        "projectName": "Repository",
+        "projectPath": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Repository/Repository.csproj",
+        "packagesPath": "/Users/flaviusdolha/.nuget/packages/",
+        "outputPath": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Repository/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/flaviusdolha/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Model/Model.csproj": {
+                "projectPath": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Model/Model.csproj"
+              },
+              "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Proto/Proto.csproj": {
+                "projectPath": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Proto/Proto.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.20.1, )"
+            },
+            "Google.Protobuf.Tools": {
+              "target": "Package",
+              "version": "[3.20.1, )"
+            },
             "MySqlConnector": {
               "target": "Package",
               "version": "[2.1.8, )"
@@ -256,45 +355,43 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.406/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Server\\Server.csproj": {
+    "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Server/Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Server\\Server.csproj",
+        "projectUniqueName": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Server/Server.csproj",
         "projectName": "Server",
-        "projectPath": "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Server\\Server.csproj",
-        "packagesPath": "C:\\Users\\flaviusdolha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Server\\obj\\",
+        "projectPath": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Server/Server.csproj",
+        "packagesPath": "/Users/flaviusdolha/.nuget/packages/",
+        "outputPath": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Server/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\flaviusdolha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/flaviusdolha/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Model\\Model.csproj"
+              "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Model/Model.csproj": {
+                "projectPath": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Model/Model.csproj"
               },
-              "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Networking\\Networking.csproj": {
-                "projectPath": "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Networking\\Networking.csproj"
+              "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Networking/Networking.csproj": {
+                "projectPath": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Networking/Networking.csproj"
               },
-              "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Repository\\Repository.csproj"
+              "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Repository/Repository.csproj": {
+                "projectPath": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Repository/Repository.csproj"
               },
-              "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Service\\Service.csproj": {
-                "projectPath": "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Service\\Service.csproj"
+              "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Service/Service.csproj": {
+                "projectPath": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Service/Service.csproj"
               }
             }
           }
@@ -309,6 +406,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.20.1, )"
+            },
+            "Google.Protobuf.Tools": {
+              "target": "Package",
+              "version": "[3.20.1, )"
+            },
             "log4net": {
               "target": "Package",
               "version": "[2.0.14, )"
@@ -329,36 +434,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.406/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Service\\Service.csproj": {
+    "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Service/Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Service\\Service.csproj",
+        "projectUniqueName": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Service/Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\flaviusdolha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Service\\obj\\",
+        "projectPath": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Service/Service.csproj",
+        "packagesPath": "/Users/flaviusdolha/.nuget/packages/",
+        "outputPath": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Service/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\flaviusdolha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/flaviusdolha/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\flaviusdolha\\Documents\\GitHub\\mpp-proiect-repository-fdolha\\triatlon-cs\\Model\\Model.csproj"
+              "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Model/Model.csproj": {
+                "projectPath": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Model/Model.csproj"
+              },
+              "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Proto/Proto.csproj": {
+                "projectPath": "/Users/flaviusdolha/Documents/mpp-proiect-repository-fdolha/triatlon-cs/Proto/Proto.csproj"
               }
             }
           }
@@ -372,6 +478,16 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.20.1, )"
+            },
+            "Google.Protobuf.Tools": {
+              "target": "Package",
+              "version": "[3.20.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -387,7 +503,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.406/RuntimeIdentifierGraph.json"
         }
       }
     }
